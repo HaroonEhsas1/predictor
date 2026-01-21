@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-22T08:42:13.287740-04:00",
+  "predictions": {
+    "AVGO": {
+      "direction": "DOWN",
+      "confidence": 66.08423966531036,
+      "current_price": 342.6600036621094,
+      "target_price": 336.76721104713135,
+      "expected_change": -5.8927926149780205,
+      "expected_move_pct": -1.719719999999998,
+      "total_score": -0.08867391732248292,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.089)\n   Multiple factors supporting downward movement:\n\n      \u274c Options: -0.110\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.083\n      \u2022 Technical: +0.042",
+      "filtered": false,
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 70.64675887652102,
+      "current_price": 275.1499938964844,
+      "target_price": 280.30278286218265,
+      "expected_change": 5.152788965698278,
+      "expected_move_pct": 1.872720000000013,
+      "total_score": 0.12736312066540018,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.127)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.084\n      \u2705 Institutional: +0.032\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.078",
+      "filtered": false,
+      "symbol": "ORCL"
+    }
+  }
+}

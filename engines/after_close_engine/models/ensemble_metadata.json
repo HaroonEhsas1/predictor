@@ -1,0 +1,15 @@
+{
+  "gradient_boosting": {
+    "rmse": 0.11115060129988208,
+    "mae": 0.10148119841818692,
+    "train_samples": 20,
+    "test_samples": 5
+  },
+  "lstm": {
+    "rmse": 0.0,
+    "mae": 0.0,
+    "train_samples": 0,
+    "test_samples": 0
+  },
+  "training_timestamp": "2025-08-19T16:39:11.362621"
+}

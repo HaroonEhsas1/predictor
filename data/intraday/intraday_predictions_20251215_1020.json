@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-15T10:20:22.652930-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 75.53242850799903,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 210.905,
+      "target_price": 206.36137235060002,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.243)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "DOWN",
+      "confidence": 81.84,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 346.7732,
+      "target_price": 339.75728461759996,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.304)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.130\n      \u274c Institutional: -0.020\n      \u274c News: -0.013\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "DOWN",
+      "confidence": 81.84,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 183.5,
+      "target_price": 179.45712799999998,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.425)\n   Multiple factors supporting downward movement:\n\n      \u274c Options: -0.110\n      \u274c Technical: -0.084\n      \u274c Institutional: -0.054\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.014"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "DOWN",
+      "confidence": 54.301820132032674,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 176.935,
+      "target_price": 173.5110423475,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.043)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.047"
+    }
+  }
+}

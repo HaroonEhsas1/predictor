@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-16T16:15:50.034911-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 63.81295817165951,
+      "recommendation": "TRADE",
+      "position_size": 0.75,
+      "current_price": 209.1699981689453,
+      "target_price": 205.80194285842896,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.130)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n      \u274c Options: -0.110\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.051"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "NEUTRAL",
+      "confidence": 41.225,
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "current_price": 341.29998779296875,
+      "target_price": 341.29998779296875,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.004) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.60 shows heavy call buying\n      \u2022 Institutional: +0.028\n        \u2192 Volume surge on down days, Dip buying detected\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.130\n        \u2192 Downtrend, MACD bearish, momentum -16.00%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning."
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "UP",
+      "confidence": 52.0513955341398,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 188.55999755859375,
+      "target_price": 191.4983374285492,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.065)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Institutional: +0.036\n      \u2705 News: +0.018\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.156"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "UP",
+      "confidence": 53.8755855208446,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 177.72000122070312,
+      "target_price": 181.15914982432557,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.083)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.089\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.156"
+    }
+  }
+}

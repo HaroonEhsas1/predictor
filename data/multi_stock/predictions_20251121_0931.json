@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-11-21T09:31:38.726924-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 72.864,
+      "target_price": 200.1564705,
+      "expected_move_percent": null,
+      "current_price": 206.675,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.385)\n   Multiple factors supporting downward movement:\n\n      \u274c Options: -0.110\n      \u274c Technical: -0.099\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.036",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "DOWN",
+      "confidence": 55.19244882646617,
+      "target_price": 341.511985302,
+      "expected_move_percent": null,
+      "current_price": 347.19,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.051)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.130\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.077",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "DOWN",
+      "confidence": 75.2928,
+      "target_price": 199.3707662,
+      "expected_move_percent": null,
+      "current_price": 205.34,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.462)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.127\n      \u274c Options: -0.110\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.033",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 72.864,
+      "target_price": 172.0836790325,
+      "expected_move_percent": null,
+      "current_price": 178.8635,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.337)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.147\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.038\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

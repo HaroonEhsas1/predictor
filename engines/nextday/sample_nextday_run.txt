@@ -1,0 +1,48 @@
+🔮 NEXT-DAY PREDICTION ENGINE
+⚖️ Institutional-Grade Gap Predictions
+==================================================
+
+🔧 Training Mode - Building new models...
+Training initial models with 30 days of market data...
+✓ Training completed: 22 samples
+✓ Models trained: ['gradient_boosting', 'random_forest', 'ridge']
+✓ Ensemble weights: {'gradient_boosting': 0.34, 'random_forest': 0.33, 'ridge': 0.33}
+✓ Model version: 20250819
+
+🔮 Prediction Mode - Generating next-day signal...
+
+🎯 NEXT-DAY PREDICTION RESULT
+==================================================
+Direction: UP
+Confidence: 65.2%
+Trade Signal: NO_TRADE
+Expected Gap: +0.78%
+Expected Open: $168.31
+Position Size: 0.0%
+
+Gating Reasons:
+  - Low confidence: 65.2% < 80.0%
+  - Dry run mode - no actual trades
+
+Passed Gates:
+  ✓ Gap magnitude 0.8% >= 0.5%
+  ✓ Ensemble consensus 85.0% >= 80%
+  ✓ Feature flag enabled
+
+Model Predictions:
+  - Gradient Boosting: +0.0082
+  - Random Forest: +0.0074  
+  - Ridge: +0.0078
+
+Dry Run Mode: True
+Timestamp: 2025-08-19T17:42:15.123456
+Data Sources: ['amd', 'vix', 'soxx', 'nvda']
+Feature Count: 15
+Model Version: 20250819
+
+INSTITUTIONAL SAFETY CONTROLS ACTIVE:
+✓ 80% confidence threshold enforced
+✓ 80% ensemble consensus required  
+✓ Dry run mode prevents live trades
+✓ Position sizing capped at 2%
+✓ Risk management active

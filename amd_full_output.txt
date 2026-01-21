@@ -1,0 +1,292 @@
+
+≡ƒÄ» Loaded config for AMD: Advanced Micro Devices
+   Typical Volatility: 3.3%
+
+================================================================================
+≡ƒÜÇ COMPREHENSIVE NEXT-DAY PREDICTION ENGINE - AMD
+================================================================================
+ΓÅ░ 2025-10-31 05:48 AM ET
+≡ƒÆ░ AMD: $254.84
+
+≡ƒô░ Analyzing News Sentiment...
+   Γ£à Finnhub: 4 articles
+   ≡ƒôè Bullish: 3 | Bearish: 0
+   ≡ƒôê News Score: +1.000
+
+≡ƒôê Analyzing Futures...
+   ES: +0.07%
+   NQ: +0.15%
+   ≡ƒôè Futures Sentiment: +0.115%
+
+≡ƒôè Analyzing Options...
+   P/C: 0.84 (NEUTRAL)
+   Balanced activity
+
+≡ƒôë Technical Analysis...
+   RSI: 71.3
+   MACD: BULLISH
+   Trend: UPTREND
+   Momentum: +8.45%
+   ΓÜá∩╕Å Mean Reversion: 2 up days + RSI 71.3 ΓåÆ Reversal risk
+
+≡ƒÅ¡ Sector Analysis...
+   XLK: -1.23%
+   NVDA: -2.00%
+   INTC: -2.85%
+
+≡ƒÆ¼ Reddit Sentiment Analysis...
+Γ£à Reddit API connected
+
+≡ƒö┤ Analyzing Reddit Sentiment for AMD...
+   r/wallstreetbets: 2 mentions, sentiment: +0.00
+   r/AMD_Stock: 4 mentions, sentiment: +0.03
+   ≡ƒôè Overall Reddit Score: 5.0/10 (NEUTRAL)
+   ≡ƒôê Total Mentions: 6
+   ≡ƒÆÑ Impact Level: LOW
+   Sentiment: NEUTRAL
+   Score: +0.000
+   Mentions: 6
+   Impact: LOW
+
+≡ƒÉª Twitter Sentiment Analysis...
+Γ£à Twitter API connected
+
+≡ƒÉª Analyzing Twitter Sentiment for AMD...
+ΓÜá∩╕Å Twitter API error: 429 Too Many Requests
+Too Many Requests
+   ΓÜá∩╕Å Twitter API error: 429 Too Many Requests
+Too Many Requests
+   Sentiment: NEUTRAL
+   Score: +0.000
+   Tweets: 0
+   Impact: NONE
+
+≡ƒôè VIX Fear Gauge Analysis...
+   VIX Level: 16.13 (NORMAL)
+   VIX Change: -4.61%
+   Sentiment: +0.000
+
+≡ƒîà Pre-Market Action Analysis...
+   Pre-Market Change: -1.83%
+   Direction: STRONG_BEARISH
+   Sentiment: -0.700
+   ≡ƒôê Significant pre-market move detected
+
+≡ƒôè PREMARKET GAP DETECTED:
+   Today's Close: $254.84
+   Premarket Next Day: $250.17 (-1.83%)
+   Gap: -1.83%
+   ≡ƒÆí Using close price ($254.84) as reference for target calculation
+
+≡ƒÄ» Analyst Ratings Analysis...
+   ≡ƒôè Analyst Ratings:
+      Buy:  39 (66.1%)
+      Hold: 19
+      Sell: 1 (1.7%)
+   Sentiment: +0.644
+
+≡ƒÆ╡ Dollar Index (DXY) Analysis...
+   DXY Level: 99.56
+   7-Day Change: +0.64%
+   Trend: SLIGHTLY_UP
+   Sentiment: -0.100
+
+≡ƒôà Earnings Proximity Analysis...
+   ≡ƒôà Earnings in 5 days - High Volatility
+   ΓÜá∩╕Å Volatility Multiplier: 1.5x
+
+≡ƒö║ Short Interest Analysis...
+   Short Interest: 2.4% - Normal
+   Sentiment: +0.000
+
+≡ƒÅª Institutional Flow Analysis...
+   Flow: NEUTRAL
+   Volume Ratio: 0.91x
+   Signal Strength: +0.000
+
+≡ƒöì Hidden Edge Analysis for AMD...
+   ≡ƒÆ░ Bitcoin: +1.51% ΓåÆ neutral (+0.00)
+   ≡ƒÄ» Max Pain: $50.00 (current $254.84, -80.4%)
+   ΓÅ░ Closing Hour: -1.40% ΓåÆ bearish
+   ≡ƒôè SOX: -1.53%
+   ≡ƒƒó NVDA: -2.00%
+   ≡ƒÑç Gold: +0.40% (inverse)
+   ≡ƒôè Volume Profile: 37% above VWAP ΓåÆ bearish
+   ≡ƒÆ▒ Bid-Ask: 5.259% (stale data - ignored)
+   ≡ƒôê 10Y Yield: 4.09% (+0.03) ΓåÆ stable
+   ≡ƒôà Seasonality: Q4 seasonal strength ΓåÆ bullish
+
+   ≡ƒÄ» Hidden Edge Composite: -0.111 ΓåÆ NEUTRAL
+   ≡ƒôè Active Signals: 7/8
+   ≡ƒÆ¬ Confidence: 11.1%
+
+≡ƒôè Relative Strength Analysis...
+   ΓÜá∩╕Å AMD UNDERPERFORMING SMH by -2.27%
+      AMD: -3.59% vs SMH: -1.32%
+      ΓåÆ Bearish (relative weakness)
+
+≡ƒÆ░ Money Flow Index Analysis...
+   Γ₧í∩╕Å MFI: 68.8 - Neutral
+
+≡ƒôë Bollinger Bands Analysis...
+   Current Price: $254.84
+   Upper Band: $278.02
+   Middle (SMA): $231.88
+   Lower Band: $185.73
+   Position: 74.9% of band width
+   Γ₧í∩╕Å In middle of bands - No extreme
+
+================================================================================
+≡ƒÄ» PREDICTION CALCULATION
+================================================================================
+
+ΓÜû∩╕Å Using AMD-specific weights:
+   Technical       0.12 (12%)
+   Futures         0.11 (11%)
+   Options         0.11 (11%)
+   Institutional   0.10 (10%)
+   Premarket       0.10 (10%)
+   Hidden_edge     0.10 (10%)
+   News            0.08 (8%)
+   Reddit          0.08 (8%)
+   Vix             0.06 (6%)
+   Sector          0.06 (6%)
+   Twitter         0.05 (5%)
+   Analyst_ratings 0.02 (2%)
+   Earnings_proximity 0.02 (2%)
+   Short_interest  0.01 (1%)
+   Dxy             0.00 (0%)
+   ΓÜá∩╕Å RSI 71.3 OVERBOUGHT - Bearish penalty: -0.011
+   ΓÜá∩╕Å Mean Reversion penalty: -0.048
+
+≡ƒôè Scores:
+   Analyst Ratings: +0.013
+   Pre-Market:   -0.070
+   VIX:          +0.000
+   Earnings Prox: +0.000
+   Short Interest: +0.000
+   DXY:          -0.000
+   News:         +0.080
+   Futures:      +0.001
+   Options:      +0.000
+   Technical:    +0.097
+   Sector:       -0.001
+   Reddit:       +0.000
+   Twitter:      +0.000
+   Institutional: +0.000
+   Hidden Edge:  -0.011 (8 alt sources)
+   --- Additional Signals (Phase 4) ---
+   Rel. Strength: -0.060
+   Additional Total: -0.060 (helps break ties!)
+   ----------------------------------------
+   TOTAL (raw):  +0.049
+
+   ≡ƒÜ¿ RED CLOSE DISTRIBUTION DETECTED:
+      Today's Close: -1.95% (RED)
+      Close Position: 22% of range (NEAR LOW)
+      ΓåÆ This indicates DISTRIBUTION (selling pressure)
+      ΓÜá∩╕Å DIVERGENCE: Bullish fundamentals but weak price action
+      ΓåÆ Smart money may be selling into strength
+      Distribution Penalty: -0.080
+   TOTAL (after distribution): -0.031
+
+   ΓÜá∩╕Å PREMARKET GAP DOWN OVERRIDE:
+      RSI: 71.3 (overbought)
+      Premarket Gap: -1.83%
+      ΓåÆ Market rejecting rally despite bullish signals
+      Gap Penalty: -0.055
+      Stale Data Discount: -0.064 (80% discount on stale bullish data)
+      Total Penalty: -0.119
+   TOTAL (after gap): -0.150
+
+≡ƒôè Data Quality: 100% (18/14 sources active)
+
+≡ƒôè MARKET REGIME DETECTION:
+   SPY: -1.10%, QQQ: -1.53%
+   ΓÜá∩╕Å BEARISH Market - Reducing bullish bias by -0.025
+   TOTAL (with market bias): -0.175
+
+ΓÜá∩╕Å TECHNICAL VETO ACTIVATED:
+   Technical: +0.097 conflicts with Total: -0.175
+   Technical strength: 0.097 (>0.052 threshold)
+   Total Score Reduced: -0.175 ΓåÆ -0.098 (40% reduction)
+   Confidence will be reduced by 15%
+   ΓÜá∩╕Å WARNING: Technical analysis disagrees - proceed with caution!
+
+================================================================================
+≡ƒºá INTELLIGENT CONFLICT RESOLUTION
+================================================================================
+
+≡ƒôè Situation: AFTER_BIG_DROP
+≡ƒÆí Logic: After big drops (without bounce setup), technical oversold signals are most predictive. News is lagging.
+
+≡ƒôê Signal Hierarchy (Most Important First):
+   1. TECHNICAL
+   2. BOLLINGER
+   3. MONEY_FLOW
+   4. INSTITUTIONAL
+   Γ£à Technical boosted ├ù1.50: +0.097 ΓåÆ +0.146
+   Γ£à Institutional boosted ├ù1.20: +0.000 ΓåÆ +0.000
+
+≡ƒÄ» Score After Intelligent Resolution: -0.098 ΓåÆ -0.050
+≡ƒÆí System UNDERSTANDS which signals matter more!
+================================================================================
+
+≡ƒôè SIGNAL CONFLICT ANALYSIS:
+   Aligned signals: 1 ['premarket']
+   Conflicting signals: 3 ['news', 'technical', 'analyst_ratings']
+   Confidence penalty: 90% (will reduce confidence)
+   ΓÜá∩╕Å WARNING: Multiple conflicting signals - prediction less reliable
+
+≡ƒöº IMPROVEMENTS APPLIED: Market Regime (-0.025), Intelligent Resolution (AFTER_BIG_DROP), Technical Veto, Conflict Penalty (3 conflicts)
+   ≡ƒºá INTELLIGENT resolution applied - System understood context!
+
+   Technical Veto Penalty: 61.20% ΓåÆ 52.02% (-30%)
+   Conflict Penalty: 52.02% ΓåÆ 46.82% (-10%)
+
+   ≡ƒÄ» FINAL ADJUSTED CONFIDENCE: 46.82%
+
+   Γ₧í∩╕Å VIX 16.1 - Using standard threshold 60%
+   ΓÜá∩╕Å 3 conflicts detected - Threshold boosted to 62%
+
+   Γ¥î TRADE FILTERED: 46.82% < 62% threshold
+   ΓÜá∩╕Å This trade should be SKIPPED!
+
+≡ƒÄ» Dynamic Target Calculation:
+   Base Volatility: 3.32%
+   Confidence Multiplier: 0.97x
+   Earnings Multiplier: 1.50x
+   VIX Multiplier: 1.00x (VIX: 16.1)
+   Pre-Market Multiplier: 1.05x (+1.83%)
+   Final Dynamic Volatility: 2.32% (was 3.32%)
+
+================================================================================
+≡ƒÄ» PREDICTION RESULT
+================================================================================
+
+≡ƒôë DIRECTION: DOWN
+≡ƒÄ▓ CONFIDENCE: 46.8%
+≡ƒÆ░ TODAY'S CLOSE: $254.84 (reference price)
+≡ƒÄ» TARGET (Tomorrow): $248.92
+≡ƒôè EXPECTED MOVE: $-5.92 (-2.32%)
+≡ƒôê SCORE: -0.050
+
+--------------------------------------------------------------------------------
+≡ƒô¥ EXPLANATION:
+
+   ≡ƒôë BEARISH OUTLOOK (Score: -0.050)
+   Multiple factors supporting downward movement:
+
+
+   ΓÜá∩╕Å Conflicting signals:
+      ΓÇó News: +0.080
+      ΓÇó Technical: +0.097
+
+--------------------------------------------------------------------------------
+≡ƒÆí RECOMMENDATION:
+   ΓÅ╕∩╕Å LOW CONFIDENCE (46.8%) - SKIP TRADE
+   Below 62% threshold - insufficient conviction
+   Reason: Mixed signals
+   3 conflicting signals detected
+   ≡ƒÜ½ DO NOT TRADE - Stay on sidelines
+================================================================================

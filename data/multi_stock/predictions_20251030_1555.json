@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-30T15:55:10.126466-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 51.002591207312875,
+      "current_price": 256.2201,
+      "target_price": 250.26554487599998,
+      "expected_change": -5.954555124000024,
+      "expected_move_pct": -2.324000000000009,
+      "total_score": -0.09336043092614776,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.093)\n   Multiple factors supporting downward movement:\n\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.034\n      \u2022 Technical: +0.095",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "NEUTRAL",
+      "confidence": 38.25,
+      "current_price": 377.25,
+      "target_price": 377.25,
+      "expected_change": 0.0,
+      "expected_move_pct": 0.0,
+      "total_score": -0.0229993138743038,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.023) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.27 shows heavy call buying\n      \u2022 Technical: +0.081\n        \u2192 Uptrend with RSI 71.5\n      \u2022 News: +0.079\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "DOWN",
+      "confidence": 84.8178467166841,
+      "current_price": 257.635,
+      "target_price": 251.30454285238747,
+      "expected_change": -6.33045714761252,
+      "expected_move_pct": -2.457141750000008,
+      "total_score": -0.4118865581276396,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.412)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.107\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.140\n      \u2022 Options: +0.110",
+      "filtered": false,
+      "symbol": "ORCL"
+    }
+  }
+}

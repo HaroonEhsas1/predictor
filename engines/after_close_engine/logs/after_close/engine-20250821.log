@@ -1,0 +1,1530 @@
+2025-08-21 12:50:22,624 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 12:50:22,641 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 12:50:22,642 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 12:50:22,642 - engine - INFO - Collecting overnight data...
+2025-08-21 12:50:22,642 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 12:50:22,642 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 12:50:23,893 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 12:50:23,893 - fetchers - INFO - Data collection completed successfully
+2025-08-21 12:50:23,893 - engine - INFO - Engineering features...
+2025-08-21 12:50:23,893 - features - INFO - Created 6 features successfully
+2025-08-21 12:50:23,894 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 12:50:23,899 - engine - INFO - Generating prediction...
+2025-08-21 12:50:23,900 - engine - INFO - Low confidence 0.145 < 0.7, setting direction to SKIP
+2025-08-21 12:50:23,900 - engine - INFO - Prediction generated: SKIP with 14.5% confidence
+2025-08-21 12:50:23,901 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 12:55:23,902 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 12:55:23,910 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 12:55:23,911 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 12:55:23,911 - engine - INFO - Collecting overnight data...
+2025-08-21 12:55:23,911 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 12:55:23,912 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 12:55:24,042 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 12:55:24,043 - fetchers - INFO - Data collection completed successfully
+2025-08-21 12:55:24,043 - engine - INFO - Engineering features...
+2025-08-21 12:55:24,043 - features - INFO - Created 6 features successfully
+2025-08-21 12:55:24,044 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 12:55:24,045 - engine - INFO - Generating prediction...
+2025-08-21 12:55:24,046 - engine - INFO - Low confidence 0.050 < 0.7, setting direction to SKIP
+2025-08-21 12:55:24,046 - engine - INFO - Prediction generated: SKIP with 5.0% confidence
+2025-08-21 12:55:24,048 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:00:24,050 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:00:24,054 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:00:24,054 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:00:24,054 - engine - INFO - Collecting overnight data...
+2025-08-21 13:00:24,054 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:00:24,054 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:00:24,324 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:00:24,324 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:00:24,324 - engine - INFO - Engineering features...
+2025-08-21 13:00:24,325 - features - INFO - Created 6 features successfully
+2025-08-21 13:00:24,325 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:00:24,326 - engine - INFO - Generating prediction...
+2025-08-21 13:00:24,327 - engine - INFO - Low confidence 0.022 < 0.7, setting direction to SKIP
+2025-08-21 13:00:24,327 - engine - INFO - Prediction generated: SKIP with 2.2% confidence
+2025-08-21 13:00:24,328 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:05:24,328 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:05:24,334 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:05:24,334 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:05:24,334 - engine - INFO - Collecting overnight data...
+2025-08-21 13:05:24,334 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:05:24,334 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:05:24,471 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:05:24,471 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:05:24,471 - engine - INFO - Engineering features...
+2025-08-21 13:05:24,471 - features - INFO - Created 6 features successfully
+2025-08-21 13:05:24,474 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:05:24,476 - engine - INFO - Generating prediction...
+2025-08-21 13:05:24,477 - engine - INFO - Low confidence 0.178 < 0.7, setting direction to SKIP
+2025-08-21 13:05:24,477 - engine - INFO - Prediction generated: SKIP with 17.8% confidence
+2025-08-21 13:05:24,477 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:10:24,479 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:10:24,485 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:10:24,486 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:10:24,486 - engine - INFO - Collecting overnight data...
+2025-08-21 13:10:24,486 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:10:24,486 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:10:25,314 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:10:25,314 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:10:25,314 - engine - INFO - Engineering features...
+2025-08-21 13:10:25,315 - features - INFO - Created 6 features successfully
+2025-08-21 13:10:25,315 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:10:25,317 - engine - INFO - Generating prediction...
+2025-08-21 13:10:25,317 - engine - INFO - Low confidence 0.092 < 0.7, setting direction to SKIP
+2025-08-21 13:10:25,318 - engine - INFO - Prediction generated: SKIP with 9.2% confidence
+2025-08-21 13:10:25,318 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:15:25,319 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:15:25,323 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:15:25,323 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:15:25,324 - engine - INFO - Collecting overnight data...
+2025-08-21 13:15:25,324 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:15:25,324 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:15:25,482 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:15:25,482 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:15:25,483 - engine - INFO - Engineering features...
+2025-08-21 13:15:25,483 - features - INFO - Created 6 features successfully
+2025-08-21 13:15:25,485 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:15:25,486 - engine - INFO - Generating prediction...
+2025-08-21 13:15:25,486 - engine - INFO - Low confidence 0.139 < 0.7, setting direction to SKIP
+2025-08-21 13:15:25,486 - engine - INFO - Prediction generated: SKIP with 13.9% confidence
+2025-08-21 13:15:25,487 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:20:25,488 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:20:25,493 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:20:25,493 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:20:25,493 - engine - INFO - Collecting overnight data...
+2025-08-21 13:20:25,493 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:20:25,493 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:20:25,614 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:20:25,614 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:20:25,614 - engine - INFO - Engineering features...
+2025-08-21 13:20:25,614 - features - INFO - Created 6 features successfully
+2025-08-21 13:20:25,615 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:20:25,616 - engine - INFO - Generating prediction...
+2025-08-21 13:20:25,616 - engine - INFO - Low confidence 0.047 < 0.7, setting direction to SKIP
+2025-08-21 13:20:25,617 - engine - INFO - Prediction generated: SKIP with 4.7% confidence
+2025-08-21 13:20:25,617 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:25:25,618 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:25:25,624 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:25:25,624 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:25:25,625 - engine - INFO - Collecting overnight data...
+2025-08-21 13:25:25,625 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:25:25,625 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:25:25,884 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 13:25:25,896 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:25:25,897 - engine - INFO - Engineering features...
+2025-08-21 13:25:25,897 - features - INFO - Created 6 features successfully
+2025-08-21 13:25:25,899 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:25:25,903 - engine - INFO - Generating prediction...
+2025-08-21 13:25:25,904 - engine - INFO - Low confidence 0.068 < 0.7, setting direction to SKIP
+2025-08-21 13:25:25,904 - engine - INFO - Prediction generated: SKIP with 6.8% confidence
+2025-08-21 13:25:25,905 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:30:25,909 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:30:25,913 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:30:25,914 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:30:25,914 - engine - INFO - Collecting overnight data...
+2025-08-21 13:30:25,914 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:30:25,914 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:30:26,047 - fetchers - INFO - Created live snapshot: price=$164.66
+2025-08-21 13:30:26,047 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:30:26,047 - engine - INFO - Engineering features...
+2025-08-21 13:30:26,047 - features - INFO - Created 6 features successfully
+2025-08-21 13:30:26,048 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:30:26,049 - engine - INFO - Generating prediction...
+2025-08-21 13:30:26,050 - engine - INFO - Low confidence 0.087 < 0.7, setting direction to SKIP
+2025-08-21 13:30:26,051 - engine - INFO - Prediction generated: SKIP with 8.7% confidence
+2025-08-21 13:30:26,052 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:32:59,581 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:32:59,594 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:32:59,600 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:32:59,601 - engine - INFO - Collecting overnight data...
+2025-08-21 13:32:59,601 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:32:59,602 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:33:00,236 - fetchers - INFO - Created live snapshot: price=$164.19
+2025-08-21 13:33:00,239 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:33:00,239 - engine - INFO - Engineering features...
+2025-08-21 13:33:00,239 - features - INFO - Created 6 features successfully
+2025-08-21 13:33:00,240 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:33:00,241 - engine - INFO - Generating prediction...
+2025-08-21 13:33:00,242 - engine - INFO - Low confidence 0.222 < 0.7, setting direction to SKIP
+2025-08-21 13:33:00,242 - engine - INFO - Prediction generated: SKIP with 22.2% confidence
+2025-08-21 13:33:00,242 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:33:31,337 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:33:31,343 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:33:31,343 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:33:31,344 - engine - INFO - Collecting overnight data...
+2025-08-21 13:33:31,344 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:33:31,344 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:33:31,934 - fetchers - INFO - Created live snapshot: price=$164.45
+2025-08-21 13:33:31,934 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:33:31,934 - engine - INFO - Engineering features...
+2025-08-21 13:33:31,934 - features - INFO - Created 6 features successfully
+2025-08-21 13:33:31,935 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:33:31,937 - engine - INFO - Generating prediction...
+2025-08-21 13:33:31,937 - engine - INFO - Low confidence 0.001 < 0.7, setting direction to SKIP
+2025-08-21 13:33:31,938 - engine - INFO - Prediction generated: SKIP with 0.1% confidence
+2025-08-21 13:33:31,938 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:33:58,469 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:33:58,475 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:33:58,475 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:33:58,475 - engine - INFO - Collecting overnight data...
+2025-08-21 13:33:58,475 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:33:58,475 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:33:59,182 - fetchers - INFO - Created live snapshot: price=$164.39
+2025-08-21 13:33:59,182 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:33:59,182 - engine - INFO - Engineering features...
+2025-08-21 13:33:59,183 - features - INFO - Created 6 features successfully
+2025-08-21 13:33:59,183 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:33:59,184 - engine - INFO - Generating prediction...
+2025-08-21 13:33:59,185 - engine - INFO - Low confidence 0.126 < 0.7, setting direction to SKIP
+2025-08-21 13:33:59,185 - engine - INFO - Prediction generated: SKIP with 12.6% confidence
+2025-08-21 13:33:59,187 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:34:25,266 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:34:25,279 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:34:25,279 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:34:25,279 - engine - INFO - Collecting overnight data...
+2025-08-21 13:34:25,280 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:34:25,280 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:34:26,591 - fetchers - INFO - Created live snapshot: price=$164.55
+2025-08-21 13:34:26,593 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:34:26,594 - engine - INFO - Engineering features...
+2025-08-21 13:34:26,594 - features - INFO - Created 6 features successfully
+2025-08-21 13:34:26,595 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:34:26,597 - engine - INFO - Generating prediction...
+2025-08-21 13:34:26,598 - engine - INFO - Low confidence 0.043 < 0.7, setting direction to SKIP
+2025-08-21 13:34:26,598 - engine - INFO - Prediction generated: SKIP with 4.3% confidence
+2025-08-21 13:34:26,598 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:34:44,855 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:34:44,866 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:34:44,866 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:34:44,866 - engine - INFO - Collecting overnight data...
+2025-08-21 13:34:44,866 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:34:44,866 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:34:45,600 - fetchers - INFO - Created live snapshot: price=$164.53
+2025-08-21 13:34:45,601 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:34:45,601 - engine - INFO - Engineering features...
+2025-08-21 13:34:45,601 - features - INFO - Created 6 features successfully
+2025-08-21 13:34:45,602 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:34:45,604 - engine - INFO - Generating prediction...
+2025-08-21 13:34:45,604 - engine - INFO - Low confidence 0.137 < 0.7, setting direction to SKIP
+2025-08-21 13:34:45,604 - engine - INFO - Prediction generated: SKIP with 13.7% confidence
+2025-08-21 13:34:45,605 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:35:46,917 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:35:46,924 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:35:46,924 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:35:46,924 - engine - INFO - Collecting overnight data...
+2025-08-21 13:35:46,924 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:35:46,924 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:35:47,548 - fetchers - INFO - Created live snapshot: price=$164.68
+2025-08-21 13:35:47,549 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:35:47,549 - engine - INFO - Engineering features...
+2025-08-21 13:35:47,549 - features - INFO - Created 6 features successfully
+2025-08-21 13:35:47,549 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:35:47,551 - engine - INFO - Generating prediction...
+2025-08-21 13:35:47,551 - engine - INFO - Low confidence 0.026 < 0.7, setting direction to SKIP
+2025-08-21 13:35:47,552 - engine - INFO - Prediction generated: SKIP with 2.6% confidence
+2025-08-21 13:35:47,554 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:39:02,268 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:39:02,289 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:39:02,289 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:39:02,289 - engine - INFO - Collecting overnight data...
+2025-08-21 13:39:02,290 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:39:02,290 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:39:03,453 - fetchers - INFO - Created live snapshot: price=$164.98
+2025-08-21 13:39:03,453 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:39:03,453 - engine - INFO - Engineering features...
+2025-08-21 13:39:03,454 - features - INFO - Created 6 features successfully
+2025-08-21 13:39:03,454 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:39:03,456 - engine - INFO - Generating prediction...
+2025-08-21 13:39:03,456 - engine - INFO - Low confidence 0.225 < 0.7, setting direction to SKIP
+2025-08-21 13:39:03,457 - engine - INFO - Prediction generated: SKIP with 22.5% confidence
+2025-08-21 13:39:03,457 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:39:26,257 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:39:26,264 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:39:26,264 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:39:26,264 - engine - INFO - Collecting overnight data...
+2025-08-21 13:39:26,264 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:39:26,265 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:39:26,912 - fetchers - INFO - Created live snapshot: price=$165.00
+2025-08-21 13:39:26,913 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:39:26,913 - engine - INFO - Engineering features...
+2025-08-21 13:39:26,913 - features - INFO - Created 6 features successfully
+2025-08-21 13:39:26,913 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:39:26,915 - engine - INFO - Generating prediction...
+2025-08-21 13:39:26,917 - engine - INFO - Low confidence 0.045 < 0.7, setting direction to SKIP
+2025-08-21 13:39:26,917 - engine - INFO - Prediction generated: SKIP with 4.5% confidence
+2025-08-21 13:39:26,918 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:42:50,135 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:42:50,161 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:42:50,161 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:42:50,162 - engine - INFO - Collecting overnight data...
+2025-08-21 13:42:50,162 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:42:50,162 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:42:51,586 - fetchers - INFO - Created live snapshot: price=$164.83
+2025-08-21 13:42:51,587 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:42:51,587 - engine - INFO - Engineering features...
+2025-08-21 13:42:51,587 - features - INFO - Created 6 features successfully
+2025-08-21 13:42:51,587 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:42:51,589 - engine - INFO - Generating prediction...
+2025-08-21 13:42:51,589 - engine - INFO - Low confidence 0.132 < 0.7, setting direction to SKIP
+2025-08-21 13:42:51,589 - engine - INFO - Prediction generated: SKIP with 13.2% confidence
+2025-08-21 13:42:51,590 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:43:00,783 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:43:00,787 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:43:00,788 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:43:00,788 - engine - INFO - Collecting overnight data...
+2025-08-21 13:43:00,788 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:43:00,788 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:43:01,468 - fetchers - INFO - Created live snapshot: price=$164.77
+2025-08-21 13:43:01,469 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:43:01,469 - engine - INFO - Engineering features...
+2025-08-21 13:43:01,469 - features - INFO - Created 6 features successfully
+2025-08-21 13:43:01,469 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:43:01,471 - engine - INFO - Generating prediction...
+2025-08-21 13:43:01,472 - engine - INFO - Low confidence 0.135 < 0.7, setting direction to SKIP
+2025-08-21 13:43:01,472 - engine - INFO - Prediction generated: SKIP with 13.5% confidence
+2025-08-21 13:43:01,473 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:43:37,793 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:43:37,798 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:43:37,798 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:43:37,798 - engine - INFO - Collecting overnight data...
+2025-08-21 13:43:37,798 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:43:37,798 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:43:38,981 - fetchers - INFO - Created live snapshot: price=$165.07
+2025-08-21 13:43:38,982 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:43:38,982 - engine - INFO - Engineering features...
+2025-08-21 13:43:38,983 - features - INFO - Created 6 features successfully
+2025-08-21 13:43:38,984 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:43:38,986 - engine - INFO - Generating prediction...
+2025-08-21 13:43:38,986 - engine - INFO - Low confidence 0.186 < 0.7, setting direction to SKIP
+2025-08-21 13:43:38,987 - engine - INFO - Prediction generated: SKIP with 18.6% confidence
+2025-08-21 13:43:38,987 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:44:10,226 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:44:10,235 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:44:10,235 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:44:10,236 - engine - INFO - Collecting overnight data...
+2025-08-21 13:44:10,236 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:44:10,236 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:44:11,092 - fetchers - INFO - Created live snapshot: price=$164.79
+2025-08-21 13:44:11,093 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:44:11,093 - engine - INFO - Engineering features...
+2025-08-21 13:44:11,093 - features - INFO - Created 6 features successfully
+2025-08-21 13:44:11,094 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:44:11,095 - engine - INFO - Generating prediction...
+2025-08-21 13:44:11,096 - engine - INFO - Low confidence 0.041 < 0.7, setting direction to SKIP
+2025-08-21 13:44:11,096 - engine - INFO - Prediction generated: SKIP with 4.1% confidence
+2025-08-21 13:44:11,098 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:44:46,269 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:44:46,278 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:44:46,279 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:44:46,279 - engine - INFO - Collecting overnight data...
+2025-08-21 13:44:46,279 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:44:46,279 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:44:46,895 - fetchers - INFO - Created live snapshot: price=$164.84
+2025-08-21 13:44:46,895 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:44:46,895 - engine - INFO - Engineering features...
+2025-08-21 13:44:46,895 - features - INFO - Created 6 features successfully
+2025-08-21 13:44:46,896 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:44:46,897 - engine - INFO - Generating prediction...
+2025-08-21 13:44:46,898 - engine - INFO - Low confidence 0.068 < 0.7, setting direction to SKIP
+2025-08-21 13:44:46,898 - engine - INFO - Prediction generated: SKIP with 6.8% confidence
+2025-08-21 13:44:46,899 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:45:29,586 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:45:29,593 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:45:29,593 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:45:29,593 - engine - INFO - Collecting overnight data...
+2025-08-21 13:45:29,593 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:45:29,594 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:45:30,376 - fetchers - INFO - Created live snapshot: price=$164.36
+2025-08-21 13:45:30,376 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:45:30,377 - engine - INFO - Engineering features...
+2025-08-21 13:45:30,377 - features - INFO - Created 6 features successfully
+2025-08-21 13:45:30,377 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:45:30,378 - engine - INFO - Generating prediction...
+2025-08-21 13:45:30,379 - engine - INFO - Low confidence 0.102 < 0.7, setting direction to SKIP
+2025-08-21 13:45:30,379 - engine - INFO - Prediction generated: SKIP with 10.2% confidence
+2025-08-21 13:45:30,380 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:48:04,560 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:48:04,567 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:48:04,567 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:48:04,567 - engine - INFO - Collecting overnight data...
+2025-08-21 13:48:04,567 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:48:04,567 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:48:05,172 - fetchers - INFO - Created live snapshot: price=$164.92
+2025-08-21 13:48:05,172 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:48:05,172 - engine - INFO - Engineering features...
+2025-08-21 13:48:05,172 - features - INFO - Created 6 features successfully
+2025-08-21 13:48:05,173 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:48:05,174 - engine - INFO - Generating prediction...
+2025-08-21 13:48:05,174 - engine - INFO - Low confidence 0.222 < 0.7, setting direction to SKIP
+2025-08-21 13:48:05,175 - engine - INFO - Prediction generated: SKIP with 22.2% confidence
+2025-08-21 13:48:05,175 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:48:28,722 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:48:28,729 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:48:28,729 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:48:28,729 - engine - INFO - Collecting overnight data...
+2025-08-21 13:48:28,729 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:48:28,729 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:48:30,589 - fetchers - INFO - Created live snapshot: price=$164.81
+2025-08-21 13:48:30,589 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:48:30,589 - engine - INFO - Engineering features...
+2025-08-21 13:48:30,589 - features - INFO - Created 6 features successfully
+2025-08-21 13:48:30,590 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:48:30,591 - engine - INFO - Generating prediction...
+2025-08-21 13:48:30,592 - engine - INFO - Low confidence 0.268 < 0.7, setting direction to SKIP
+2025-08-21 13:48:30,592 - engine - INFO - Prediction generated: SKIP with 26.8% confidence
+2025-08-21 13:48:30,593 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:50:21,836 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:50:21,845 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:50:21,846 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:50:21,847 - engine - INFO - Collecting overnight data...
+2025-08-21 13:50:21,847 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:50:21,848 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:50:22,652 - fetchers - INFO - Created live snapshot: price=$165.01
+2025-08-21 13:50:22,653 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:50:22,653 - engine - INFO - Engineering features...
+2025-08-21 13:50:22,653 - features - INFO - Created 6 features successfully
+2025-08-21 13:50:22,654 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:50:22,655 - engine - INFO - Generating prediction...
+2025-08-21 13:50:22,656 - engine - INFO - Low confidence 0.066 < 0.7, setting direction to SKIP
+2025-08-21 13:50:22,656 - engine - INFO - Prediction generated: SKIP with 6.6% confidence
+2025-08-21 13:50:22,657 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:51:00,370 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:51:00,375 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:51:00,375 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:51:00,376 - engine - INFO - Collecting overnight data...
+2025-08-21 13:51:00,376 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:51:00,376 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:51:00,958 - fetchers - INFO - Created live snapshot: price=$164.57
+2025-08-21 13:51:00,958 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:51:00,958 - engine - INFO - Engineering features...
+2025-08-21 13:51:00,958 - features - INFO - Created 6 features successfully
+2025-08-21 13:51:00,959 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:51:00,960 - engine - INFO - Generating prediction...
+2025-08-21 13:51:00,961 - engine - INFO - Low confidence 0.118 < 0.7, setting direction to SKIP
+2025-08-21 13:51:00,961 - engine - INFO - Prediction generated: SKIP with 11.8% confidence
+2025-08-21 13:51:00,962 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:54:00,738 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:54:00,745 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:54:00,745 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:54:00,745 - engine - INFO - Collecting overnight data...
+2025-08-21 13:54:00,745 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:54:00,746 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:54:01,363 - fetchers - INFO - Created live snapshot: price=$163.97
+2025-08-21 13:54:01,364 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:54:01,364 - engine - INFO - Engineering features...
+2025-08-21 13:54:01,364 - features - INFO - Created 6 features successfully
+2025-08-21 13:54:01,365 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:54:01,366 - engine - INFO - Generating prediction...
+2025-08-21 13:54:01,367 - engine - INFO - Low confidence 0.128 < 0.7, setting direction to SKIP
+2025-08-21 13:54:01,367 - engine - INFO - Prediction generated: SKIP with 12.8% confidence
+2025-08-21 13:54:01,367 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:54:53,823 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:54:53,829 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:54:53,829 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:54:53,830 - engine - INFO - Collecting overnight data...
+2025-08-21 13:54:53,830 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:54:53,831 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:54:55,143 - fetchers - INFO - Created live snapshot: price=$164.15
+2025-08-21 13:54:55,144 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:54:55,144 - engine - INFO - Engineering features...
+2025-08-21 13:54:55,144 - features - INFO - Created 6 features successfully
+2025-08-21 13:54:55,145 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:54:55,147 - engine - INFO - Generating prediction...
+2025-08-21 13:54:55,148 - engine - INFO - Low confidence 0.107 < 0.7, setting direction to SKIP
+2025-08-21 13:54:55,148 - engine - INFO - Prediction generated: SKIP with 10.7% confidence
+2025-08-21 13:54:55,149 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 13:56:28,093 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 13:56:28,098 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 13:56:28,098 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 13:56:28,098 - engine - INFO - Collecting overnight data...
+2025-08-21 13:56:28,098 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 13:56:28,099 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 13:56:29,207 - fetchers - INFO - Created live snapshot: price=$163.67
+2025-08-21 13:56:29,207 - fetchers - INFO - Data collection completed successfully
+2025-08-21 13:56:29,207 - engine - INFO - Engineering features...
+2025-08-21 13:56:29,207 - features - INFO - Created 6 features successfully
+2025-08-21 13:56:29,208 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 13:56:29,209 - engine - INFO - Generating prediction...
+2025-08-21 13:56:29,210 - engine - INFO - Low confidence 0.003 < 0.7, setting direction to SKIP
+2025-08-21 13:56:29,210 - engine - INFO - Prediction generated: SKIP with 0.3% confidence
+2025-08-21 13:56:29,210 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:01:29,211 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:01:29,216 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:01:29,216 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:01:29,217 - engine - INFO - Collecting overnight data...
+2025-08-21 14:01:29,217 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:01:29,217 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:01:29,369 - fetchers - INFO - Created live snapshot: price=$163.09
+2025-08-21 14:01:29,369 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:01:29,369 - engine - INFO - Engineering features...
+2025-08-21 14:01:29,369 - features - INFO - Created 6 features successfully
+2025-08-21 14:01:29,370 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:01:29,371 - engine - INFO - Generating prediction...
+2025-08-21 14:01:29,372 - engine - INFO - Low confidence 0.136 < 0.7, setting direction to SKIP
+2025-08-21 14:01:29,372 - engine - INFO - Prediction generated: SKIP with 13.6% confidence
+2025-08-21 14:01:29,372 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:03:39,181 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:03:39,203 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:03:39,204 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:03:39,204 - engine - INFO - Collecting overnight data...
+2025-08-21 14:03:39,204 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:03:39,204 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:03:40,160 - fetchers - INFO - Created live snapshot: price=$163.90
+2025-08-21 14:03:40,163 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:03:40,163 - engine - INFO - Engineering features...
+2025-08-21 14:03:40,163 - features - INFO - Created 6 features successfully
+2025-08-21 14:03:40,164 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:03:40,172 - engine - INFO - Generating prediction...
+2025-08-21 14:03:40,172 - engine - INFO - Low confidence 0.112 < 0.7, setting direction to SKIP
+2025-08-21 14:03:40,172 - engine - INFO - Prediction generated: SKIP with 11.2% confidence
+2025-08-21 14:03:40,173 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:08:34,661 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:08:34,677 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:08:34,678 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:08:34,678 - engine - INFO - Collecting overnight data...
+2025-08-21 14:08:34,678 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:08:34,678 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:08:35,300 - fetchers - INFO - Created live snapshot: price=$163.74
+2025-08-21 14:08:35,300 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:08:35,300 - engine - INFO - Engineering features...
+2025-08-21 14:08:35,300 - features - INFO - Created 6 features successfully
+2025-08-21 14:08:35,301 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:08:35,303 - engine - INFO - Generating prediction...
+2025-08-21 14:08:35,303 - engine - INFO - Low confidence 0.251 < 0.7, setting direction to SKIP
+2025-08-21 14:08:35,303 - engine - INFO - Prediction generated: SKIP with 25.1% confidence
+2025-08-21 14:08:35,304 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:13:35,307 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:13:35,315 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:13:35,315 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:13:35,315 - engine - INFO - Collecting overnight data...
+2025-08-21 14:13:35,315 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:13:35,316 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:13:36,922 - fetchers - INFO - Created live snapshot: price=$163.96
+2025-08-21 14:13:36,922 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:13:36,922 - engine - INFO - Engineering features...
+2025-08-21 14:13:36,922 - features - INFO - Created 6 features successfully
+2025-08-21 14:13:36,923 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:13:36,925 - engine - INFO - Generating prediction...
+2025-08-21 14:13:36,926 - engine - INFO - Low confidence 0.043 < 0.7, setting direction to SKIP
+2025-08-21 14:13:36,926 - engine - INFO - Prediction generated: SKIP with 4.3% confidence
+2025-08-21 14:13:36,933 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:14:55,991 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:14:56,000 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:14:56,001 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:14:56,001 - engine - INFO - Collecting overnight data...
+2025-08-21 14:14:56,001 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:14:56,001 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:14:57,445 - fetchers - INFO - Created live snapshot: price=$163.60
+2025-08-21 14:14:57,445 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:14:57,445 - engine - INFO - Engineering features...
+2025-08-21 14:14:57,446 - features - INFO - Created 6 features successfully
+2025-08-21 14:14:57,446 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:14:57,448 - engine - INFO - Generating prediction...
+2025-08-21 14:14:57,449 - engine - INFO - Low confidence 0.061 < 0.7, setting direction to SKIP
+2025-08-21 14:14:57,449 - engine - INFO - Prediction generated: SKIP with 6.1% confidence
+2025-08-21 14:14:57,450 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:15:54,652 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:15:54,662 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:15:54,663 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:15:54,663 - engine - INFO - Collecting overnight data...
+2025-08-21 14:15:54,664 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:15:54,665 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:15:55,334 - fetchers - INFO - Created live snapshot: price=$163.91
+2025-08-21 14:15:55,337 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:15:55,337 - engine - INFO - Engineering features...
+2025-08-21 14:15:55,347 - features - INFO - Created 6 features successfully
+2025-08-21 14:15:55,348 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:15:55,354 - engine - INFO - Generating prediction...
+2025-08-21 14:15:55,355 - engine - INFO - Low confidence 0.093 < 0.7, setting direction to SKIP
+2025-08-21 14:15:55,356 - engine - INFO - Prediction generated: SKIP with 9.3% confidence
+2025-08-21 14:15:55,358 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:20:01,512 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:20:01,535 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:20:01,540 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:20:01,540 - engine - INFO - Collecting overnight data...
+2025-08-21 14:20:01,541 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:20:01,551 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:20:02,284 - fetchers - INFO - Created live snapshot: price=$164.29
+2025-08-21 14:20:02,284 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:20:02,284 - engine - INFO - Engineering features...
+2025-08-21 14:20:02,284 - features - INFO - Created 6 features successfully
+2025-08-21 14:20:02,285 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:20:02,286 - engine - INFO - Generating prediction...
+2025-08-21 14:20:02,287 - engine - INFO - Low confidence 0.132 < 0.7, setting direction to SKIP
+2025-08-21 14:20:02,287 - engine - INFO - Prediction generated: SKIP with 13.2% confidence
+2025-08-21 14:20:02,288 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:25:02,289 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:25:02,294 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:25:02,295 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:25:02,295 - engine - INFO - Collecting overnight data...
+2025-08-21 14:25:02,295 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:25:02,295 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:25:02,480 - fetchers - INFO - Created live snapshot: price=$164.96
+2025-08-21 14:25:02,480 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:25:02,480 - engine - INFO - Engineering features...
+2025-08-21 14:25:02,480 - features - INFO - Created 6 features successfully
+2025-08-21 14:25:02,481 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:25:02,482 - engine - INFO - Generating prediction...
+2025-08-21 14:25:02,483 - engine - INFO - Low confidence 0.087 < 0.7, setting direction to SKIP
+2025-08-21 14:25:02,483 - engine - INFO - Prediction generated: SKIP with 8.7% confidence
+2025-08-21 14:25:02,484 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:30:02,485 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:30:02,489 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:30:02,489 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:30:02,489 - engine - INFO - Collecting overnight data...
+2025-08-21 14:30:02,489 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:30:02,490 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:30:03,303 - fetchers - INFO - Created live snapshot: price=$165.20
+2025-08-21 14:30:03,304 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:30:03,305 - engine - INFO - Engineering features...
+2025-08-21 14:30:03,306 - features - INFO - Created 6 features successfully
+2025-08-21 14:30:03,307 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:30:03,310 - engine - INFO - Generating prediction...
+2025-08-21 14:30:03,312 - engine - INFO - Low confidence 0.166 < 0.7, setting direction to SKIP
+2025-08-21 14:30:03,313 - engine - INFO - Prediction generated: SKIP with 16.6% confidence
+2025-08-21 14:30:03,315 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:33:31,312 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:33:31,340 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:33:31,351 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:33:31,351 - engine - INFO - Collecting overnight data...
+2025-08-21 14:33:31,351 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:33:31,352 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:33:32,125 - fetchers - INFO - Created live snapshot: price=$164.70
+2025-08-21 14:33:32,139 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:33:32,145 - engine - INFO - Engineering features...
+2025-08-21 14:33:32,145 - features - INFO - Created 6 features successfully
+2025-08-21 14:33:32,146 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:33:32,156 - engine - INFO - Generating prediction...
+2025-08-21 14:33:32,157 - engine - INFO - Low confidence 0.026 < 0.7, setting direction to SKIP
+2025-08-21 14:33:32,157 - engine - INFO - Prediction generated: SKIP with 2.6% confidence
+2025-08-21 14:33:32,158 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:38:32,158 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:38:32,165 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:38:32,166 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:38:32,166 - engine - INFO - Collecting overnight data...
+2025-08-21 14:38:32,166 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:38:32,166 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:38:32,978 - fetchers - INFO - Created live snapshot: price=$164.22
+2025-08-21 14:38:32,979 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:38:32,979 - engine - INFO - Engineering features...
+2025-08-21 14:38:32,979 - features - INFO - Created 6 features successfully
+2025-08-21 14:38:32,980 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:38:32,983 - engine - INFO - Generating prediction...
+2025-08-21 14:38:32,984 - engine - INFO - Low confidence 0.125 < 0.7, setting direction to SKIP
+2025-08-21 14:38:32,984 - engine - INFO - Prediction generated: SKIP with 12.5% confidence
+2025-08-21 14:38:32,985 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:43:32,986 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:43:32,990 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:43:32,991 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:43:32,991 - engine - INFO - Collecting overnight data...
+2025-08-21 14:43:32,991 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:43:32,991 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:43:33,103 - fetchers - INFO - Created live snapshot: price=$164.37
+2025-08-21 14:43:33,104 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:43:33,104 - engine - INFO - Engineering features...
+2025-08-21 14:43:33,104 - features - INFO - Created 6 features successfully
+2025-08-21 14:43:33,105 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:43:33,107 - engine - INFO - Generating prediction...
+2025-08-21 14:43:33,114 - engine - INFO - Low confidence 0.147 < 0.7, setting direction to SKIP
+2025-08-21 14:43:33,115 - engine - INFO - Prediction generated: SKIP with 14.7% confidence
+2025-08-21 14:43:33,116 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:48:33,117 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:48:33,122 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:48:33,122 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:48:33,122 - engine - INFO - Collecting overnight data...
+2025-08-21 14:48:33,122 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:48:33,122 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:48:33,352 - fetchers - INFO - Created live snapshot: price=$164.70
+2025-08-21 14:48:33,352 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:48:33,352 - engine - INFO - Engineering features...
+2025-08-21 14:48:33,352 - features - INFO - Created 6 features successfully
+2025-08-21 14:48:33,353 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:48:33,355 - engine - INFO - Generating prediction...
+2025-08-21 14:48:33,355 - engine - INFO - Low confidence 0.126 < 0.7, setting direction to SKIP
+2025-08-21 14:48:33,355 - engine - INFO - Prediction generated: SKIP with 12.6% confidence
+2025-08-21 14:48:33,356 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:51:47,604 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:51:47,617 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:51:47,617 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:51:47,618 - engine - INFO - Collecting overnight data...
+2025-08-21 14:51:47,618 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:51:47,618 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:51:49,128 - fetchers - INFO - Created live snapshot: price=$164.69
+2025-08-21 14:51:49,130 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:51:49,130 - engine - INFO - Engineering features...
+2025-08-21 14:51:49,130 - features - INFO - Created 6 features successfully
+2025-08-21 14:51:49,131 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:51:49,132 - engine - INFO - Generating prediction...
+2025-08-21 14:51:49,133 - engine - INFO - Low confidence 0.132 < 0.7, setting direction to SKIP
+2025-08-21 14:51:49,133 - engine - INFO - Prediction generated: SKIP with 13.2% confidence
+2025-08-21 14:51:49,133 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 14:56:49,134 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 14:56:49,142 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 14:56:49,142 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 14:56:49,142 - engine - INFO - Collecting overnight data...
+2025-08-21 14:56:49,142 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 14:56:49,142 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 14:56:49,394 - fetchers - INFO - Created live snapshot: price=$164.96
+2025-08-21 14:56:49,394 - fetchers - INFO - Data collection completed successfully
+2025-08-21 14:56:49,394 - engine - INFO - Engineering features...
+2025-08-21 14:56:49,394 - features - INFO - Created 6 features successfully
+2025-08-21 14:56:49,395 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 14:56:49,397 - engine - INFO - Generating prediction...
+2025-08-21 14:56:49,397 - engine - INFO - Low confidence 0.046 < 0.7, setting direction to SKIP
+2025-08-21 14:56:49,397 - engine - INFO - Prediction generated: SKIP with 4.6% confidence
+2025-08-21 14:56:49,398 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:00:20,293 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:00:20,311 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:00:20,311 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:00:20,312 - engine - INFO - Collecting overnight data...
+2025-08-21 15:00:20,312 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:00:20,312 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:00:22,048 - fetchers - INFO - Created live snapshot: price=$164.90
+2025-08-21 15:00:22,048 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:00:22,048 - engine - INFO - Engineering features...
+2025-08-21 15:00:22,048 - features - INFO - Created 6 features successfully
+2025-08-21 15:00:22,049 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:00:22,051 - engine - INFO - Generating prediction...
+2025-08-21 15:00:22,051 - engine - INFO - Low confidence 0.163 < 0.7, setting direction to SKIP
+2025-08-21 15:00:22,052 - engine - INFO - Prediction generated: SKIP with 16.3% confidence
+2025-08-21 15:00:22,052 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:01:35,951 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:01:35,956 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:01:35,956 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:01:35,956 - engine - INFO - Collecting overnight data...
+2025-08-21 15:01:35,956 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:01:35,956 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:01:36,498 - fetchers - INFO - Created live snapshot: price=$165.13
+2025-08-21 15:01:36,498 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:01:36,499 - engine - INFO - Engineering features...
+2025-08-21 15:01:36,499 - features - INFO - Created 6 features successfully
+2025-08-21 15:01:36,499 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:01:36,501 - engine - INFO - Generating prediction...
+2025-08-21 15:01:36,501 - engine - INFO - Low confidence 0.044 < 0.7, setting direction to SKIP
+2025-08-21 15:01:36,501 - engine - INFO - Prediction generated: SKIP with 4.4% confidence
+2025-08-21 15:01:36,502 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:06:36,503 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:06:36,511 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:06:36,511 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:06:36,511 - engine - INFO - Collecting overnight data...
+2025-08-21 15:06:36,511 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:06:36,512 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:06:37,330 - fetchers - INFO - Created live snapshot: price=$164.58
+2025-08-21 15:06:37,331 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:06:37,331 - engine - INFO - Engineering features...
+2025-08-21 15:06:37,331 - features - INFO - Created 6 features successfully
+2025-08-21 15:06:37,332 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:06:37,333 - engine - INFO - Generating prediction...
+2025-08-21 15:06:37,334 - engine - INFO - Low confidence 0.117 < 0.7, setting direction to SKIP
+2025-08-21 15:06:37,334 - engine - INFO - Prediction generated: SKIP with 11.7% confidence
+2025-08-21 15:06:37,335 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:11:37,335 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:11:37,339 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:11:37,340 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:11:37,340 - engine - INFO - Collecting overnight data...
+2025-08-21 15:11:37,340 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:11:37,340 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:11:38,185 - fetchers - INFO - Created live snapshot: price=$164.04
+2025-08-21 15:11:38,186 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:11:38,186 - engine - INFO - Engineering features...
+2025-08-21 15:11:38,186 - features - INFO - Created 6 features successfully
+2025-08-21 15:11:38,187 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:11:38,188 - engine - INFO - Generating prediction...
+2025-08-21 15:11:38,188 - engine - INFO - Low confidence 0.174 < 0.7, setting direction to SKIP
+2025-08-21 15:11:38,188 - engine - INFO - Prediction generated: SKIP with 17.4% confidence
+2025-08-21 15:11:38,189 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:16:38,190 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:16:38,195 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:16:38,195 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:16:38,195 - engine - INFO - Collecting overnight data...
+2025-08-21 15:16:38,195 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:16:38,195 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:16:38,336 - fetchers - INFO - Created live snapshot: price=$163.90
+2025-08-21 15:16:38,337 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:16:38,337 - engine - INFO - Engineering features...
+2025-08-21 15:16:38,337 - features - INFO - Created 6 features successfully
+2025-08-21 15:16:38,338 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:16:38,339 - engine - INFO - Generating prediction...
+2025-08-21 15:16:38,340 - engine - INFO - Low confidence 0.038 < 0.7, setting direction to SKIP
+2025-08-21 15:16:38,340 - engine - INFO - Prediction generated: SKIP with 3.8% confidence
+2025-08-21 15:16:38,341 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:21:38,342 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:21:38,348 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:21:38,348 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:21:38,348 - engine - INFO - Collecting overnight data...
+2025-08-21 15:21:38,348 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:21:38,349 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:21:38,568 - fetchers - INFO - Created live snapshot: price=$163.98
+2025-08-21 15:21:38,569 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:21:38,569 - engine - INFO - Engineering features...
+2025-08-21 15:21:38,569 - features - INFO - Created 6 features successfully
+2025-08-21 15:21:38,570 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:21:38,571 - engine - INFO - Generating prediction...
+2025-08-21 15:21:38,571 - engine - INFO - Low confidence 0.165 < 0.7, setting direction to SKIP
+2025-08-21 15:21:38,571 - engine - INFO - Prediction generated: SKIP with 16.5% confidence
+2025-08-21 15:21:38,572 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:26:38,573 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:26:38,577 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:26:38,578 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:26:38,578 - engine - INFO - Collecting overnight data...
+2025-08-21 15:26:38,578 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:26:38,578 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:26:38,727 - fetchers - INFO - Created live snapshot: price=$164.45
+2025-08-21 15:26:38,727 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:26:38,727 - engine - INFO - Engineering features...
+2025-08-21 15:26:38,728 - features - INFO - Created 6 features successfully
+2025-08-21 15:26:38,728 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:26:38,729 - engine - INFO - Generating prediction...
+2025-08-21 15:26:38,730 - engine - INFO - Low confidence 0.146 < 0.7, setting direction to SKIP
+2025-08-21 15:26:38,730 - engine - INFO - Prediction generated: SKIP with 14.6% confidence
+2025-08-21 15:26:38,730 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:27:28,934 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:27:28,940 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:27:28,940 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:27:28,941 - engine - INFO - Collecting overnight data...
+2025-08-21 15:27:28,941 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:27:28,941 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:27:29,843 - fetchers - INFO - Created live snapshot: price=$164.57
+2025-08-21 15:27:29,844 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:27:29,844 - engine - INFO - Engineering features...
+2025-08-21 15:27:29,844 - features - INFO - Created 6 features successfully
+2025-08-21 15:27:29,844 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:27:29,846 - engine - INFO - Generating prediction...
+2025-08-21 15:27:29,847 - engine - INFO - Low confidence 0.128 < 0.7, setting direction to SKIP
+2025-08-21 15:27:29,847 - engine - INFO - Prediction generated: SKIP with 12.8% confidence
+2025-08-21 15:27:29,848 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:28:46,390 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:28:46,408 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:28:46,411 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:28:46,411 - engine - INFO - Collecting overnight data...
+2025-08-21 15:28:46,411 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:28:46,411 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:28:47,201 - fetchers - INFO - Created live snapshot: price=$164.29
+2025-08-21 15:28:47,213 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:28:47,214 - engine - INFO - Engineering features...
+2025-08-21 15:28:47,214 - features - INFO - Created 6 features successfully
+2025-08-21 15:28:47,215 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:28:47,216 - engine - INFO - Generating prediction...
+2025-08-21 15:28:47,217 - engine - INFO - Low confidence 0.096 < 0.7, setting direction to SKIP
+2025-08-21 15:28:47,218 - engine - INFO - Prediction generated: SKIP with 9.6% confidence
+2025-08-21 15:28:47,219 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:30:30,435 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:30:30,441 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:30:30,442 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:30:30,442 - engine - INFO - Collecting overnight data...
+2025-08-21 15:30:30,442 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:30:30,442 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:30:31,074 - fetchers - INFO - Created live snapshot: price=$164.61
+2025-08-21 15:30:31,074 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:30:31,075 - engine - INFO - Engineering features...
+2025-08-21 15:30:31,075 - features - INFO - Created 6 features successfully
+2025-08-21 15:30:31,075 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:30:31,077 - engine - INFO - Generating prediction...
+2025-08-21 15:30:31,078 - engine - INFO - Low confidence 0.133 < 0.7, setting direction to SKIP
+2025-08-21 15:30:31,078 - engine - INFO - Prediction generated: SKIP with 13.3% confidence
+2025-08-21 15:30:31,080 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:35:24,174 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:35:24,181 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:35:24,181 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:35:24,181 - engine - INFO - Collecting overnight data...
+2025-08-21 15:35:24,181 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:35:24,181 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:35:25,576 - fetchers - INFO - Created live snapshot: price=$164.68
+2025-08-21 15:35:25,576 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:35:25,576 - engine - INFO - Engineering features...
+2025-08-21 15:35:25,576 - features - INFO - Created 6 features successfully
+2025-08-21 15:35:25,577 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:35:25,579 - engine - INFO - Generating prediction...
+2025-08-21 15:35:25,580 - engine - INFO - Low confidence 0.073 < 0.7, setting direction to SKIP
+2025-08-21 15:35:25,580 - engine - INFO - Prediction generated: SKIP with 7.3% confidence
+2025-08-21 15:35:25,581 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:36:20,211 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:36:20,218 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:36:20,218 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:36:20,218 - engine - INFO - Collecting overnight data...
+2025-08-21 15:36:20,219 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:36:20,219 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:36:20,896 - fetchers - INFO - Created live snapshot: price=$164.74
+2025-08-21 15:36:20,896 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:36:20,897 - engine - INFO - Engineering features...
+2025-08-21 15:36:20,897 - features - INFO - Created 6 features successfully
+2025-08-21 15:36:20,898 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:36:20,900 - engine - INFO - Generating prediction...
+2025-08-21 15:36:20,901 - engine - INFO - Low confidence 0.137 < 0.7, setting direction to SKIP
+2025-08-21 15:36:20,901 - engine - INFO - Prediction generated: SKIP with 13.7% confidence
+2025-08-21 15:36:20,902 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:38:41,976 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:38:41,988 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:38:41,988 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:38:41,989 - engine - INFO - Collecting overnight data...
+2025-08-21 15:38:41,989 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:38:41,989 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:38:43,435 - fetchers - INFO - Created live snapshot: price=$164.42
+2025-08-21 15:38:43,437 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:38:43,437 - engine - INFO - Engineering features...
+2025-08-21 15:38:43,437 - features - INFO - Created 6 features successfully
+2025-08-21 15:38:43,438 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:38:43,439 - engine - INFO - Generating prediction...
+2025-08-21 15:38:43,440 - engine - INFO - Low confidence 0.127 < 0.7, setting direction to SKIP
+2025-08-21 15:38:43,441 - engine - INFO - Prediction generated: SKIP with 12.7% confidence
+2025-08-21 15:38:43,441 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:41:17,679 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:41:17,686 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:41:17,686 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:41:17,687 - engine - INFO - Collecting overnight data...
+2025-08-21 15:41:17,687 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:41:17,687 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:41:18,485 - fetchers - INFO - Created live snapshot: price=$164.49
+2025-08-21 15:41:18,485 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:41:18,486 - engine - INFO - Engineering features...
+2025-08-21 15:41:18,486 - features - INFO - Created 6 features successfully
+2025-08-21 15:41:18,487 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:41:18,488 - engine - INFO - Generating prediction...
+2025-08-21 15:41:18,489 - engine - INFO - Low confidence 0.129 < 0.7, setting direction to SKIP
+2025-08-21 15:41:18,489 - engine - INFO - Prediction generated: SKIP with 12.9% confidence
+2025-08-21 15:41:18,490 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:41:29,321 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:41:29,343 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:41:29,343 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:41:29,344 - engine - INFO - Collecting overnight data...
+2025-08-21 15:41:29,344 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:41:29,344 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:41:30,138 - fetchers - INFO - Created live snapshot: price=$164.55
+2025-08-21 15:41:30,138 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:41:30,139 - engine - INFO - Engineering features...
+2025-08-21 15:41:30,139 - features - INFO - Created 6 features successfully
+2025-08-21 15:41:30,139 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:41:30,141 - engine - INFO - Generating prediction...
+2025-08-21 15:41:30,143 - engine - INFO - Low confidence 0.044 < 0.7, setting direction to SKIP
+2025-08-21 15:41:30,143 - engine - INFO - Prediction generated: SKIP with 4.4% confidence
+2025-08-21 15:41:30,144 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:46:20,469 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:46:20,474 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:46:20,474 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:46:20,474 - engine - INFO - Collecting overnight data...
+2025-08-21 15:46:20,474 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:46:20,474 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:46:21,869 - fetchers - INFO - Created live snapshot: price=$164.46
+2025-08-21 15:46:21,869 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:46:21,869 - engine - INFO - Engineering features...
+2025-08-21 15:46:21,869 - features - INFO - Created 6 features successfully
+2025-08-21 15:46:21,870 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:46:21,871 - engine - INFO - Generating prediction...
+2025-08-21 15:46:21,872 - engine - INFO - Low confidence 0.186 < 0.7, setting direction to SKIP
+2025-08-21 15:46:21,872 - engine - INFO - Prediction generated: SKIP with 18.6% confidence
+2025-08-21 15:46:21,873 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:48:56,745 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:48:56,754 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:48:56,754 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:48:56,754 - engine - INFO - Collecting overnight data...
+2025-08-21 15:48:56,754 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:48:56,754 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:48:57,600 - fetchers - INFO - Created live snapshot: price=$164.32
+2025-08-21 15:48:57,615 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:48:57,615 - engine - INFO - Engineering features...
+2025-08-21 15:48:57,615 - features - INFO - Created 6 features successfully
+2025-08-21 15:48:57,616 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:48:57,618 - engine - INFO - Generating prediction...
+2025-08-21 15:48:57,619 - engine - INFO - Low confidence 0.235 < 0.7, setting direction to SKIP
+2025-08-21 15:48:57,619 - engine - INFO - Prediction generated: SKIP with 23.5% confidence
+2025-08-21 15:48:57,620 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:50:53,952 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:50:53,969 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:50:53,969 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:50:53,969 - engine - INFO - Collecting overnight data...
+2025-08-21 15:50:53,969 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:50:53,970 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:50:54,787 - fetchers - INFO - Created live snapshot: price=$163.95
+2025-08-21 15:50:54,787 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:50:54,787 - engine - INFO - Engineering features...
+2025-08-21 15:50:54,788 - features - INFO - Created 6 features successfully
+2025-08-21 15:50:54,788 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:50:54,789 - engine - INFO - Generating prediction...
+2025-08-21 15:50:54,790 - engine - INFO - Low confidence 0.165 < 0.7, setting direction to SKIP
+2025-08-21 15:50:54,790 - engine - INFO - Prediction generated: SKIP with 16.5% confidence
+2025-08-21 15:50:54,793 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:51:48,435 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:51:48,441 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:51:48,441 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:51:48,441 - engine - INFO - Collecting overnight data...
+2025-08-21 15:51:48,441 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:51:48,442 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:51:49,143 - fetchers - INFO - Created live snapshot: price=$163.83
+2025-08-21 15:51:49,143 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:51:49,143 - engine - INFO - Engineering features...
+2025-08-21 15:51:49,143 - features - INFO - Created 6 features successfully
+2025-08-21 15:51:49,144 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:51:49,146 - engine - INFO - Generating prediction...
+2025-08-21 15:51:49,146 - engine - INFO - Low confidence 0.095 < 0.7, setting direction to SKIP
+2025-08-21 15:51:49,146 - engine - INFO - Prediction generated: SKIP with 9.5% confidence
+2025-08-21 15:51:49,147 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:56:49,148 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:56:49,154 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:56:49,155 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:56:49,155 - engine - INFO - Collecting overnight data...
+2025-08-21 15:56:49,155 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:56:49,155 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:56:49,268 - fetchers - INFO - Created live snapshot: price=$163.75
+2025-08-21 15:56:49,268 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:56:49,268 - engine - INFO - Engineering features...
+2025-08-21 15:56:49,268 - features - INFO - Created 6 features successfully
+2025-08-21 15:56:49,269 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:56:49,270 - engine - INFO - Generating prediction...
+2025-08-21 15:56:49,271 - engine - INFO - Low confidence 0.095 < 0.7, setting direction to SKIP
+2025-08-21 15:56:49,271 - engine - INFO - Prediction generated: SKIP with 9.5% confidence
+2025-08-21 15:56:49,272 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:58:17,951 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:58:17,962 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:58:17,963 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:58:17,963 - engine - INFO - Collecting overnight data...
+2025-08-21 15:58:17,963 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:58:17,963 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:58:18,790 - fetchers - INFO - Created live snapshot: price=$163.68
+2025-08-21 15:58:18,791 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:58:18,791 - engine - INFO - Engineering features...
+2025-08-21 15:58:18,791 - features - INFO - Created 6 features successfully
+2025-08-21 15:58:18,791 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:58:18,793 - engine - INFO - Generating prediction...
+2025-08-21 15:58:18,793 - engine - INFO - Low confidence 0.082 < 0.7, setting direction to SKIP
+2025-08-21 15:58:18,793 - engine - INFO - Prediction generated: SKIP with 8.2% confidence
+2025-08-21 15:58:18,794 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 15:58:25,353 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 15:58:25,360 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 15:58:25,360 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 15:58:25,360 - engine - INFO - Collecting overnight data...
+2025-08-21 15:58:25,360 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 15:58:25,360 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 15:58:26,252 - fetchers - INFO - Created live snapshot: price=$163.74
+2025-08-21 15:58:26,252 - fetchers - INFO - Data collection completed successfully
+2025-08-21 15:58:26,252 - engine - INFO - Engineering features...
+2025-08-21 15:58:26,252 - features - INFO - Created 6 features successfully
+2025-08-21 15:58:26,253 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 15:58:26,254 - engine - INFO - Generating prediction...
+2025-08-21 15:58:26,255 - engine - INFO - Low confidence 0.126 < 0.7, setting direction to SKIP
+2025-08-21 15:58:26,255 - engine - INFO - Prediction generated: SKIP with 12.6% confidence
+2025-08-21 15:58:26,256 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:03:26,257 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:03:26,263 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:03:26,263 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:03:26,264 - engine - INFO - Collecting overnight data...
+2025-08-21 16:03:26,264 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:03:26,264 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:03:26,504 - fetchers - INFO - Created live snapshot: price=$163.73
+2025-08-21 16:03:26,505 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:03:26,505 - engine - INFO - Engineering features...
+2025-08-21 16:03:26,505 - features - INFO - Created 6 features successfully
+2025-08-21 16:03:26,506 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:03:26,507 - engine - INFO - Generating prediction...
+2025-08-21 16:03:26,508 - engine - INFO - Low confidence 0.043 < 0.7, setting direction to SKIP
+2025-08-21 16:03:26,508 - engine - INFO - Prediction generated: SKIP with 4.3% confidence
+2025-08-21 16:03:26,509 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:03:51,196 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:03:51,217 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:03:51,218 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:03:51,218 - engine - INFO - Collecting overnight data...
+2025-08-21 16:03:51,218 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:03:51,218 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:03:52,605 - fetchers - INFO - Created live snapshot: price=$163.69
+2025-08-21 16:03:52,605 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:03:52,605 - engine - INFO - Engineering features...
+2025-08-21 16:03:52,606 - features - INFO - Created 6 features successfully
+2025-08-21 16:03:52,606 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:03:52,608 - engine - INFO - Generating prediction...
+2025-08-21 16:03:52,609 - engine - INFO - Low confidence 0.149 < 0.7, setting direction to SKIP
+2025-08-21 16:03:52,609 - engine - INFO - Prediction generated: SKIP with 14.9% confidence
+2025-08-21 16:03:52,610 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:06:24,709 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:06:24,714 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:06:24,714 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:06:24,715 - engine - INFO - Collecting overnight data...
+2025-08-21 16:06:24,715 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:06:24,715 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:06:25,254 - fetchers - INFO - Created live snapshot: price=$163.45
+2025-08-21 16:06:25,254 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:06:25,254 - engine - INFO - Engineering features...
+2025-08-21 16:06:25,254 - features - INFO - Created 6 features successfully
+2025-08-21 16:06:25,255 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:06:25,256 - engine - INFO - Generating prediction...
+2025-08-21 16:06:25,257 - engine - INFO - Low confidence 0.151 < 0.7, setting direction to SKIP
+2025-08-21 16:06:25,257 - engine - INFO - Prediction generated: SKIP with 15.1% confidence
+2025-08-21 16:06:25,258 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:08:44,941 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:08:44,947 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:08:44,947 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:08:44,947 - engine - INFO - Collecting overnight data...
+2025-08-21 16:08:44,947 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:08:44,947 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:08:45,537 - fetchers - INFO - Created live snapshot: price=$163.48
+2025-08-21 16:08:45,538 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:08:45,538 - engine - INFO - Engineering features...
+2025-08-21 16:08:45,538 - features - INFO - Created 6 features successfully
+2025-08-21 16:08:45,539 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:08:45,540 - engine - INFO - Generating prediction...
+2025-08-21 16:08:45,541 - engine - INFO - Low confidence 0.162 < 0.7, setting direction to SKIP
+2025-08-21 16:08:45,541 - engine - INFO - Prediction generated: SKIP with 16.2% confidence
+2025-08-21 16:08:45,542 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:10:45,866 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:10:45,873 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:10:45,873 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:10:45,873 - engine - INFO - Collecting overnight data...
+2025-08-21 16:10:45,873 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:10:45,873 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:10:46,564 - fetchers - INFO - Created live snapshot: price=$163.19
+2025-08-21 16:10:46,565 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:10:46,565 - engine - INFO - Engineering features...
+2025-08-21 16:10:46,565 - features - INFO - Created 6 features successfully
+2025-08-21 16:10:46,565 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:10:46,567 - engine - INFO - Generating prediction...
+2025-08-21 16:10:46,567 - engine - INFO - Low confidence 0.150 < 0.7, setting direction to SKIP
+2025-08-21 16:10:46,568 - engine - INFO - Prediction generated: SKIP with 15.0% confidence
+2025-08-21 16:10:46,568 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:15:46,569 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:15:46,574 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:15:46,574 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:15:46,574 - engine - INFO - Collecting overnight data...
+2025-08-21 16:15:46,574 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:15:46,574 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:15:46,690 - fetchers - INFO - Created live snapshot: price=$163.45
+2025-08-21 16:15:46,690 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:15:46,690 - engine - INFO - Engineering features...
+2025-08-21 16:15:46,690 - features - INFO - Created 6 features successfully
+2025-08-21 16:15:46,691 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:15:46,692 - engine - INFO - Generating prediction...
+2025-08-21 16:15:46,692 - engine - INFO - Low confidence 0.173 < 0.7, setting direction to SKIP
+2025-08-21 16:15:46,693 - engine - INFO - Prediction generated: SKIP with 17.3% confidence
+2025-08-21 16:15:46,694 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:20:46,694 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:20:46,699 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:20:46,699 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:20:46,699 - engine - INFO - Collecting overnight data...
+2025-08-21 16:20:46,699 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:20:46,699 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:20:46,904 - fetchers - INFO - Created live snapshot: price=$163.27
+2025-08-21 16:20:46,904 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:20:46,905 - engine - INFO - Engineering features...
+2025-08-21 16:20:46,905 - features - INFO - Created 6 features successfully
+2025-08-21 16:20:46,905 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:20:46,907 - engine - INFO - Generating prediction...
+2025-08-21 16:20:46,907 - engine - INFO - Low confidence 0.068 < 0.7, setting direction to SKIP
+2025-08-21 16:20:46,908 - engine - INFO - Prediction generated: SKIP with 6.8% confidence
+2025-08-21 16:20:46,908 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:25:46,909 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:25:46,913 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:25:46,913 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:25:46,914 - engine - INFO - Collecting overnight data...
+2025-08-21 16:25:46,914 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:25:46,914 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:25:47,743 - fetchers - INFO - Created live snapshot: price=$163.36
+2025-08-21 16:25:47,743 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:25:47,743 - engine - INFO - Engineering features...
+2025-08-21 16:25:47,744 - features - INFO - Created 6 features successfully
+2025-08-21 16:25:47,744 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:25:47,745 - engine - INFO - Generating prediction...
+2025-08-21 16:25:47,746 - engine - INFO - Low confidence 0.128 < 0.7, setting direction to SKIP
+2025-08-21 16:25:47,746 - engine - INFO - Prediction generated: SKIP with 12.8% confidence
+2025-08-21 16:25:47,747 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:30:47,747 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:30:47,752 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:30:47,753 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:30:47,753 - engine - INFO - Collecting overnight data...
+2025-08-21 16:30:47,753 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:30:47,753 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:30:47,875 - fetchers - INFO - Created live snapshot: price=$163.38
+2025-08-21 16:30:47,875 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:30:47,875 - engine - INFO - Engineering features...
+2025-08-21 16:30:47,875 - features - INFO - Created 6 features successfully
+2025-08-21 16:30:47,877 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:30:47,878 - engine - INFO - Generating prediction...
+2025-08-21 16:30:47,879 - engine - INFO - Low confidence 0.160 < 0.7, setting direction to SKIP
+2025-08-21 16:30:47,879 - engine - INFO - Prediction generated: SKIP with 16.0% confidence
+2025-08-21 16:30:47,879 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:35:47,880 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:35:47,885 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:35:47,885 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:35:47,885 - engine - INFO - Collecting overnight data...
+2025-08-21 16:35:47,885 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:35:47,886 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:35:47,994 - fetchers - INFO - Created live snapshot: price=$163.26
+2025-08-21 16:35:47,995 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:35:47,995 - engine - INFO - Engineering features...
+2025-08-21 16:35:47,995 - features - INFO - Created 6 features successfully
+2025-08-21 16:35:47,995 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:35:47,997 - engine - INFO - Generating prediction...
+2025-08-21 16:35:47,997 - engine - INFO - Low confidence 0.055 < 0.7, setting direction to SKIP
+2025-08-21 16:35:47,997 - engine - INFO - Prediction generated: SKIP with 5.5% confidence
+2025-08-21 16:35:47,998 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:40:47,999 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:40:48,004 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:40:48,004 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:40:48,004 - engine - INFO - Collecting overnight data...
+2025-08-21 16:40:48,004 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:40:48,004 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:40:48,239 - fetchers - INFO - Created live snapshot: price=$163.56
+2025-08-21 16:40:48,240 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:40:48,240 - engine - INFO - Engineering features...
+2025-08-21 16:40:48,240 - features - INFO - Created 6 features successfully
+2025-08-21 16:40:48,242 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:40:48,244 - engine - INFO - Generating prediction...
+2025-08-21 16:40:48,244 - engine - INFO - Low confidence 0.170 < 0.7, setting direction to SKIP
+2025-08-21 16:40:48,244 - engine - INFO - Prediction generated: SKIP with 17.0% confidence
+2025-08-21 16:40:48,249 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:43:16,766 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:43:16,782 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:43:16,782 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:43:16,782 - engine - INFO - Collecting overnight data...
+2025-08-21 16:43:16,782 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:43:16,782 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:43:17,982 - fetchers - INFO - Created live snapshot: price=$163.60
+2025-08-21 16:43:17,983 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:43:17,983 - engine - INFO - Engineering features...
+2025-08-21 16:43:17,983 - features - INFO - Created 6 features successfully
+2025-08-21 16:43:17,984 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:43:17,985 - engine - INFO - Generating prediction...
+2025-08-21 16:43:17,986 - engine - INFO - Low confidence 0.073 < 0.7, setting direction to SKIP
+2025-08-21 16:43:17,986 - engine - INFO - Prediction generated: SKIP with 7.3% confidence
+2025-08-21 16:43:17,986 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:48:17,987 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:48:17,991 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:48:17,992 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:48:17,992 - engine - INFO - Collecting overnight data...
+2025-08-21 16:48:17,992 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:48:17,992 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:48:18,164 - fetchers - INFO - Created live snapshot: price=$163.49
+2025-08-21 16:48:18,164 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:48:18,164 - engine - INFO - Engineering features...
+2025-08-21 16:48:18,164 - features - INFO - Created 6 features successfully
+2025-08-21 16:48:18,165 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:48:18,166 - engine - INFO - Generating prediction...
+2025-08-21 16:48:18,167 - engine - INFO - Low confidence 0.022 < 0.7, setting direction to SKIP
+2025-08-21 16:48:18,167 - engine - INFO - Prediction generated: SKIP with 2.2% confidence
+2025-08-21 16:48:18,169 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:53:18,169 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:53:18,188 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:53:18,188 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:53:18,188 - engine - INFO - Collecting overnight data...
+2025-08-21 16:53:18,188 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:53:18,188 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:53:18,449 - fetchers - INFO - Created live snapshot: price=$163.66
+2025-08-21 16:53:18,456 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:53:18,463 - engine - INFO - Engineering features...
+2025-08-21 16:53:18,463 - features - INFO - Created 6 features successfully
+2025-08-21 16:53:18,464 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:53:18,466 - engine - INFO - Generating prediction...
+2025-08-21 16:53:18,466 - engine - INFO - Low confidence 0.163 < 0.7, setting direction to SKIP
+2025-08-21 16:53:18,467 - engine - INFO - Prediction generated: SKIP with 16.3% confidence
+2025-08-21 16:53:18,467 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 16:58:16,707 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 16:58:16,714 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 16:58:16,714 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 16:58:16,714 - engine - INFO - Collecting overnight data...
+2025-08-21 16:58:16,714 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 16:58:16,714 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 16:58:17,656 - fetchers - INFO - Created live snapshot: price=$163.19
+2025-08-21 16:58:17,658 - fetchers - INFO - Data collection completed successfully
+2025-08-21 16:58:17,658 - engine - INFO - Engineering features...
+2025-08-21 16:58:17,658 - features - INFO - Created 6 features successfully
+2025-08-21 16:58:17,659 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 16:58:17,660 - engine - INFO - Generating prediction...
+2025-08-21 16:58:17,660 - engine - INFO - Low confidence 0.026 < 0.7, setting direction to SKIP
+2025-08-21 16:58:17,661 - engine - INFO - Prediction generated: SKIP with 2.6% confidence
+2025-08-21 16:58:17,661 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:03:17,662 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:03:17,668 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:03:17,668 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:03:17,668 - engine - INFO - Collecting overnight data...
+2025-08-21 17:03:17,668 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:03:17,668 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:03:17,857 - fetchers - INFO - Created live snapshot: price=$163.31
+2025-08-21 17:03:17,858 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:03:17,859 - engine - INFO - Engineering features...
+2025-08-21 17:03:17,859 - features - INFO - Created 6 features successfully
+2025-08-21 17:03:17,860 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:03:17,863 - engine - INFO - Generating prediction...
+2025-08-21 17:03:17,863 - engine - INFO - Low confidence 0.095 < 0.7, setting direction to SKIP
+2025-08-21 17:03:17,863 - engine - INFO - Prediction generated: SKIP with 9.5% confidence
+2025-08-21 17:03:17,864 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:04:47,956 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:04:47,967 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:04:47,969 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:04:47,969 - engine - INFO - Collecting overnight data...
+2025-08-21 17:04:47,970 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:04:47,970 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:04:48,594 - fetchers - INFO - Created live snapshot: price=$163.39
+2025-08-21 17:04:48,594 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:04:48,594 - engine - INFO - Engineering features...
+2025-08-21 17:04:48,594 - features - INFO - Created 6 features successfully
+2025-08-21 17:04:48,595 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:04:48,596 - engine - INFO - Generating prediction...
+2025-08-21 17:04:48,597 - engine - INFO - Low confidence 0.047 < 0.7, setting direction to SKIP
+2025-08-21 17:04:48,597 - engine - INFO - Prediction generated: SKIP with 4.7% confidence
+2025-08-21 17:04:48,598 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:04:58,939 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:04:58,956 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:04:58,965 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:04:58,965 - engine - INFO - Collecting overnight data...
+2025-08-21 17:04:58,965 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:04:58,965 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:04:59,692 - fetchers - INFO - Created live snapshot: price=$163.45
+2025-08-21 17:04:59,692 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:04:59,692 - engine - INFO - Engineering features...
+2025-08-21 17:04:59,693 - features - INFO - Created 6 features successfully
+2025-08-21 17:04:59,693 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:04:59,695 - engine - INFO - Generating prediction...
+2025-08-21 17:04:59,696 - engine - INFO - Low confidence 0.089 < 0.7, setting direction to SKIP
+2025-08-21 17:04:59,696 - engine - INFO - Prediction generated: SKIP with 8.9% confidence
+2025-08-21 17:04:59,696 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:08:03,482 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:08:03,486 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:08:03,486 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:08:03,487 - engine - INFO - Collecting overnight data...
+2025-08-21 17:08:03,487 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:08:03,487 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:08:05,380 - fetchers - INFO - Created live snapshot: price=$163.37
+2025-08-21 17:08:05,380 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:08:05,380 - engine - INFO - Engineering features...
+2025-08-21 17:08:05,380 - features - INFO - Created 6 features successfully
+2025-08-21 17:08:05,381 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:08:05,383 - engine - INFO - Generating prediction...
+2025-08-21 17:08:05,383 - engine - INFO - Low confidence 0.341 < 0.7, setting direction to SKIP
+2025-08-21 17:08:05,384 - engine - INFO - Prediction generated: SKIP with 34.1% confidence
+2025-08-21 17:08:05,384 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:11:57,501 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:11:57,508 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:11:57,509 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:11:57,509 - engine - INFO - Collecting overnight data...
+2025-08-21 17:11:57,509 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:11:57,509 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:11:58,300 - fetchers - INFO - Created live snapshot: price=$163.05
+2025-08-21 17:11:58,300 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:11:58,300 - engine - INFO - Engineering features...
+2025-08-21 17:11:58,300 - features - INFO - Created 6 features successfully
+2025-08-21 17:11:58,301 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:11:58,302 - engine - INFO - Generating prediction...
+2025-08-21 17:11:58,303 - engine - INFO - Low confidence 0.163 < 0.7, setting direction to SKIP
+2025-08-21 17:11:58,303 - engine - INFO - Prediction generated: SKIP with 16.3% confidence
+2025-08-21 17:11:58,304 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:16:58,305 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:16:58,309 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:16:58,310 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:16:58,310 - engine - INFO - Collecting overnight data...
+2025-08-21 17:16:58,310 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:16:58,310 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:16:58,464 - fetchers - INFO - Created live snapshot: price=$162.96
+2025-08-21 17:16:58,464 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:16:58,464 - engine - INFO - Engineering features...
+2025-08-21 17:16:58,464 - features - INFO - Created 6 features successfully
+2025-08-21 17:16:58,465 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:16:58,466 - engine - INFO - Generating prediction...
+2025-08-21 17:16:58,466 - engine - INFO - Low confidence 0.037 < 0.7, setting direction to SKIP
+2025-08-21 17:16:58,467 - engine - INFO - Prediction generated: SKIP with 3.7% confidence
+2025-08-21 17:16:58,467 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:21:58,470 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:21:58,480 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:21:58,480 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:21:58,480 - engine - INFO - Collecting overnight data...
+2025-08-21 17:21:58,480 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:21:58,480 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:21:59,096 - fetchers - INFO - Created live snapshot: price=$162.97
+2025-08-21 17:21:59,096 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:21:59,097 - engine - INFO - Engineering features...
+2025-08-21 17:21:59,097 - features - INFO - Created 6 features successfully
+2025-08-21 17:21:59,098 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:21:59,099 - engine - INFO - Generating prediction...
+2025-08-21 17:21:59,100 - engine - INFO - Low confidence 0.043 < 0.7, setting direction to SKIP
+2025-08-21 17:21:59,100 - engine - INFO - Prediction generated: SKIP with 4.3% confidence
+2025-08-21 17:21:59,103 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:26:59,104 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:26:59,109 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:26:59,109 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:26:59,109 - engine - INFO - Collecting overnight data...
+2025-08-21 17:26:59,109 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:26:59,109 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:26:59,236 - fetchers - INFO - Created live snapshot: price=$163.04
+2025-08-21 17:26:59,236 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:26:59,236 - engine - INFO - Engineering features...
+2025-08-21 17:26:59,236 - features - INFO - Created 6 features successfully
+2025-08-21 17:26:59,237 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:26:59,238 - engine - INFO - Generating prediction...
+2025-08-21 17:26:59,239 - engine - INFO - Low confidence 0.030 < 0.7, setting direction to SKIP
+2025-08-21 17:26:59,239 - engine - INFO - Prediction generated: SKIP with 3.0% confidence
+2025-08-21 17:26:59,239 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:31:59,240 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:31:59,245 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:31:59,245 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:31:59,246 - engine - INFO - Collecting overnight data...
+2025-08-21 17:31:59,246 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:31:59,246 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:31:59,368 - fetchers - INFO - Created live snapshot: price=$163.48
+2025-08-21 17:31:59,369 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:31:59,369 - engine - INFO - Engineering features...
+2025-08-21 17:31:59,369 - features - INFO - Created 6 features successfully
+2025-08-21 17:31:59,370 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:31:59,371 - engine - INFO - Generating prediction...
+2025-08-21 17:31:59,372 - engine - INFO - Low confidence 0.162 < 0.7, setting direction to SKIP
+2025-08-21 17:31:59,372 - engine - INFO - Prediction generated: SKIP with 16.2% confidence
+2025-08-21 17:31:59,372 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:36:59,373 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:36:59,378 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:36:59,378 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:36:59,378 - engine - INFO - Collecting overnight data...
+2025-08-21 17:36:59,378 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:36:59,378 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:36:59,497 - fetchers - INFO - Created live snapshot: price=$163.58
+2025-08-21 17:36:59,497 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:36:59,498 - engine - INFO - Engineering features...
+2025-08-21 17:36:59,498 - features - INFO - Created 6 features successfully
+2025-08-21 17:36:59,498 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:36:59,500 - engine - INFO - Generating prediction...
+2025-08-21 17:36:59,500 - engine - INFO - Low confidence 0.123 < 0.7, setting direction to SKIP
+2025-08-21 17:36:59,500 - engine - INFO - Prediction generated: SKIP with 12.3% confidence
+2025-08-21 17:36:59,501 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:41:59,502 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:41:59,508 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:41:59,508 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:41:59,508 - engine - INFO - Collecting overnight data...
+2025-08-21 17:41:59,508 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:41:59,508 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:41:59,755 - fetchers - INFO - Created live snapshot: price=$163.82
+2025-08-21 17:41:59,755 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:41:59,756 - engine - INFO - Engineering features...
+2025-08-21 17:41:59,756 - features - INFO - Created 6 features successfully
+2025-08-21 17:41:59,757 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:41:59,758 - engine - INFO - Generating prediction...
+2025-08-21 17:41:59,759 - engine - INFO - Low confidence 0.077 < 0.7, setting direction to SKIP
+2025-08-21 17:41:59,759 - engine - INFO - Prediction generated: SKIP with 7.7% confidence
+2025-08-21 17:41:59,760 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:47:54,539 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:47:54,550 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:47:54,550 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:47:54,550 - engine - INFO - Collecting overnight data...
+2025-08-21 17:47:54,550 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:47:54,551 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:47:55,076 - fetchers - INFO - Created live snapshot: price=$163.75
+2025-08-21 17:47:55,076 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:47:55,076 - engine - INFO - Engineering features...
+2025-08-21 17:47:55,076 - features - INFO - Created 6 features successfully
+2025-08-21 17:47:55,077 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:47:55,078 - engine - INFO - Generating prediction...
+2025-08-21 17:47:55,078 - engine - INFO - Low confidence 0.018 < 0.7, setting direction to SKIP
+2025-08-21 17:47:55,078 - engine - INFO - Prediction generated: SKIP with 1.8% confidence
+2025-08-21 17:47:55,079 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:48:10,919 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:48:10,941 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:48:10,941 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:48:10,942 - engine - INFO - Collecting overnight data...
+2025-08-21 17:48:10,942 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:48:10,942 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:48:11,609 - fetchers - INFO - Created live snapshot: price=$163.79
+2025-08-21 17:48:11,609 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:48:11,609 - engine - INFO - Engineering features...
+2025-08-21 17:48:11,609 - features - INFO - Created 6 features successfully
+2025-08-21 17:48:11,610 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:48:11,611 - engine - INFO - Generating prediction...
+2025-08-21 17:48:11,611 - engine - INFO - Low confidence 0.283 < 0.7, setting direction to SKIP
+2025-08-21 17:48:11,611 - engine - INFO - Prediction generated: SKIP with 28.3% confidence
+2025-08-21 17:48:11,612 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:53:11,613 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:53:11,617 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:53:11,617 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:53:11,617 - engine - INFO - Collecting overnight data...
+2025-08-21 17:53:11,617 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:53:11,617 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:53:11,763 - fetchers - INFO - Created live snapshot: price=$163.53
+2025-08-21 17:53:11,763 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:53:11,763 - engine - INFO - Engineering features...
+2025-08-21 17:53:11,763 - features - INFO - Created 6 features successfully
+2025-08-21 17:53:11,764 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:53:11,765 - engine - INFO - Generating prediction...
+2025-08-21 17:53:11,765 - engine - INFO - Low confidence 0.043 < 0.7, setting direction to SKIP
+2025-08-21 17:53:11,765 - engine - INFO - Prediction generated: SKIP with 4.3% confidence
+2025-08-21 17:53:11,766 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 17:58:11,766 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 17:58:11,770 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 17:58:11,770 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 17:58:11,770 - engine - INFO - Collecting overnight data...
+2025-08-21 17:58:11,770 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 17:58:11,771 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 17:58:11,881 - fetchers - INFO - Created live snapshot: price=$163.69
+2025-08-21 17:58:11,881 - fetchers - INFO - Data collection completed successfully
+2025-08-21 17:58:11,881 - engine - INFO - Engineering features...
+2025-08-21 17:58:11,881 - features - INFO - Created 6 features successfully
+2025-08-21 17:58:11,882 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 17:58:11,883 - engine - INFO - Generating prediction...
+2025-08-21 17:58:11,884 - engine - INFO - Low confidence 0.030 < 0.7, setting direction to SKIP
+2025-08-21 17:58:11,884 - engine - INFO - Prediction generated: SKIP with 3.0% confidence
+2025-08-21 17:58:11,884 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 18:03:11,885 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 18:03:11,889 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 18:03:11,889 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 18:03:11,889 - engine - INFO - Collecting overnight data...
+2025-08-21 18:03:11,889 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 18:03:11,889 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 18:03:12,718 - fetchers - INFO - Created live snapshot: price=$163.71
+2025-08-21 18:03:12,718 - fetchers - INFO - Data collection completed successfully
+2025-08-21 18:03:12,718 - engine - INFO - Engineering features...
+2025-08-21 18:03:12,718 - features - INFO - Created 6 features successfully
+2025-08-21 18:03:12,719 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 18:03:12,720 - engine - INFO - Generating prediction...
+2025-08-21 18:03:12,720 - engine - INFO - Low confidence 0.173 < 0.7, setting direction to SKIP
+2025-08-21 18:03:12,720 - engine - INFO - Prediction generated: SKIP with 17.3% confidence
+2025-08-21 18:03:12,721 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 18:08:12,721 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 18:08:12,726 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 18:08:12,726 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 18:08:12,726 - engine - INFO - Collecting overnight data...
+2025-08-21 18:08:12,726 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 18:08:12,727 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 18:08:12,875 - fetchers - INFO - Created live snapshot: price=$163.61
+2025-08-21 18:08:12,876 - fetchers - INFO - Data collection completed successfully
+2025-08-21 18:08:12,876 - engine - INFO - Engineering features...
+2025-08-21 18:08:12,876 - features - INFO - Created 6 features successfully
+2025-08-21 18:08:12,876 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 18:08:12,877 - engine - INFO - Generating prediction...
+2025-08-21 18:08:12,878 - engine - INFO - Low confidence 0.080 < 0.7, setting direction to SKIP
+2025-08-21 18:08:12,878 - engine - INFO - Prediction generated: SKIP with 8.0% confidence
+2025-08-21 18:08:12,879 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 18:11:37,885 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 18:11:37,889 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 18:11:37,889 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 18:11:37,889 - engine - INFO - Collecting overnight data...
+2025-08-21 18:11:37,889 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 18:11:37,890 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 18:11:39,140 - fetchers - INFO - Created live snapshot: price=$163.54
+2025-08-21 18:11:39,140 - fetchers - INFO - Data collection completed successfully
+2025-08-21 18:11:39,140 - engine - INFO - Engineering features...
+2025-08-21 18:11:39,140 - features - INFO - Created 6 features successfully
+2025-08-21 18:11:39,141 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 18:11:39,143 - engine - INFO - Generating prediction...
+2025-08-21 18:11:39,143 - engine - INFO - Low confidence 0.102 < 0.7, setting direction to SKIP
+2025-08-21 18:11:39,144 - engine - INFO - Prediction generated: SKIP with 10.2% confidence
+2025-08-21 18:11:39,144 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 18:14:18,009 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 18:14:18,043 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 18:14:18,043 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 18:14:18,043 - engine - INFO - Collecting overnight data...
+2025-08-21 18:14:18,044 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 18:14:18,044 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 18:14:18,881 - fetchers - INFO - Created live snapshot: price=$163.74
+2025-08-21 18:14:18,881 - fetchers - INFO - Data collection completed successfully
+2025-08-21 18:14:18,881 - engine - INFO - Engineering features...
+2025-08-21 18:14:18,882 - features - INFO - Created 6 features successfully
+2025-08-21 18:14:18,882 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 18:14:18,883 - engine - INFO - Generating prediction...
+2025-08-21 18:14:18,884 - engine - INFO - Low confidence 0.010 < 0.7, setting direction to SKIP
+2025-08-21 18:14:18,884 - engine - INFO - Prediction generated: SKIP with 1.0% confidence
+2025-08-21 18:14:18,885 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json
+2025-08-21 18:18:02,409 - engine - INFO - Starting prediction (dry_run=False, auto_fit=False)...
+2025-08-21 18:18:02,417 - model_training - INFO - GradientBoosting model loaded from ./models/gradient_boosting_model.joblib
+2025-08-21 18:18:02,417 - model_training - INFO - Ensemble loading: GradientBoosting=True, LSTM=False
+2025-08-21 18:18:02,417 - engine - INFO - Collecting overnight data...
+2025-08-21 18:18:02,417 - fetchers - INFO - Starting data collection for AMD
+2025-08-21 18:18:02,417 - fetchers - INFO - Creating snapshot from live market data
+2025-08-21 18:18:03,278 - fetchers - INFO - Created live snapshot: price=$163.95
+2025-08-21 18:18:03,281 - fetchers - INFO - Data collection completed successfully
+2025-08-21 18:18:03,281 - engine - INFO - Engineering features...
+2025-08-21 18:18:03,281 - features - INFO - Created 6 features successfully
+2025-08-21 18:18:03,281 - features - INFO - Loaded scaler from ./models/feature_scaler.joblib
+2025-08-21 18:18:03,283 - engine - INFO - Generating prediction...
+2025-08-21 18:18:03,283 - engine - INFO - Low confidence 0.063 < 0.7, setting direction to SKIP
+2025-08-21 18:18:03,284 - engine - INFO - Prediction generated: SKIP with 6.3% confidence
+2025-08-21 18:18:03,285 - engine - INFO - Prediction saved to ./data/predictions/after_close/latest.json

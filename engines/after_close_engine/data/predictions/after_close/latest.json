@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T18:18:03.284104",
+  "symbol": "AMD",
+  "direction": "SKIP",
+  "expected_open": 168.13,
+  "confidence": 0.063,
+  "prediction_value": 0.1253,
+  "current_price": 168.0,
+  "features": {
+    "overnight_futures_pct": -0.1867,
+    "net_options_flow": -3.1158,
+    "news_sentiment_score": -1.0372,
+    "global_index_impact_score": 3.0385,
+    "prior_close_return": -0.0812,
+    "intraday_volatility": -3.3902
+  },
+  "model_predictions": {
+    "lightgbm": 0.1253,
+    "lstm": 0.0
+  },
+  "model_version": "v1.0",
+  "confidence_threshold": 0.7
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-11-21T15:58:47.760720-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 72.864,
+      "target_price": 198.3384,
+      "expected_move_percent": null,
+      "current_price": 203.75,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.371)\n   Multiple factors supporting downward movement:\n\n      \u274c Options: -0.110\n      \u274c Technical: -0.097\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.030\n      \u2022 Futures: +0.014",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "NEUTRAL",
+      "confidence": 46.5,
+      "target_price": 339.96,
+      "expected_move_percent": null,
+      "current_price": 339.96,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.036) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 News: +0.073\n      \u2022 Institutional: +0.028\n        \u2192 Volume surge on down days, Dip buying detected\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.130\n        \u2192 Downtrend, MACD bearish, momentum -0.72%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "DOWN",
+      "confidence": 54.89902881414602,
+      "target_price": 195.51009847145,
+      "expected_move_percent": null,
+      "current_price": 198.59,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.048)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.124\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.065\n      \u2022 Futures: +0.015",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 67.10062510888365,
+      "target_price": 173.9504571437873,
+      "expected_move_percent": null,
+      "current_price": 178.89999389648438,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.218)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.146\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: +0.013\n      \u2022 Options: +0.110\n      \u2022 Institutional: +0.020",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "direction": "HOLD",
+  "confidence": 15.030257689424769,
+  "reason": "Insufficient strength: 0.5 weighted (max 0.5), 15.0%",
+  "signals": {
+    "OPS": {
+      "direction": "NEUTRAL",
+      "score": 0.0,
+      "boost": 0.0,
+      "reason": "NEUTRAL: Insufficient signals - momentum -0.04%, vol 0.4x"
+    },
+    "DPFS": {
+      "direction": "NEUTRAL",
+      "score": 0.0,
+      "boost": 0.0,
+      "reason": "Weak flow: VWAP 0.00%, $25M, 60 blocks"
+    },
+    "OBIS": {
+      "direction": "NEUTRAL",
+      "score": 0.0,
+      "boost": 0.0,
+      "reason": ""
+    },
+    "VRSP": {
+      "direction": "DOWN",
+      "score": 10.018908821243475,
+      "boost": 0.0,
+      "reason": "Sector DOWN: NVDA -0.08%, QQQ -0.03%, SOXX -0.03%, weighted 0.3"
+    }
+  },
+  "votes": {
+    "up": 0,
+    "down": 1,
+    "weighted_up": 0,
+    "weighted_down": 0.5009454410621738
+  },
+  "target_profit": 0.0,
+  "stop_loss": 0.0,
+  "timestamp": "2025-08-21T18:41:36.338441",
+  "symbol": "AMD"
+}

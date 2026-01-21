@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-10-27T12:00:05.996023-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "UP",
+      "confidence": 94.0301285991694,
+      "current_price": 254.565,
+      "target_price": 261.3262464,
+      "expected_change": 6.7612464000000045,
+      "expected_move_pct": 2.656000000000002,
+      "total_score": 0.3518914365978271,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.352)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.150\n      \u2705 Options: +0.110\n      \u2705 News: +0.046",
+      "filtered": false,
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 94.07603480009521,
+      "current_price": 359.242,
+      "target_price": 367.31776016000003,
+      "expected_change": 8.075760160000016,
+      "expected_move_pct": 2.248000000000004,
+      "total_score": 0.37864468750777697,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.379)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.130\n      \u2705 Options: +0.110\n      \u2705 News: +0.056",
+      "filtered": false,
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "DOWN",
+      "confidence": 57.87239289770975,
+      "current_price": 282.4999,
+      "target_price": 278.30731898410005,
+      "expected_change": -4.192581015899975,
+      "expected_move_pct": -1.484099999999991,
+      "total_score": -0.07442127020186444,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.074)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.053\n      \u2022 Options: +0.110",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "ORCL"
+    }
+  }
+}

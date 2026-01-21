@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-01T10:42:03.326365-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 78.6007358226212,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 217.85,
+      "target_price": 212.215065758,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.272)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056\n      \u2022 Options: +0.110"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "DOWN",
+      "confidence": 49.9246171875,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.25,
+      "current_price": 391.61,
+      "target_price": 384.88530832490005,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.082)\n   Multiple factors supporting downward movement:\n\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.077\n      \u2022 Technical: +0.090"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "DOWN",
+      "confidence": 50.91296460854873,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 201.865,
+      "target_price": 198.26994584200003,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.092)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.140\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.098\n      \u2022 Options: +0.110"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "DOWN",
+      "confidence": 73.15190841846663,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 179.71,
+      "target_price": 175.19004837556002,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.220)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.152\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.070\n      \u2022 Options: +0.110"
+    }
+  }
+}

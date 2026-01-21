@@ -1,0 +1,457 @@
+{
+  "2025-08-18": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-19"
+  },
+  "2025-08-19": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-20"
+  },
+  "2025-08-20": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-21"
+  },
+  "2025-08-21": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-22"
+  },
+  "2025-08-22": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-25"
+  },
+  "2025-08-25": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-26"
+  },
+  "2025-08-26": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-27"
+  },
+  "2025-08-27": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-28"
+  },
+  "2025-08-28": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-08-29"
+  },
+  "2025-08-29": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-01"
+  },
+  "2025-09-01": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-02"
+  },
+  "2025-09-02": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-03"
+  },
+  "2025-09-03": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-04"
+  },
+  "2025-09-04": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-05"
+  },
+  "2025-09-05": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-08"
+  },
+  "2025-09-08": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-09"
+  },
+  "2025-09-09": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-10"
+  },
+  "2025-09-10": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-11"
+  },
+  "2025-09-11": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-12"
+  },
+  "2025-09-12": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-15"
+  },
+  "2025-09-15": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-16"
+  },
+  "2025-09-16": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-16 10:50:56",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-17"
+  },
+  "2025-09-17": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-17 00:14:08",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-18"
+  },
+  "2025-09-18": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-18 03:39:05",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-19"
+  },
+  "2025-09-19": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-19 06:23:19",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-22"
+  },
+  "2025-09-22": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-26 06:01:09",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-23"
+  },
+  "2025-09-23": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-26 06:01:09",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-24"
+  },
+  "2025-09-24": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-26 06:01:09",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-25"
+  },
+  "2025-09-25": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-26 06:01:09",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-26"
+  },
+  "2025-09-26": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-09-26 06:01:09",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-29"
+  },
+  "2025-09-29": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-01 16:39:19",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-09-30"
+  },
+  "2025-09-30": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-01 16:39:19",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-01"
+  },
+  "2025-10-01": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-01 16:39:19",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-02"
+  },
+  "2025-10-02": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-02 17:51:57",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-03"
+  },
+  "2025-10-03": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-03 00:01:38",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-06"
+  },
+  "2025-10-06": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-06 14:20:29",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-07"
+  },
+  "2025-10-07": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-07 00:46:12",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-08"
+  },
+  "2025-10-08": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-08 14:03:47",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-09"
+  },
+  "2025-10-09": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-09 05:01:34",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-10"
+  },
+  "2025-10-10": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-10 04:58:34",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-13"
+  },
+  "2025-10-13": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-13 10:40:24",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-14"
+  },
+  "2025-10-14": {
+    "scheduled": true,
+    "prediction_generated": true,
+    "prediction_time": "2025-10-14 16:01:52",
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-15"
+  },
+  "2025-10-15": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-16"
+  },
+  "2025-10-16": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-17"
+  },
+  "2025-10-17": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-20"
+  },
+  "2025-10-20": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-21"
+  },
+  "2025-10-21": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-22"
+  },
+  "2025-10-22": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-23"
+  },
+  "2025-10-23": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-24"
+  },
+  "2025-10-24": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-27"
+  },
+  "2025-10-27": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-28"
+  },
+  "2025-10-28": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-29"
+  },
+  "2025-10-29": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-30"
+  },
+  "2025-10-30": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-10-31"
+  },
+  "2025-10-31": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-03"
+  },
+  "2025-11-03": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-04"
+  },
+  "2025-11-04": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-05"
+  },
+  "2025-11-05": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-06"
+  },
+  "2025-11-06": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-07"
+  },
+  "2025-11-07": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-10"
+  },
+  "2025-11-10": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-11"
+  },
+  "2025-11-11": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-12"
+  },
+  "2025-11-12": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-13"
+  },
+  "2025-11-13": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-14"
+  },
+  "2025-11-14": {
+    "scheduled": true,
+    "prediction_generated": false,
+    "prediction_time": null,
+    "market_close_time": "16:00:00",
+    "next_trading_day": "2025-11-17"
+  }
+}

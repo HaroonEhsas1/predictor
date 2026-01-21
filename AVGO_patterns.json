@@ -1,0 +1,28 @@
+{
+  "gaps": {
+    "follow_through_rate": 0.43478260869565216,
+    "reversal_rate": 0.5652173913043479,
+    "avg_gap_size": 1.8865337658935943,
+    "total_gaps": 46
+  },
+  "intraday": {
+    "morning_strength_rate": 0.47058823529411764,
+    "morning_fade_rate": 0.0,
+    "afternoon_recovery_rate": 0.09803921568627451,
+    "all_day_weak_rate": 0.43137254901960786
+  },
+  "volume": {
+    "avg_volume": 21379540.0,
+    "high_volume_bullish_rate": 0.6666666666666666,
+    "high_volume_days": 6
+  },
+  "momentum": {
+    "continuation_rate": 0.45454545454545453,
+    "reversal_rate": 0.5454545454545454
+  },
+  "traps": {
+    "trap_rate": 0.5652173913043478,
+    "clean_rate": 0.4347826086956522,
+    "total_traps": 26
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-04T09:28:06.674745-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 65.04204412863425,
+      "target_price": 213.17872213950196,
+      "expected_move_percent": null,
+      "current_price": 217.60000610351562,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.141)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.145\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 83.10884133128174,
+      "target_price": 389.16609782226567,
+      "expected_move_percent": null,
+      "current_price": 380.6099853515625,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.258)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.130\n      \u2705 Options: +0.110\n      \u2705 News: +0.077",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "UP",
+      "confidence": 83.76166474871343,
+      "target_price": 212.81522602294922,
+      "expected_move_percent": null,
+      "current_price": 207.72999572753906,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.264)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.042\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.084",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "NEUTRAL",
+      "confidence": 41.225,
+      "target_price": 179.58999633789062,
+      "expected_move_percent": null,
+      "current_price": 179.58999633789062,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.012) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.47 shows heavy call buying\n      \u2022 News: +0.062\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.108\n        \u2192 Downtrend, MACD bearish, momentum +1.00%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

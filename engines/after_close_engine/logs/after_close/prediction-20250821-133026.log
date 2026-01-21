@@ -1,0 +1,31 @@
+After Close Engine Prediction
+Generated: 2025-08-21T13:30:26.050716
+Symbol: AMD
+Direction: SKIP
+Expected Open: $168.17
+Confidence: 8.7%
+
+Full Prediction JSON:
+{
+  "timestamp": "2025-08-21T13:30:26.050716",
+  "symbol": "AMD",
+  "direction": "SKIP",
+  "expected_open": 168.17,
+  "confidence": 0.087,
+  "prediction_value": 0.1745,
+  "current_price": 168.0,
+  "features": {
+    "overnight_futures_pct": 1.7801,
+    "net_options_flow": -2.8731,
+    "news_sentiment_score": -0.9644,
+    "global_index_impact_score": 0.0726,
+    "prior_close_return": -0.0913,
+    "intraday_volatility": -3.3847
+  },
+  "model_predictions": {
+    "lightgbm": 0.1745,
+    "lstm": 0.0
+  },
+  "model_version": "v1.0",
+  "confidence_threshold": 0.7
+}

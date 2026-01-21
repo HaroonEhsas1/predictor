@@ -1,0 +1,77 @@
+{
+  "normal_behavior": {
+    "avg_daily_move": 2.0267967821461745,
+    "median_daily_move": 1.45564601601742,
+    "std_daily_move": 2.941316189350971,
+    "normal_range": {
+      "min": -0.8377098468803579,
+      "max": 1.8053103560812245
+    },
+    "typical_up_day": 2.131267431157724,
+    "typical_down_day": -1.9004001944531896,
+    "avg_volume": 216804701.19444445,
+    "normal_volume_range": {
+      "min": 156553550.0,
+      "max": 247851925.0
+    },
+    "avg_intraday_range": 3.287627854215884,
+    "normal_intraday_range": {
+      "min": 1.9779017727012418,
+      "max": 3.900537608676206
+    }
+  },
+  "capacity": {
+    "max_up_move": 18.72273416115149,
+    "max_down_move": -8.693564573326684,
+    "p95_up_move": 4.177731992651798,
+    "p95_down_move": -4.550129393014235,
+    "p99_up_move": 5.932809550664349,
+    "p99_down_move": -7.456342900632986,
+    "typical_max_up": 4.077796438879437,
+    "typical_max_down": -4.886536482426518,
+    "max_overnight_gap_up": 6.319137172674429,
+    "max_overnight_gap_down": -7.263287171073328,
+    "p95_gap_up": 3.4448107304044115,
+    "p95_gap_down": -2.695947831869483
+  },
+  "pump_patterns": {
+    "total_pumps": 15,
+    "avg_pump_size": 8.122471086837402,
+    "max_pump_size": 16.022285999296816,
+    "pump_volume_ratio": 1.2014989241707827,
+    "pump_rsi_avg": 66.56244949673383,
+    "high_volume_pump_rate": 0.26666666666666666,
+    "low_rsi_pump_rate": 0.0,
+    "pump_triggers": {
+      "high_volume": false,
+      "oversold_bounce": false
+    }
+  },
+  "dump_patterns": {
+    "total_dumps": 6,
+    "avg_dump_size": 8.55407546918639,
+    "max_dump_size": 13.627446099909497,
+    "dump_volume_ratio": 0.9458801713284991,
+    "dump_rsi_avg": 42.96888763269945,
+    "high_volume_dump_rate": 0.0,
+    "high_rsi_dump_rate": 0.0,
+    "dump_triggers": {
+      "high_volume": false,
+      "overbought_reversal": false
+    }
+  },
+  "abnormal_signals": {
+    "abnormal_up_threshold": 6.189513901063665,
+    "abnormal_down_threshold": -5.575750856340217,
+    "abnormal_volume_threshold": 390531424.52020156,
+    "abnormal_low_volume_threshold": 43077977.86868736,
+    "abnormal_up_frequency": 0.0111731843575419,
+    "abnormal_down_frequency": 0.03910614525139665,
+    "abnormal_volume_frequency": 0.05
+  },
+  "volatility_regimes": {
+    "low_volatility_threshold": 1.7447210322760305,
+    "high_volatility_threshold": 2.403116275749131,
+    "current_regime": "high"
+  }
+}

@@ -1,0 +1,32 @@
+modules = ["python-3.11", "postgresql-16", "python3"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "ocl-icd", "opencl-headers", "pkg-config", "postgresql", "qhull", "tcl", "tk"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Ultra Accurate Gap Predictor"
+
+[[workflows.workflow]]
+name = "Ultra Accurate Gap Predictor"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python ultra_accurate_gap_predictor.py"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[agent]
+expertMode = true
+integrations = ["python_database:1.0.0", "twilio_send_message:1.0.0"]

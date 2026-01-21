@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-02T09:01:43.726971-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 51.3221339693106,
+      "target_price": 216.0444903037094,
+      "expected_move_percent": null,
+      "current_price": 219.75999450683594,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.097)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056\n      \u2022 Options: +0.110",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "NEUTRAL",
+      "confidence": 45.0,
+      "target_price": 386.0799865722656,
+      "expected_move_percent": null,
+      "current_price": 386.0799865722656,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.008) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.73 shows heavy call buying\n      \u2022 Technical: +0.090\n        \u2192 Uptrend with RSI 60.1\n      \u2022 News: +0.069\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "NEUTRAL",
+      "confidence": 38.25,
+      "target_price": 200.94000244140625,
+      "expected_move_percent": null,
+      "current_price": 200.94000244140625,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.015) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.54 shows heavy call buying\n      \u2022 News: +0.098\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.139\n        \u2192 Downtrend, MACD bearish, momentum +1.10%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 49.30265888142005,
+      "target_price": 176.33382466904197,
+      "expected_move_percent": null,
+      "current_price": 179.9199981689453,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.076)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.152\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.070\n      \u2022 Options: +0.110",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

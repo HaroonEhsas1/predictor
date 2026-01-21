@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-11-18T09:18:30.111489-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 80.87923251382837,
+      "target_price": 234.13179295898436,
+      "expected_move_percent": null,
+      "current_price": 240.52000427246094,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.288)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "DOWN",
+      "confidence": 50.44589256240457,
+      "target_price": 337.5132079104843,
+      "expected_move_percent": null,
+      "current_price": 342.6499938964844,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.071)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.090\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "DOWN",
+      "confidence": 55.54122770033737,
+      "target_price": 216.1630870195086,
+      "expected_move_percent": null,
+      "current_price": 219.86000061035156,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.057)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.076\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110\n      \u2022 Institutional: +0.050",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 70.73150772373234,
+      "target_price": 180.64373390869142,
+      "expected_move_percent": null,
+      "current_price": 186.60000610351562,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.178)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.108\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

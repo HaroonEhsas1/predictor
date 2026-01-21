@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-22T15:08:29.070744-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 38.451190036125986,
+      "current_price": 228.8,
+      "target_price": 224.2464059264,
+      "expected_change": -4.55359407360001,
+      "expected_move_pct": -1.9902072000000042,
+      "total_score": -0.1499161910745505,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.150)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.017\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.037\n      \u2022 Technical: +0.098",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 32.05493101158863,
+      "current_price": 339.785,
+      "target_price": 344.4157598725,
+      "expected_change": 4.630759872499993,
+      "expected_move_pct": 1.362849999999998,
+      "total_score": 0.048456091605160095,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.048)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.051\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.017\n      \u2022 Technical: -0.078",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 35.401765230833135,
+      "current_price": 274.0375,
+      "target_price": 278.10449053750006,
+      "expected_change": 4.066990537500033,
+      "expected_move_pct": 1.4841000000000117,
+      "total_score": 0.09945547018412405,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.099)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.075\n      \u2705 Institutional: +0.032\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.017\n      \u2022 Technical: -0.078",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "ORCL"
+    }
+  }
+}

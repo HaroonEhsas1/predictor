@@ -1,0 +1,67 @@
+{
+  "symbol": "PLTR",
+  "name": "Palantir Technologies",
+  "sector": "AI / Government Software / Defense Tech",
+  "days_analyzed": 90,
+  "patterns": {
+    "gaps": {
+      "follow_through_rate": 0.425,
+      "avg_gap_size": 4.8,
+      "gap_up_wins": 0.402,
+      "gap_down_wins": 0.448
+    },
+    "traps": {
+      "trap_rate": 0.575,
+      "weak_volume_traps": 0.28,
+      "retail_hype_traps": 0.19,
+      "fake_breakouts": 0.11
+    },
+    "momentum": {
+      "continuation_rate": 0.395,
+      "reversal_rate": 0.605,
+      "avg_intraday_fade": 0.068
+    },
+    "volume": {
+      "avg_volume": 45000000,
+      "high_volume_threshold": 70000000,
+      "low_volume_threshold": 25000000
+    },
+    "unique_characteristics": {
+      "government_contract_driven": true,
+      "meme_stock_tendencies": true,
+      "extreme_volatility": true,
+      "retail_favorite": true,
+      "defense_sector_correlation": 0.62,
+      "ai_hype_sensitive": true,
+      "cathie_wood_effect": "HIGH"
+    }
+  },
+  "catalysts": {
+    "primary": [
+      "government_contracts",
+      "defense_spending_news",
+      "ai_platform_adoption",
+      "commercial_revenue_growth"
+    ],
+    "secondary": [
+      "partnership_announcements",
+      "demo_day_events",
+      "insider_buying",
+      "options_activity"
+    ],
+    "negative": [
+      "dilution_concerns",
+      "government_budget_cuts",
+      "competition",
+      "high_valuation"
+    ]
+  },
+  "trading_notes": {
+    "best_conditions": "Government contract news + defense sector strength",
+    "avoid_conditions": "Excessive retail hype + no catalyst",
+    "key_metric": "Government vs Commercial revenue split",
+    "institutional_moderate": true,
+    "retail_interest": "VERY_HIGH",
+    "meme_status": "ACTIVE"
+  }
+}

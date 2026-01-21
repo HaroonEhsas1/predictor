@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-08-18T17:41:55.199933",
+  "source_results": {
+    "yahoo_finance": {
+      "status": "strong",
+      "description": "251 1-min bars, 5 daily bars available",
+      "data_points": 256,
+      "current_price": 175.5373992919922,
+      "volume_available": true
+    },
+    "polygon_io": {
+      "status": "moderate",
+      "description": "Available as backup source (API key dependent)",
+      "data_points": "Unknown",
+      "features": [
+        "Real-time quotes",
+        "Options data",
+        "News sentiment"
+      ],
+      "requires_api_key": true
+    },
+    "eodhd": {
+      "status": "moderate",
+      "description": "Available as backup source (API key dependent)",
+      "data_points": "Unknown",
+      "features": [
+        "End-of-day data",
+        "Fundamental data",
+        "Economic indicators"
+      ],
+      "requires_api_key": true
+    }
+  },
+  "current_data": {
+    "current_price": 0.0,
+    "volume": 0,
+    "data_age": "Data unavailable",
+    "technical_indicators": 0,
+    "ohlcv_complete": false
+  },
+  "historical_data": {
+    "daily_points": 126,
+    "intraday_points": 1809,
+    "quality_score": 100,
+    "completeness": 0.9888461538461539,
+    "has_volume": true,
+    "date_range": "2025-02-18 to 2025-08-18"
+  },
+  "feature_data": {
+    "technical_count": 138,
+    "correlation_count": 8,
+    "volume_features": [
+      "Volume ratio",
+      "VWAP",
+      "Volume surge detection"
+    ],
+    "time_features": [
+      "Market hours",
+      "Time until close",
+      "Day of week effects"
+    ],
+    "momentum_features": [
+      "15min, 30min, 1h momentum",
+      "Acceleration detection"
+    ],
+    "volatility_features": [
+      "ATR",
+      "Bollinger Bands",
+      "Volatility regime detection"
+    ],
+    "sentiment_features": [
+      "News sentiment",
+      "Options flow (when available)"
+    ]
+  },
+  "external_data": {
+    "sector_status": "\u2705 Available",
+    "vix_status": "\u2705 Available",
+    "indices_count": 6,
+    "cross_asset_signals": [
+      "Sector correlation",
+      "Volatility regime",
+      "Market sentiment"
+    ],
+    "futures_data": "Available (ES, NQ, YM, RTY)",
+    "global_indices": "Available (Nikkei, DAX, FTSE)"
+  },
+  "overall_score": {
+    "score": 76,
+    "quality_level": "VERY GOOD",
+    "reliability": "HIGH",
+    "recommendation": "Data quality is strong and suitable for most trading strategies"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-11-20T09:21:29.841061-05:00",
+  "market_context": {
+    "vix": 19.690000534057617,
+    "regime": "NORMAL",
+    "sentiment": "BALANCED",
+    "spy_change": 0.3863149507556951,
+    "nasdaq_change": 0.5970045065769591
+  },
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "NEUTRAL",
+      "confidence": 0.5,
+      "reason": "AMD gap 0.6% below dynamic threshold 1.2%",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": 231.7,
+      "target": null,
+      "stop": null,
+      "warning": "",
+      "prediction_data": {
+        "gap_pct": 0.006122744170282979,
+        "volume": 48902190,
+        "min_volume": 10390593.24,
+        "volume_ratio": 0.8471503018820896,
+        "nasdaq_pct": 0.005970045065769591,
+        "spy_pct": 0.003863149507556951,
+        "vix": 19.690000534057617,
+        "market_regime": "NORMAL",
+        "market_sentiment": "BALANCED",
+        "earnings_days_away": 999,
+        "social_sentiment": 0.0,
+        "trap_signals": true,
+        "indicator_bias": -0.14,
+        "trend_strength": -0.4830344805198683,
+        "sector_alignment": -0.06,
+        "ma_distance": 0.5154529991995396,
+        "gov_contract_news": false,
+        "ai_news": false,
+        "ma_news": false,
+        "cloud_news": false
+      }
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "UP",
+      "confidence": 0.5966252719180158,
+      "reason": "NVDA gap 0.1% - CONFIRMED despite 50% follow-through",
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "entry": 196.075,
+      "target": 199.01612499999996,
+      "stop": 194.11425,
+      "warning": "\u26a0\ufe0f NVDA has 48% trap rate - require strong confirmation!",
+      "prediction_data": {
+        "gap_pct": 0.0811369615137095,
+        "volume": 200902639,
+        "min_volume": 33494837.759999998,
+        "volume_ratio": 1.079643235746188,
+        "nasdaq_pct": 0.005970045065769591,
+        "spy_pct": 0.003863149507556951,
+        "vix": 19.690000534057617,
+        "market_regime": "NORMAL",
+        "market_sentiment": "BALANCED",
+        "earnings_days_away": 999,
+        "social_sentiment": 0.0,
+        "trap_signals": true,
+        "indicator_bias": -0.020000000000000004,
+        "trend_strength": 0.4365054383603118,
+        "sector_alignment": 0.06,
+        "ma_distance": 0.22568972086117664,
+        "gov_contract_news": false,
+        "ai_news": false,
+        "ma_news": false,
+        "cloud_news": false
+      }
+    }
+  }
+}

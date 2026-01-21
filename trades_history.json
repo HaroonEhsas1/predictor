@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2025-10-20",
+    "symbol": "AMD",
+    "direction": "LONG",
+    "entry": 233.08,
+    "exit": 238.6,
+    "profit_loss": 5.52,
+    "profit_pct": 2.3682855671872316,
+    "target_hit": true,
+    "confidence": 84.3,
+    "win": true
+  },
+  {
+    "date": "2025-10-20",
+    "symbol": "AVGO",
+    "direction": "LONG",
+    "entry": 349.33,
+    "exit": 356.34,
+    "profit_loss": 7.01,
+    "profit_pct": 2.0066985371997825,
+    "target_hit": true,
+    "confidence": 83.3,
+    "win": true
+  },
+  {
+    "date": "2025-10-20",
+    "symbol": "ORCL",
+    "direction": "SHORT",
+    "entry": 291.31,
+    "exit": 285.27,
+    "profit_loss": 6.04,
+    "profit_pct": -2.073392605815111,
+    "target_hit": true,
+    "confidence": 79.7,
+    "win": true
+  },
+  {
+    "date": "2025-10-20",
+    "symbol": "AMD",
+    "direction": "LONG",
+    "entry": 233.08,
+    "exit": 238.6,
+    "profit_loss": 5.52,
+    "profit_pct": 2.3682855671872316,
+    "target_hit": true,
+    "confidence": 84.3,
+    "win": true
+  },
+  {
+    "date": "2025-10-20",
+    "symbol": "AVGO",
+    "direction": "LONG",
+    "entry": 349.33,
+    "exit": 356.34,
+    "profit_loss": 7.01,
+    "profit_pct": 2.0066985371997825,
+    "target_hit": true,
+    "confidence": 83.3,
+    "win": true
+  },
+  {
+    "date": "2025-10-20",
+    "symbol": "ORCL",
+    "direction": "SHORT",
+    "entry": 291.31,
+    "exit": 285.27,
+    "profit_loss": 6.04,
+    "profit_pct": -2.073392605815111,
+    "target_hit": true,
+    "confidence": 79.7,
+    "win": true
+  }
+]

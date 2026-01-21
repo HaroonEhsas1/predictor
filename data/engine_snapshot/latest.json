@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-19T16:59:00Z",
+  "symbol": "AMD",
+  "current_price": 168.00,
+  "prior_close": 170.00,
+  "prior_close_return": -0.0118,
+  "intraday_volatility": 0.025,
+  "volume_profile": "normal",
+  "technical_signals": {
+    "rsi": 45.2,
+    "macd": -0.15,
+    "bollinger_position": "middle"
+  },
+  "market_context": {
+    "sector_performance": 0.008,
+    "market_regime": "neutral",
+    "volatility_environment": "normal"
+  },
+  "data_quality": "high",
+  "last_update": "2025-08-19T16:59:00Z"
+}

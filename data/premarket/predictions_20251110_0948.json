@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-10T09:48:44.998478-05:00",
+  "market_context": {
+    "vix": 18.010000228881836,
+    "regime": "NORMAL",
+    "sentiment": "BALANCED",
+    "spy_change": 1.1282184978093746,
+    "nasdaq_change": 1.792566151283581
+  },
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "UP",
+      "confidence": 56.89999999999999,
+      "recommendation": "\ud83d\udfe1 CAUTIOUS",
+      "position_size": 50,
+      "current_price": 244.13,
+      "gap_pct": 4.5345581135186235,
+      "target_price": 247.79194999999999,
+      "stop_price": 241.68869999999998,
+      "reason": "AMD gap 4.5% - 57% follow-through rate",
+      "warning": "\u26a0\ufe0f AMD reverses intraday 45.5% - EXIT AT 9:35 AM!"
+    }
+  }
+}

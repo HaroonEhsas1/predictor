@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-17T19:45:36.492768",
+  "metrics": {
+    "test_metric": 123,
+    "timestamp": "2025-08-17T19:45:36.491590"
+  },
+  "enhancer_stats": {
+    "signal_conflicts": 1,
+    "api_failures": 1
+  }
+}

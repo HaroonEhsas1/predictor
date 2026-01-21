@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-16T09:21:28.168783-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 81.84,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 207.5800018310547,
+      "target_price": 202.06667698242188,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.401)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.041"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "DOWN",
+      "confidence": 64.13074196258941,
+      "recommendation": "TRADE",
+      "position_size": 0.75,
+      "current_price": 339.80999755859375,
+      "target_price": 335.85040658686694,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.133)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.130\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Options: +0.110\n      \u2022 Institutional: +0.028"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "DOWN",
+      "confidence": 62.12302591733469,
+      "recommendation": "TRADE",
+      "position_size": 0.75,
+      "current_price": 184.9199981689453,
+      "target_price": 182.03838059147873,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.113)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.084\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.037\n      \u2022 Institutional: +0.036"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "NEUTRAL",
+      "confidence": 41.225,
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "current_price": 176.2899932861328,
+      "target_price": 176.2899932861328,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.014) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.70 shows heavy call buying\n      \u2022 News: +0.070\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.156\n        \u2192 Downtrend, MACD bearish, momentum -4.99%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-10-17T04:41:25.937552-04:00",
+  "predictions": {
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 78.20240922398224,
+      "current_price": 309.061990346788,
+      "target_price": 313.66083276314816,
+      "expected_change": 4.598842416360185,
+      "expected_move_pct": 1.4879999999999936,
+      "total_score": 0.20835515601433197,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.208)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.140\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.075\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.019",
+      "filtered": false,
+      "symbol": "ORCL"
+    }
+  }
+}

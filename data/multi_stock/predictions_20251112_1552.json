@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-11-12T15:52:21.427555-05:00",
+  "predictions": {
+    "AMD": {
+      "direction": "UP",
+      "confidence": 88.0,
+      "current_price": 257.935,
+      "target_price": 266.07026989999997,
+      "expected_change": 8.135269899999969,
+      "expected_move_pct": 3.153999999999988,
+      "total_score": 0.4932468785983486,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.493)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.084\n      \u2705 News: +0.063\n      \u2705 Institutional: +0.021",
+      "filtered": false,
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 53.33890527439492,
+      "current_price": 355.29,
+      "target_price": 360.13206976500004,
+      "expected_change": 4.842069765000019,
+      "expected_move_pct": 1.3628500000000054,
+      "total_score": 0.07753940836283726,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.078)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.097\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.130",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 64.978323983201,
+      "current_price": 226.9,
+      "target_price": 230.47249895461002,
+      "expected_change": 3.572498954610012,
+      "expected_move_pct": 1.5744816900000052,
+      "total_score": 0.22781755062234677,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.228)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.118\n      \u2705 Options: +0.110\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.124",
+      "filtered": false,
+      "symbol": "ORCL"
+    },
+    "NVDA": {
+      "direction": "UP",
+      "confidence": 84.67051252264051,
+      "current_price": 193.205,
+      "target_price": 199.3721036,
+      "expected_change": 6.16710359999999,
+      "expected_move_pct": 3.191999999999995,
+      "total_score": 0.27207989711017944,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.272)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.084\n      \u2705 News: +0.064",
+      "filtered": false,
+      "symbol": "NVDA"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-11T09:18:25.826399-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 74.5885861818639,
+      "target_price": 216.69615307360962,
+      "expected_move_percent": null,
+      "current_price": 221.4199981689453,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.188)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.084\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.031",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 88.0,
+      "target_price": 422.25356684814454,
+      "expected_move_percent": null,
+      "current_price": 412.9700012207031,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.298)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.080\n      \u2705 Institutional: +0.023\n      \u2705 News: +0.019",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "UP",
+      "confidence": 80.88138453915174,
+      "target_price": 226.99534055372922,
+      "expected_move_percent": null,
+      "current_price": 223.00999450683594,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.238)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 Institutional: +0.054\n      \u2705 News: +0.020",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "UP",
+      "confidence": 60.88106645155326,
+      "target_price": 187.51423835799332,
+      "expected_move_percent": null,
+      "current_price": 183.77999877929688,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.062)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.026",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

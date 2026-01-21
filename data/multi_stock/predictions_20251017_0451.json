@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-10-17T04:51:22.733807-04:00",
+  "predictions": {
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 60.36198605881421,
+      "current_price": 347.2551050586321,
+      "target_price": 351.5471781571568,
+      "expected_change": 4.292073098524668,
+      "expected_move_pct": 1.2359999999999927,
+      "total_score": 0.04675712009795477,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.047)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.110\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.078\n      \u2705 Institutional: +0.020\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.017",
+      "filtered": false,
+      "symbol": "AVGO"
+    }
+  }
+}

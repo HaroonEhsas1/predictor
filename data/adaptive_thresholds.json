@@ -1,0 +1,48 @@
+{
+  "confidence": {
+    "low_volatility": 0.62,
+    "normal": 0.64,
+    "high_volatility": 0.69,
+    "crisis": 0.85
+  },
+  "margin": {
+    "low_volatility": 0.11,
+    "normal": 0.14,
+    "high_volatility": 0.16,
+    "crisis": 0.24
+  },
+  "price_movement_percentiles": {
+    "p25": 0.007533959342995833,
+    "p50": 0.017059859072772188,
+    "p75": 0.02994220901341285,
+    "p90": 0.048452996981584305
+  },
+  "volatility_percentiles": {
+    "p10": 0.3565988211038933,
+    "p30": 0.4025262747679407,
+    "p70": 0.504754223054384,
+    "p90": 0.5945134879159283
+  },
+  "confidence_bounds": {
+    "low_volatility": [
+      0.49,
+      0.85
+    ],
+    "normal": [
+      0.51,
+      0.8
+    ],
+    "high_volatility": [
+      0.6100000000000001,
+      0.9
+    ],
+    "crisis": [
+      0.71,
+      0.95
+    ],
+    "bootstrap": true
+  },
+  "last_updated": "2025-10-11T19:19:40.308961",
+  "bootstrap_source": "AMD 2yr history",
+  "requires_initialization": false
+}

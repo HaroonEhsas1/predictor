@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-21T08:52:47.633761-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "UP",
+      "confidence": 68.87489429013436,
+      "target_price": 216.69480993074342,
+      "expected_move_percent": null,
+      "current_price": 213.42999267578125,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.110)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.056\n      \u2705 Institutional: +0.018\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.156",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 52.252521441576405,
+      "target_price": 345.1377392937371,
+      "expected_move_percent": null,
+      "current_price": 340.3599853515625,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.067)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.046\n      \u2705 Institutional: +0.028\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.128",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "UP",
+      "confidence": 75.42425288055585,
+      "target_price": 194.67657666941375,
+      "expected_move_percent": null,
+      "current_price": 191.97000122070312,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.175)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.098\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.156",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "UP",
+      "confidence": 95.0,
+      "target_price": 186.76720646850586,
+      "expected_move_percent": null,
+      "current_price": 180.99000549316406,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.477)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.084\n      \u2705 News: +0.028\n      \u2705 Institutional: +0.017",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

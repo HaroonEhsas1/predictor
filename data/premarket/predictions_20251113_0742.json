@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-11-13T07:42:59.110715-05:00",
+  "market_context": {
+    "vix": 17.889999389648438,
+    "regime": "NORMAL",
+    "sentiment": "BALANCED",
+    "spy_change": 0.05563761095350728,
+    "nasdaq_change": -0.07883106144138674
+  },
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "UP",
+      "confidence": 68.89999999999999,
+      "recommendation": "\ud83d\udfe2 TRADE",
+      "position_size": 75,
+      "current_price": 256.05,
+      "gap_pct": 7.801446359980349,
+      "target_price": 259.89074999999997,
+      "stop_price": 253.48950000000002,
+      "reason": "AMD gap 7.8% - 57% follow-through rate",
+      "warning": "\u26a0\ufe0f AMD reverses intraday 45.5% - EXIT AT 9:35 AM!"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "NEUTRAL",
+      "confidence": 49.9,
+      "recommendation": "\u26aa SKIP",
+      "position_size": 0,
+      "current_price": 192.65,
+      "gap_pct": -0.26403171072698245,
+      "target_price": 0,
+      "stop_price": 0,
+      "reason": "NVDA confidence 50% too low (53% trap rate)",
+      "warning": ""
+    },
+    "META": {
+      "symbol": "META",
+      "direction": "DOWN",
+      "confidence": 66.3,
+      "recommendation": "\ud83d\udfe2 TRADE",
+      "position_size": 75,
+      "current_price": 612.7,
+      "gap_pct": -2.293170998587798,
+      "target_price": 603.5095,
+      "stop_price": 618.827,
+      "reason": "META gap 2.3% - 54% follow-through",
+      "warning": "\u26a0\ufe0f META weak momentum (41%) - don't chase!"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "NEUTRAL",
+      "confidence": 30.5,
+      "recommendation": "\u26aa SKIP",
+      "position_size": 0,
+      "current_price": 354.0,
+      "gap_pct": 0.5796137613505563,
+      "target_price": 0,
+      "stop_price": 0,
+      "reason": "AVGO confidence 30% too low (57% trap rate!)",
+      "warning": ""
+    },
+    "SNOW": {
+      "symbol": "SNOW",
+      "direction": "NEUTRAL",
+      "confidence": 36.199999999999996,
+      "recommendation": "\u26aa SKIP",
+      "position_size": 0,
+      "current_price": 268.18,
+      "gap_pct": -1.13544557057496,
+      "target_price": 0,
+      "stop_price": 0,
+      "reason": "SNOW confidence 36% too low (cloud sector check)",
+      "warning": ""
+    },
+    "PLTR": {
+      "symbol": "PLTR",
+      "direction": "NEUTRAL",
+      "confidence": 36.5,
+      "recommendation": "\u26aa SKIP",
+      "position_size": 0,
+      "current_price": 182.49,
+      "gap_pct": -4.435487230872673,
+      "target_price": 0,
+      "stop_price": 0,
+      "reason": "PLTR confidence 36% too low (57.5% trap rate!)",
+      "warning": ""
+    }
+  }
+}

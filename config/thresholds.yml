@@ -1,0 +1,3 @@
+min_confidence: 0.65
+min_margin: 0.015
+volatility_window: 20

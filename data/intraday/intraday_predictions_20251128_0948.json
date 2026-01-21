@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-11-28T09:48:24.045093-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 59.82631866289319,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 217.1,
+      "target_price": 213.6042558,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.092)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.047\n      \u2022 Options: +0.110"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "UP",
+      "confidence": 81.97269724720013,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 399.205,
+      "target_price": 407.93996787813995,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.226)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.123\n      \u2705 News: +0.077"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "NEUTRAL",
+      "confidence": 46.5,
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "current_price": 198.9865,
+      "target_price": 198.9865,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.035) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.59 shows heavy call buying\n      \u2022 News: +0.084\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.141\n        \u2192 Downtrend, MACD bearish, momentum -5.64%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning."
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "DOWN",
+      "confidence": 75.1539321073502,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 178.65,
+      "target_price": 174.0245531985,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.239)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.054\n      \u2022 Options: +0.110"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collection_timestamp": "2025-08-19T16:57:40.144852",
+  "symbol": "AMD",
+  "futures": {
+    "ES_pct": -0.59,
+    "NQ_pct": -0.01,
+    "timestamp": "2025-08-19T16:57:40.144878",
+    "source": "mock"
+  },
+  "options": {
+    "symbol": "AMD",
+    "call_flow": 2550,
+    "put_flow": 447,
+    "total_flow": 2997,
+    "call_put_ratio": 5.7,
+    "unusual_activity": false,
+    "timestamp": "2025-08-19T16:57:40.144898",
+    "source": "mock"
+  },
+  "news": {
+    "symbol": "AMD",
+    "sentiment_score": 0.67,
+    "headline_count": 3,
+    "top_headlines": [
+      "AMD earnings preview: analysts expect strong results",
+      "Tech sector outlook: AMD positioned for growth",
+      "Market volatility: AMD trading patterns analysis"
+    ],
+    "timestamp": "2025-08-19T16:57:40.144906",
+    "source": "mock"
+  },
+  "global_indices": {
+    "nikkei_pct": 0.41,
+    "hang_seng_pct": -0.07,
+    "ftse_pct": 0.37,
+    "dax_pct": 0.03,
+    "cac40_pct": -0.45,
+    "timestamp": "2025-08-19T16:57:40.144918",
+    "source": "mock"
+  },
+  "snapshot": null
+}

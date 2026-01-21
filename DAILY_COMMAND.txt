@@ -1,0 +1,31 @@
+================================================================================
+📅 YOUR DAILY PREDICTION COMMAND
+================================================================================
+
+🕐 TIME: 3:50 PM (before market close)
+
+💻 COMMAND:
+
+python multi_stock_enhanced_predictor.py
+
+================================================================================
+
+✅ This runs ALL 3 stocks with ALL enhancements:
+   • AMD with AMD-specific catalysts
+   • AVGO with AVGO-specific catalysts
+   • ORCL with ORCL-specific catalysts
+   • Symbol-specific Reddit/Twitter for each
+   • All bias fixes integrated
+   • Complete analysis in one command
+
+📊 OUTPUT: Trade recommendations for AMD, AVGO, ORCL
+
+⏰ NEXT STEPS:
+   1. Run command at 3:50 PM
+   2. Review predictions (2-3 minutes)
+   3. Enter trades at 4:00 PM (market close)
+   4. Exit trades at 9:30 AM next day (market open)
+
+🎯 EXPECT: 75-85% of predicted target at market open
+
+================================================================================

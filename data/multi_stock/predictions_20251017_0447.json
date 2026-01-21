@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-17T04:47:46.101143-04:00",
+  "predictions": {
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 64.5349997019747,
+      "current_price": 309.05168140781706,
+      "target_price": 313.6503704271654,
+      "expected_change": 4.598689019348342,
+      "expected_move_pct": 1.4880000000000078,
+      "total_score": 0.08455615672078534,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.085)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.140\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.075\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.018",
+      "filtered": false,
+      "symbol": "ORCL"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 66.92330625950176,
+      "current_price": 346.8619746601507,
+      "target_price": 351.1491886669501,
+      "expected_change": 4.287214006799445,
+      "expected_move_pct": 1.235999999999995,
+      "total_score": 0.10618936829258839,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.106)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.110\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.078\n      \u2705 Institutional: +0.020\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.016",
+      "filtered": false,
+      "symbol": "AVGO"
+    }
+  }
+}

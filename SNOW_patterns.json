@@ -1,0 +1,65 @@
+{
+  "symbol": "SNOW",
+  "name": "Snowflake Inc.",
+  "sector": "Cloud Computing / Data Platform",
+  "days_analyzed": 90,
+  "patterns": {
+    "gaps": {
+      "follow_through_rate": 0.512,
+      "avg_gap_size": 3.2,
+      "gap_up_wins": 0.485,
+      "gap_down_wins": 0.538
+    },
+    "traps": {
+      "trap_rate": 0.488,
+      "weak_volume_traps": 0.22,
+      "exhaustion_traps": 0.18,
+      "fake_breakouts": 0.09
+    },
+    "momentum": {
+      "continuation_rate": 0.438,
+      "reversal_rate": 0.562,
+      "avg_intraday_fade": 0.041
+    },
+    "volume": {
+      "avg_volume": 5200000,
+      "high_volume_threshold": 7800000,
+      "low_volume_threshold": 3500000
+    },
+    "unique_characteristics": {
+      "cloud_sector_correlation": 0.78,
+      "enterprise_earnings_impact": "HIGH",
+      "revenue_growth_focus": true,
+      "profitability_secondary": true,
+      "customer_count_matters": true,
+      "follows_crm_ddog": true,
+      "buffett_effect": "MODERATE"
+    }
+  },
+  "catalysts": {
+    "primary": [
+      "customer_acquisition",
+      "revenue_beat",
+      "cloud_sector_strength",
+      "enterprise_adoption"
+    ],
+    "secondary": [
+      "product_announcements",
+      "partnership_news",
+      "insider_buying"
+    ],
+    "negative": [
+      "competition_news",
+      "churn_concerns",
+      "valuation_concerns",
+      "profitability_miss"
+    ]
+  },
+  "trading_notes": {
+    "best_conditions": "Cloud sector strength + revenue growth news",
+    "avoid_conditions": "High valuation concerns + cloud sector weakness",
+    "key_metric": "Net Revenue Retention Rate (NRR)",
+    "institutional_heavy": true,
+    "retail_interest": "MODERATE"
+  }
+}

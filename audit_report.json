@@ -1,0 +1,83 @@
+{
+  "data_sources": {
+    "total": 9,
+    "working": 9,
+    "sources": [
+      {
+        "name": "Yahoo Finance",
+        "working": true,
+        "status": "Real-time data flowing",
+        "data_points": 81,
+        "quality": "HIGH",
+        "cost": "FREE"
+      },
+      {
+        "name": "Polygon.io",
+        "working": true,
+        "status": "Premium data feed active",
+        "data_points": 194,
+        "quality": "PREMIUM",
+        "cost": "FREE"
+      },
+      {
+        "name": "Finnhub",
+        "working": true,
+        "status": "Real-time quotes active",
+        "data_points": 1,
+        "quality": "HIGH",
+        "cost": "FREE"
+      },
+      {
+        "name": "Alpha Vantage",
+        "working": true,
+        "status": "News sentiment active",
+        "data_points": 50,
+        "quality": "MEDIUM",
+        "cost": "FREE"
+      },
+      {
+        "name": "FRED",
+        "working": true,
+        "status": "Economic data active",
+        "data_points": 5,
+        "quality": "INSTITUTIONAL",
+        "cost": "FREE"
+      },
+      {
+        "name": "Futures (ES/NQ)",
+        "working": true,
+        "status": "Futures data flowing",
+        "data_points": 8,
+        "quality": "INSTITUTIONAL",
+        "cost": "FREE"
+      },
+      {
+        "name": "Options Chain",
+        "working": true,
+        "status": "Options flow active",
+        "data_points": 117,
+        "quality": "HIGH",
+        "cost": "FREE"
+      },
+      {
+        "name": "VIX",
+        "working": true,
+        "status": "Fear gauge active",
+        "data_points": 5,
+        "quality": "INSTITUTIONAL",
+        "cost": "FREE"
+      },
+      {
+        "name": "Sector ETFs",
+        "working": true,
+        "status": "Sector correlation active",
+        "data_points": 10,
+        "quality": "HIGH",
+        "cost": "FREE"
+      }
+    ]
+  },
+  "logic_checks": [
+    {
+      "name": "Gap Calculation",
+      "passed": 

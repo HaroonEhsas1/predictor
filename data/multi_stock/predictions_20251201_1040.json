@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-01T10:40:27.618042-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 73.81191271719092,
+      "target_price": 213.73142807840003,
+      "expected_move_percent": null,
+      "current_price": 218.3,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.226)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "DOWN",
+      "confidence": 49.9246171875,
+      "target_price": 385.2882678418,
+      "expected_move_percent": null,
+      "current_price": 392.02,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.082)\n   Multiple factors supporting downward movement:\n\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.077\n      \u2022 Technical: +0.090",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "DOWN",
+      "confidence": 70.46171503262303,
+      "target_price": 197.11839214399998,
+      "expected_move_percent": null,
+      "current_price": 201.65,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.194)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.140\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.098\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 75.33133437969484,
+      "target_price": 174.863376626375,
+      "expected_move_percent": null,
+      "current_price": 179.75,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.241)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.152\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.070\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

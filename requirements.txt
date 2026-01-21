@@ -1,0 +1,65 @@
+# AMD Stock Prediction System - Complete Dependencies
+# Install with: pip install -r requirements.txt
+
+# ============ CORE DATA & ANALYSIS ============
+yfinance>=0.2.0
+pandas>=1.5.0
+numpy<2.0
+scikit-learn>=1.0.0
+scipy>=1.11,<1.13
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+
+# ============ MACHINE LEARNING MODELS ============
+lightgbm==4.1.0
+xgboost==2.0.3
+catboost==1.2.8
+
+# ====== ADDITIONAL ML / OPTIMISATION ======
+optuna>=3.6.0
+shap>=0.44.0
+
+# ====== MACRO & AI KEYS ======
+fredapi>=0.5.0
+openai>=1.14.0
+
+# Deep Learning (Optional - for LSTM/GRU models)
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# ============ WEB FRAMEWORK & API ============
+flask>=2.0.0
+flask-cors>=3.0.0
+
+# ============ DATABASE ============
+psycopg2-binary>=2.9.0
+peewee>=3.14.0
+
+# ============ SMS NOTIFICATIONS ============
+twilio>=7.0.0
+
+# ============ DATE & TIME ============
+pytz>=2021.3
+python-dateutil>=2.8.0
+
+# ============ LOGGING & UTILITIES ============
+colorlog>=6.6.0
+python-dotenv>=0.19.0
+
+# ============ OPTIONAL: SENTIMENT ANALYSIS ============
+# Reddit sentiment
+praw>=7.5.0
+
+# Twitter sentiment
+tweepy>=4.14.0
+
+# ============ OPTIONAL: ECONOMIC DATA ============
+# Federal Reserve Economic Data
+fredapi>=0.5.0
+
+# ============ TESTING ============
+pytest>=6.0.0
+pytest-mock>=3.6.0
+
+# ============ DATA QUALITY & VALIDATION ============
+marshmallow>=3.14.0

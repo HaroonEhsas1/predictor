@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-10-17T04:34:45.447566-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "UP",
+      "confidence": 63.674052659629425,
+      "current_price": 234.55999755859375,
+      "target_price": 238.38801671874998,
+      "expected_change": 3.828019160156231,
+      "expected_move_pct": 1.6319999999999917,
+      "total_score": 0.16327138187113976,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.163)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.089\n      \u2705 News: +0.080\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.019",
+      "filtered": false,
+      "symbol": "AMD"
+    }
+  }
+}

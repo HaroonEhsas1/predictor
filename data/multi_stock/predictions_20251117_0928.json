@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-11-17T09:28:15.337212-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 69.13005637507068,
+      "target_price": 241.01792174476807,
+      "expected_move_percent": null,
+      "current_price": 246.80999755859375,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.181)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n      \u274c Institutional: -0.016\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056\n      \u2022 Options: +0.110",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 45.967318489326445,
+      "target_price": 347.59392904797824,
+      "expected_move_percent": null,
+      "current_price": 342.4599914550781,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.041)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.077\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.130",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "UP",
+      "confidence": 74.46536475844896,
+      "target_price": 227.57841917017953,
+      "expected_move_percent": null,
+      "current_price": 222.85000610351562,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.209)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.098\n      \u2705 Institutional: +0.036\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.077",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 59.230091223875114,
+      "target_price": 184.0997718273926,
+      "expected_move_percent": null,
+      "current_price": 190.1699981689453,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.086)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.047\n      \u2022 Options: +0.110",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-16T14:33:00.630551-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "UP",
+      "confidence": 67.57314800271342,
+      "current_price": 234.33999633789062,
+      "target_price": 238.8428393675232,
+      "expected_change": 4.502843029632572,
+      "expected_move_pct": 1.9215000000000018,
+      "total_score": 0.22989882190910238,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.230)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.130\n      \u2705 Technical: +0.130\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.012",
+      "filtered": false,
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 67.85070725355278,
+      "current_price": 349.97698974609375,
+      "target_price": 354.4601949847412,
+      "expected_change": 4.483205238647429,
+      "expected_move_pct": 1.2809999999999908,
+      "total_score": 0.31981320833633975,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.320)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.160\n      \u2705 Technical: +0.117\n      \u2705 Institutional: +0.014\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.011",
+      "filtered": false,
+      "symbol": "AVGO"
+    }
+  }
+}

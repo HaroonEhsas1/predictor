@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-18T09:31:38.343653-05:00",
+  "market_context": {
+    "vix": 23.829999923706055,
+    "regime": "ELEVATED",
+    "sentiment": "CAUTIOUS",
+    "spy_change": -0.6429564756709749,
+    "nasdaq_change": -0.8282808571776656
+  },
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 0.6117232941710583,
+      "reason": "AMD gap 0.0% - 57% follow-through rate",
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "entry": 235.62,
+      "target": 232.0857,
+      "stop": 237.9762,
+      "warning": "\u26a0\ufe0f AMD reverses intraday 45.5% - EXIT AT 9:35 AM!",
+      "prediction_data": {
+        "gap_pct": -0.020372543594794762,
+        "volume": 1370393,
+        "min_volume": 10467204.66,
+        "volume_ratio": 0.023566056842534308,
+        "nasdaq_pct": -0.008282808571776656,
+        "spy_pct": -0.006429564756709749,
+        "vix": 23.829999923706055,
+        "earnings_days_away": 999,
+        "social_sentiment": 0.0,
+        "trap_signals": true,
+        "indicator_bias": -0.08,
+        "trend_strength": 0.13705490285097377,
+        "sector_alignment": 0.0,
+        "ma_distance": 0.6013565107095558,
+        "gov_contract_news": false,
+        "ai_news": false,
+        "ma_news": false,
+        "cloud_news": false
+      }
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "DOWN",
+      "confidence": 0.4726431722527119,
+      "reason": "NVDA gap 0.0% - CONFIRMED despite 50% follow-through",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": 182.735,
+      "target": null,
+      "stop": null,
+      "warning": "\u26a0\ufe0f NVDA has 48% trap rate - require strong confirmation!",
+      "prediction_data": {
+        "gap_pct": -0.020712786586788826,
+        "volume": 11654087,
+        "min_volume": 33335553.599999998,
+        "volume_ratio": 0.0629278782998822,
+        "nasdaq_pct": -0.008282808571776656,
+        "spy_pct": -0.006429564756709749,
+        "vix": 23.829999923706055,
+        "earnings_days_away": 999,
+        "social_sentiment": 0.0,
+        "trap_signals": true,
+        "indicator_bias": -0.020000000000000004,
+        "trend_strength": 0.3568634450542374,
+        "sector_alignment": 0.06,
+        "ma_distance": 0.2034474347756396,
+        "gov_contract_news": false,
+        "ai_news": false,
+        "ma_news": false,
+        "cloud_news": false
+      }
+    }
+  }
+}

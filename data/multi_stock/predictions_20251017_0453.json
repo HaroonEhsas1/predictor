@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-10-17T04:53:23.562139-04:00",
+  "predictions": {
+    "AVGO": {
+      "direction": "DOWN",
+      "confidence": 66.91965224496845,
+      "current_price": 347.0534997260775,
+      "target_price": 342.7639184694632,
+      "expected_change": -4.289581256614326,
+      "expected_move_pct": -1.2360000000000024,
+      "total_score": -0.05,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.050)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.017\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.110\n      \u2022 Options: +0.110\n      \u2022 Technical: +0.078\n      \u2022 Institutional: +0.020",
+      "filtered": false,
+      "symbol": "AVGO"
+    },
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 76.0992326735164,
+      "current_price": 222.85165333771613,
+      "target_price": 219.2147143552446,
+      "expected_change": -3.63693898247152,
+      "expected_move_pct": -1.6319999999999966,
+      "total_score": -0.13144959429895156,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.131)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.017\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.080\n      \u2022 Options: +0.110\n      \u2022 Technical: +0.089",
+      "filtered": false,
+      "symbol": "AMD"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 71.87813703521506,
+      "current_price": 310.1238110607879,
+      "target_price": 314.7384533693724,
+      "expected_change": 4.614642308584507,
+      "expected_move_pct": 1.4879999999999947,
+      "total_score": 0.15107008184071619,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.151)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.140\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.075\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.018",
+      "filtered": false,
+      "symbol": "ORCL"
+    }
+  }
+}

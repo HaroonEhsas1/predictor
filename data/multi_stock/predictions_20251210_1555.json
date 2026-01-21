@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-12-10T15:55:34.461221-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "DOWN",
+      "confidence": 56.885395904466016,
+      "target_price": 218.34664416,
+      "expected_move_percent": null,
+      "current_price": 221.92,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.066)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.084\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.037",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 91.43475398235593,
+      "target_price": 423.50099120000004,
+      "expected_move_percent": null,
+      "current_price": 414.19,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.283)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.093\n      \u2705 Technical: +0.079",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "UP",
+      "confidence": 91.51989826442251,
+      "target_price": 228.911552816,
+      "expected_move_percent": null,
+      "current_price": 223.4417,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.405)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.089\n      \u2705 Institutional: +0.020",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "UP",
+      "confidence": 82.66437143441024,
+      "target_price": 188.574687330205,
+      "expected_move_percent": null,
+      "current_price": 183.8155,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.224)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.038",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

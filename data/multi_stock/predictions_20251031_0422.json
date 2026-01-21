@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-31T04:22:58.084996-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 47.584950831564804,
+      "current_price": 254.83999633789062,
+      "target_price": 248.91751482299804,
+      "expected_change": -5.922481514892581,
+      "expected_move_pct": -2.3240000000000016,
+      "total_score": -0.05762040085296533,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.058)\n   Multiple factors supporting downward movement:\n\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.080\n      \u2022 Technical: +0.097",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "NEUTRAL",
+      "confidence": 38.25,
+      "current_price": 376.4700012207031,
+      "target_price": 376.4700012207031,
+      "expected_change": 0.0,
+      "expected_move_pct": 0.0,
+      "total_score": -0.006121378921381648,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.006) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 News: +0.110\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.27 shows heavy call buying\n      \u2022 Technical: +0.081\n        \u2192 Uptrend with RSI 71.0\n      \u2022 Institutional: +0.027\n        \u2192 Volume surge on up days\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "NEUTRAL",
+      "confidence": 39.525,
+      "current_price": 256.8900146484375,
+      "target_price": 256.8900146484375,
+      "expected_change": 0.0,
+      "expected_move_pct": 0.0,
+      "total_score": 0.010527688809403905,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.011) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 News: +0.140\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.107\n        \u2192 Downtrend, MACD bearish, momentum -8.28%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "ORCL"
+    }
+  }
+}

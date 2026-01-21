@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-17T04:43:31.510194-04:00",
+  "predictions": {
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 64.26391025345113,
+      "current_price": 308.7836489945743,
+      "target_price": 313.3783496916136,
+      "expected_change": 4.594700697039286,
+      "expected_move_pct": 1.4880000000000067,
+      "total_score": 0.08210063635372403,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.082)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.140\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.075\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.018",
+      "filtered": false,
+      "symbol": "ORCL"
+    },
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 70.34871570886465,
+      "current_price": 222.6747011227936,
+      "target_price": 219.22235255658583,
+      "expected_change": -3.4523485662077746,
+      "expected_move_pct": -1.5503999999999922,
+      "total_score": -0.08106666079157471,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.081)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.017\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.080\n      \u2022 Options: +0.110\n      \u2022 Technical: +0.089",
+      "filtered": false,
+      "symbol": "AMD"
+    }
+  }
+}

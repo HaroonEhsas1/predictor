@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-08T13:16:26.335386-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 47.984555517269875,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.25,
+      "current_price": 222.5669,
+      "target_price": 218.80393916501,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.062)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.156\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.047\n      \u2022 Options: +0.110"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "UP",
+      "confidence": 88.0,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 403.3807,
+      "target_price": 412.448698136,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.448)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.120\n      \u2705 Options: +0.110\n      \u2705 News: +0.056"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "UP",
+      "confidence": 88.0,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 220.5645,
+      "target_price": 225.96391896000003,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.366)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.080"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "UP",
+      "confidence": 88.0,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 186.6125,
+      "target_price": 192.569171,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.432)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.070"
+    }
+  }
+}

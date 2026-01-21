@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-22T15:50:13.839347-04:00",
+  "predictions": {
+    "AMD": {
+      "direction": "DOWN",
+      "confidence": 46.37504510682201,
+      "current_price": 229.6,
+      "target_price": 225.0304842688,
+      "expected_change": -4.569515731199999,
+      "expected_move_pct": -1.9902071999999997,
+      "total_score": -0.04496779196676608,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.045)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.012\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.053\n      \u2022 Technical: +0.097",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "NEUTRAL",
+      "confidence": 38.25,
+      "current_price": 340.41,
+      "target_price": 340.41,
+      "expected_change": 0.0,
+      "expected_move_pct": 0.0,
+      "total_score": -0.004369007577038071,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.004) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.66 shows heavy call buying\n      \u2022 News: +0.073\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.078\n        \u2192 Downtrend, MACD bearish, momentum -3.13%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 50.2929027198677,
+      "current_price": 273.64,
+      "target_price": 277.70109124000004,
+      "expected_change": 4.061091240000053,
+      "expected_move_pct": 1.4841000000000195,
+      "total_score": 0.08593885197247264,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.086)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.107\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.012\n      \u2022 Technical: -0.078",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "ORCL"
+    }
+  }
+}

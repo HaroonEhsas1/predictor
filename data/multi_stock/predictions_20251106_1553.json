@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-11-06T15:53:18.023399-05:00",
+  "predictions": {
+    "AMD": {
+      "direction": "NEUTRAL",
+      "confidence": 45.0,
+      "current_price": 238.15,
+      "target_price": 238.15,
+      "expected_change": 0.0,
+      "expected_move_pct": 0.0,
+      "total_score": 0.02519085018495805,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (+0.025) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 News: +0.080\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.156\n        \u2192 Downtrend, MACD bearish, momentum -9.89%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "filtered": true,
+      "recommendation": "HOLD",
+      "symbol": "AMD"
+    },
+    "AVGO": {
+      "direction": "UP",
+      "confidence": 81.84,
+      "current_price": 355.995,
+      "target_price": 363.99776760000003,
+      "expected_change": 8.002767600000027,
+      "expected_move_pct": 2.2480000000000078,
+      "total_score": 0.3082049970916388,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.308)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.110\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.070\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.015",
+      "filtered": false,
+      "symbol": "AVGO"
+    },
+    "ORCL": {
+      "direction": "UP",
+      "confidence": 62.54247889238134,
+      "current_price": 243.52,
+      "target_price": 247.42862786608003,
+      "expected_change": 3.9086278660800247,
+      "expected_move_pct": 1.6050541500000102,
+      "total_score": 0.2239554292967474,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.224)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.140\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.016\n      \u2022 Technical: -0.123",
+      "filtered": false,
+      "symbol": "ORCL"
+    }
+  }
+}
