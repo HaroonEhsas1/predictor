@@ -1,0 +1,44 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-26T06:50:23.984211-05:00",
+    "current_price": 259.6000061035156,
+    "direction": "UP",
+    "confidence": 0.85,
+    "recommendation": "STRONG_TRADE",
+    "position_size": 1.0,
+    "entry": 259.6000061035156,
+    "target": 262.1960061645508,
+    "stop": 258.30200607299804,
+    "reason": "Momentum Score: +0.150 (UP)",
+    "components": {
+      "rsi": 61.29073087037844,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 3.5782530001953052,
+      "news_sentiment": 0.0
+    },
+    "warning": "None"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-26T06:50:25.087750-05:00",
+    "current_price": 187.6699981689453,
+    "direction": "UP",
+    "confidence": 0.815,
+    "recommendation": "STRONG_TRADE",
+    "position_size": 1.0,
+    "entry": 187.6699981689453,
+    "target": 189.54669815063477,
+    "stop": 186.73164817810058,
+    "reason": "Momentum Score: +0.132 (UP)",
+    "components": {
+      "rsi": 53.70347345457834,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.0
+    },
+    "warning": "None"
+  }
+}

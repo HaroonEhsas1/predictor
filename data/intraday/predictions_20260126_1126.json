@@ -1,0 +1,38 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  },
+  "META": {
+    "symbol": "META",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "direction": "NEUTRAL",
+    "confidence": 0.0,
+    "reason": "No intraday data available"
+  }
+}

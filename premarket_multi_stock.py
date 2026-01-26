@@ -131,7 +131,7 @@ def interpret_indicator_signals(symbol, indicators):
 
 def check_market_hours():
     """Check if we're in premarket hours"""
-    et_tz = pytz.timezone('US/Eastern')
+    et_tz = pytz.timezone('America/New_York')
     now_et = datetime.now(et_tz)
     current_time = now_et.time()
 
@@ -232,7 +232,7 @@ def get_premarket_data(symbol):
                     earnings_dates.loc['Earnings Date'], pd.Series) else earnings_dates.loc['Earnings Date']
                 if not pd.isna(earnings_date):
                     earnings_date = pd.to_datetime(earnings_date)
-                    today = pd.Timestamp.now(tz='US/Eastern')
+                    today = pd.Timestamp.now(tz='America/New_York')
                     earnings_days_away = (earnings_date - today).days
                     if earnings_days_away < 0:
                         earnings_days_away = 999  # Past earnings, irrelevant
@@ -244,7 +244,7 @@ def get_premarket_data(symbol):
 
         # Debug statement to confirm data freshness
         data_timestamp = pd.Timestamp.now(
-            tz='US/Eastern').strftime('%Y-%m-%d %H:%M:%S %Z')
+            tz='America/New_York').strftime('%Y-%m-%d %H:%M:%S %Z')
         logging.info(f"Data fetched for {symbol} at ET time: {data_timestamp}")
         print(f"   Data fetched at ET time: {data_timestamp}")
 
@@ -346,7 +346,13 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
             'symbol': symbol,
             'direction': 'NEUTRAL',
             'confidence': 0.0,
-            'reason': 'Data unavailable'
+            'reason': 'Data unavailable',
+            'recommendation': 'SKIP',
+            'position_size': 0.0,
+            'entry': None,
+            'target': None,
+            'stop': None,
+            'warning': 'Data unavailable'
         }
 
     print(f"\n Market Data ({premarket_data['market_status']}):")
@@ -530,7 +536,7 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
     """Run premarket predictions for all stocks"""
 
     # Get both local and ET time
-    et_tz = pytz.timezone('US/Eastern')
+    et_tz = pytz.timezone('America/New_York')
     now_et = datetime.now(et_tz)
     now_local = datetime.now()
 
@@ -602,6 +608,9 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
             symbol, premarket_data, market_context, advanced_indicators, mode=mode)
 
         if prediction:
+            # Ensure position_size exists in prediction dict
+            if 'position_size' not in prediction:
+                prediction['position_size'] = 0.0
             results[symbol] = prediction
 
     # Summary
