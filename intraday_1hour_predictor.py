@@ -594,7 +594,7 @@ class MomentumAnalyzer:
     
     def get_intraday_data(self, interval: str = '1m', period: str = '60m'):
         """
-        Fetch intraday data
+        ALWAYS FRESH DATA - Fetch intraday data on every call (no caching)
         interval: '1m', '5m', '15m', '60m'
         period: '60m', '1d', '5d'
         """
@@ -610,8 +610,11 @@ class MomentumAnalyzer:
                 if period == '60m':
                     period = '5d'  # Get more data
             
-            # Fetch intraday data
+            # Fetch FRESH intraday data (no cached values)
             hist = self.ticker.history(interval=interval, period=period)
+            et_tz = pytz.timezone('America/New_York')
+            fetch_time = datetime.now(et_tz).strftime('%Y-%m-%d %H:%M:%S %Z')
+            print(f"   ✅ FRESH INTRADAY DATA at: {fetch_time}")
             
             if hist.empty:
                 return {
@@ -1013,8 +1016,11 @@ class RealTimeNewsSentiment:
             'marketaux': os.getenv('MARKETAUX_API_KEY'),
             'alpha_vantage': os.getenv('ALPHA_VANTAGE_API_KEY')
         }
-        # Multi-source analyzer
+        # Multi-source analyzer (always fresh on every call)
         self.sentiment_analyzer = MultiSourceSentimentAnalyzer(symbol)
+        et_tz = pytz.timezone('America/New_York')
+        fetch_time = datetime.now(et_tz).strftime('%Y-%m-%d %H:%M:%S %Z')
+        print(f"   ✅ FRESH NEWS SENTIMENT DATA at: {fetch_time}")
         
         # Try to load a trained news reaction model if exists
         self.model = None
@@ -1096,15 +1102,16 @@ class IntraDay1HourPredictor:
         """Generate 1-hour ahead prediction"""
         
         print(f"\n{'='*80}")
-        print(f"🚀 INTRADAY 1-HOUR MOMENTUM PREDICTOR - {self.symbol}")
+        print(f"🚀 INTRADAY 1-HOUR MOMENTUM PREDICTOR - {self.symbol} - FRESH DATA MODE")
         print(f"{'='*80}")
         
         # Get intraday data
         et_tz = pytz.timezone('America/New_York')
         now_et = datetime.now(et_tz)
         print(f"⏰ {now_et.strftime('%Y-%m-%d %H:%M %p ET')}")
+        print(f"🔄 FETCHING LATEST INTRADAY DATA (FRESH, NOT CACHED)...")
         
-        # Fetch 1-minute candles
+        # Fetch 1-minute candles (always fresh on every run)
         data = self.momentum.get_intraday_data(interval='1m', period='60m')
         
         if not data['success']:

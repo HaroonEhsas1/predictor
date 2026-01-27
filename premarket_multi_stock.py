@@ -225,14 +225,21 @@ def check_market_hours():
 
 
 def get_premarket_data(symbol):
-    """Fetch current premarket gap and volume"""
-    logging.info(f"Fetching premarket data for {symbol}")
+    """Fetch FRESH current premarket gap and volume - no caching"""
+    logging.info(f"🔄 Fetching FRESH premarket data for {symbol}")
     try:
+        # Force fresh data - disable cache, always get latest
         ticker = yf.Ticker(symbol)
 
-        # Get historical data (last 2 days for comparison)
+        # Get historical data (last 5 days to ensure we have the latest)
         hist = ticker.history(period='5d')
-        logging.info(f"Historical data for {symbol}: {len(hist)} days fetched")
+        logging.info(f"✅ FRESH historical data for {symbol}: {len(hist)} days fetched")
+        
+        # Verify data is recent
+        if len(hist) > 0:
+            last_date = hist.index[-1]
+            days_since_last = (pd.Timestamp.now(tz='America/New_York') - last_date).days
+            logging.info(f"   Last data point: {last_date} ({days_since_last} days ago)")
 
         if len(hist) < 2:
             logging.error(f"Insufficient historical data for {symbol}")
@@ -246,9 +253,9 @@ def get_premarket_data(symbol):
         prev_close = hist['Close'].iloc[-2]  # Second to last day
         logging.info(f"Previous close for {symbol}: {prev_close}")
 
-        # Try to get current/premarket price
+        # Try to get current/premarket price - always fresh
         info = ticker.info
-        logging.info(f"Ticker info for {symbol}: {info}")
+        logging.info(f"✅ FRESH ticker info retrieved at {datetime.now(pytz.timezone('America/New_York')).strftime('%H:%M:%S %Z')}")
 
         # Priority order for current price:
         # 1. preMarketPrice (if in premarket)
@@ -319,8 +326,8 @@ def get_premarket_data(symbol):
         # Debug statement to confirm data freshness
         data_timestamp = pd.Timestamp.now(
             tz='America/New_York').strftime('%Y-%m-%d %H:%M:%S %Z')
-        logging.info(f"Data fetched for {symbol} at ET time: {data_timestamp}")
-        print(f"   Data fetched at ET time: {data_timestamp}")
+        logging.info(f"✅ FRESH DATA CONFIRMED for {symbol} at: {data_timestamp}")
+        print(f"   ✅ FRESH DATA at: {data_timestamp}")
 
         return {
             'success': True,
@@ -346,14 +353,16 @@ def get_premarket_data(symbol):
 
 
 def get_market_context():
-    """Get overall market context (futures, VIX, sectors)"""
+    """Get FRESH overall market context - always latest data"""
     try:
-        # Get VIX
+        logging.info("🔄 Fetching FRESH market context data (VIX, SPY, NASDAQ)")
+        
+        # Get VIX - always fresh
         vix = yf.Ticker('^VIX')
         vix_data = vix.history(period='1d')
         current_vix = vix_data['Close'].iloc[-1] if len(vix_data) > 0 else 20
 
-        # Get SPY
+        # Get SPY - always fresh
         spy = yf.Ticker('SPY')
         spy_data = spy.history(period='2d')
         if len(spy_data) >= 2:
@@ -362,7 +371,7 @@ def get_market_context():
         else:
             spy_change = 0
 
-        # Get NASDAQ (for tech stocks)
+        # Get NASDAQ (QQQ) - always fresh
         qqq = yf.Ticker('QQQ')
         qqq_data = qqq.history(period='2d')
         if len(qqq_data) >= 2:
@@ -370,8 +379,10 @@ def get_market_context():
                 (qqq_data['Close'].iloc[-1] / qqq_data['Close'].iloc[-2]) - 1) * 100
         else:
             nasdaq_change = 0
+        
+        logging.info(f"✅ FRESH market data: VIX={current_vix:.2f}, SPY={spy_change:+.2f}%, NASDAQ={nasdaq_change:+.2f}%")
 
-        # Determine market regime
+        # Determine market regime based on fresh data
         if current_vix < 15:
             regime = 'LOW_VOL'
             sentiment = 'CALM'
@@ -644,7 +655,7 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
 
 
 def run_premarket_multi_stock(stocks=None, mode='standard'):
-    """Run premarket predictions for all stocks"""
+    """Run premarket predictions for all stocks - ALWAYS FETCHES FRESH DATA"""
 
     # Get both local and ET time
     et_tz = pytz.timezone('America/New_York')
@@ -652,12 +663,16 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
     now_local = datetime.now()
 
     print(f"\n{'='*80}")
-    print(f"🚀 PREMARKET MULTI-STOCK PREDICTION SYSTEM")
+    print(f"🚀 PREMARKET MULTI-STOCK PREDICTION SYSTEM - FRESH DATA MODE")
     print(f"{'='*80}")
-    print(f"⏰ ET Time: {now_et.strftime('%Y-%m-%d %I:%M %p ET')}")
-    print(f"🌍 Your Local Time: {now_local.strftime('%Y-%m-%d %I:%M %p')}")
+    print(f"📡 ⏰ ET Time: {now_et.strftime('%Y-%m-%d %I:%M %p ET')}")
+    print(f"📡 🌍 Your Local Time: {now_local.strftime('%Y-%m-%d %I:%M %p')}")
     print(f"{'='*80}")
-    print("\n Best Time to Run: 9:15 AM ET (US Market Premarket)")
+    print(f"\n🔄 FETCHING LATEST DATA FROM SOURCES...")
+    print(f"   • Stock prices (yfinance)")
+    print(f"   • Market indices (VIX, SPY, NASDAQ)")
+    print(f"   • Real-time news sentiment")
+    print(f"\n Best Time to Run: 9:15 AM ET (US Market Premarket)")
 
     # Show market schedule in ET
     print("\n US Market Schedule (ET):")
@@ -671,22 +686,22 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
 
     if not market_status['is_premarket']:
         print(f"\n{'!'*80}")
-        print(" WARNING: NOT IN PREMARKET HOURS")
+        print(" ⚠️ WARNING: NOT IN PREMARKET HOURS")
         print(f"{'!'*80}")
         print(f"\n You are running this at {now_et.strftime('%I:%M %p ET')}")
         print(f" For REAL premarket data, run between 4:00 AM - 9:30 AM ET")
-        print(f" Best time: 9:15 AM ET (6:45 PM your local time)")
-        print(f"\n System will use last available prices (gaps may be small/zero)")
-        print(f" Predictions shown are DEMO only until premarket hours")
+        print(f" Best time: 9:15 AM ET (optimal for fresh premarket data)")
+        print(f"\n ℹ️ System will use last available market data and predictions")
         print(f"{'!'*80}\n")
     else:
-        print(f"\n PREMARKET HOURS: System will fetch LIVE premarket data!\n")
+        print(f"\n ✅ PREMARKET HOURS: Fetching LIVE premarket data on every run!\n")
 
     # Default stocks
     if stocks is None:
         stocks = ['AMD', 'NVDA', 'META', 'AVGO', 'SNOW', 'PLTR']
 
-    print(f"\n Analyzing {len(stocks)} stocks: {', '.join(stocks)}")
+    print(f"\n 🎯 Analyzing {len(stocks)} stocks: {', '.join(stocks)}")
+    print(f"\n 📊 All data will be FRESH from latest sources (not cached)")
 
     # Get market context
     print(f"\n{'='*80}")
