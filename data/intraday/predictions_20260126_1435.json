@@ -1,0 +1,20 @@
+{
+  "AMD": {
+    "error": "'sentiment'"
+  },
+  "NVDA": {
+    "error": "'sentiment'"
+  },
+  "META": {
+    "error": "'sentiment'"
+  },
+  "AVGO": {
+    "error": "'sentiment'"
+  },
+  "SNOW": {
+    "error": "'sentiment'"
+  },
+  "PLTR": {
+    "error": "'sentiment'"
+  }
+}

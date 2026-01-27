@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-26T09:44:42.159028-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 52.10474330244403,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 253.83,
+      "target_price": 248.6801649684,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.105)\n   Multiple factors supporting downward movement:\n\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.069\n      \u2022 Options: +0.110\n      \u2022 Technical: +0.099"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "UP",
+      "confidence": 57.298475213842615,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 327.24,
+      "target_price": 331.922779857,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.117)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.096\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.130"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "UP",
+      "confidence": 57.27428795741841,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 184.22,
+      "target_price": 187.0360292906,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.117)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 News: +0.056\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.156"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "UP",
+      "confidence": 88.0,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 188.675,
+      "target_price": 194.697506,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.326)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.088"
+    }
+  }
+}

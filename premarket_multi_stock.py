@@ -9,6 +9,7 @@ AMD, NVDA, META, AVGO, SNOW, PLTR
 
 from free_advanced_indicators import get_free_indicators
 from stock_specific_predictors import get_predictor
+from intraday_1hour_predictor import RealTimeNewsSentiment
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -18,6 +19,12 @@ import math
 import yfinance as yf
 import logging
 import pandas as pd
+import joblib
+import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
@@ -25,6 +32,73 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent))
+
+
+def get_news_sentiment_with_ml(symbol):
+    """
+    Fetch real-time news from Finnhub and adjust sentiment using trained ML model.
+    Returns blended sentiment: 60% ML model, 40% raw keyword sentiment.
+    """
+    try:
+        # Get real-time news
+        news_analyzer = RealTimeNewsSentiment(symbol)
+        news = news_analyzer.get_latest_news(hours_back=24)
+        
+        raw_sentiment = news.get('overall_sentiment', 0.0)
+        articles = news.get('articles', [])
+        
+        # Try to load and use ML model if available
+        model_path = Path('models') / f'news_model_{symbol}.joblib'
+        if model_path.exists():
+            try:
+                model = joblib.load(str(model_path))
+                if articles:
+                    headlines = [a.get('headline', '') for a in articles]
+                    # Predict using model: UP=+1, DOWN=-1, NEUTRAL=0
+                    preds = model.predict(headlines)
+                    mapped = [1.0 if p == 'UP' else (-1.0 if p == 'DOWN' else 0.0) for p in preds]
+                    model_sentiment = sum(mapped) / len(mapped) if mapped else 0.0
+                    
+                    # Blend: 60% model, 40% raw keyword sentiment
+                    blended_sentiment = (raw_sentiment * 0.4) + (model_sentiment * 0.6)
+                    
+                    logging.info(f"{symbol} news: raw={raw_sentiment:+.2f}, model={model_sentiment:+.2f}, blended={blended_sentiment:+.2f}")
+                    return {
+                        'success': True,
+                        'symbol': symbol,
+                        'raw_sentiment': raw_sentiment,
+                        'model_sentiment': model_sentiment,
+                        'blended_sentiment': blended_sentiment,
+                        'articles_count': len(articles),
+                        'model_used': True,
+                        'articles': articles
+                    }
+            except Exception as e:
+                logging.warning(f"ML model loading failed for {symbol}: {e}. Using raw sentiment.")
+        
+        # Fallback: use raw keyword sentiment only
+        logging.info(f"{symbol} news: using raw sentiment only = {raw_sentiment:+.2f}")
+        return {
+            'success': True,
+            'symbol': symbol,
+            'raw_sentiment': raw_sentiment,
+            'model_sentiment': 0.0,
+            'blended_sentiment': raw_sentiment,
+            'articles_count': len(articles),
+            'model_used': False,
+            'articles': articles
+        }
+    
+    except Exception as e:
+        logging.error(f"Error fetching news for {symbol}: {e}")
+        return {
+            'success': False,
+            'symbol': symbol,
+            'error': str(e),
+            'blended_sentiment': 0.0,
+            'model_used': False,
+            'articles': []
+        }
 
 
 def adjust_premarket_volume_threshold(avg_volume):
@@ -430,10 +504,43 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
         if isinstance(cloud, dict) and cloud.get('success'):
             predictor_data['cloud_sector_pct'] = cloud.get('cloud_avg', 0.0)
 
+    # ========== INTEGRATE REAL-TIME NEWS SENTIMENT (Priority 1) ==========
+    print(f"\n 📰 Fetching real-time news sentiment for {symbol}...")
+    news_result = get_news_sentiment_with_ml(symbol)
+    
+    if news_result.get('success'):
+        blended_sentiment = news_result.get('blended_sentiment', 0.0)
+        article_count = news_result.get('articles_count', 0)
+        model_used = news_result.get('model_used', False)
+        
+        # Add news sentiment to predictor data
+        predictor_data['news_sentiment'] = blended_sentiment
+        predictor_data['news_articles_count'] = article_count
+        
+        # Adjust confidence based on news magnitude
+        if abs(blended_sentiment) > 0.5:
+            predictor_data['news_confidence_boost'] = 0.1
+        elif abs(blended_sentiment) > 0.3:
+            predictor_data['news_confidence_boost'] = 0.05
+        else:
+            predictor_data['news_confidence_boost'] = 0.0
+        
+        print(f"   ✅ News sentiment: {blended_sentiment:+.2f} ({article_count} articles)")
+        print(f"      ML model used: {'Yes' if model_used else 'No'}")
+        if predictor_data['news_confidence_boost'] > 0:
+            print(f"      Confidence boost: +{predictor_data['news_confidence_boost']*100:.0f}%")
+    else:
+        print(f"   ⚠️ Could not fetch news: {news_result.get('error', 'Unknown error')}")
+        predictor_data['news_sentiment'] = 0.0
+        predictor_data['news_articles_count'] = 0
+        predictor_data['news_confidence_boost'] = 0.0
+
     print(f"\n DEBUG: Passing to predictor:")
     print(f"   gap_pct = {predictor_data['gap_pct']*100:.2f}%")
     print(f"   volume = {predictor_data['volume']:,}")
     print(f"   min_volume = {predictor_data['min_volume']:,}")
+    print(f"   news_sentiment = {predictor_data.get('news_sentiment', 0.0):+.2f}")
+    print(f"   news_confidence_boost = {predictor_data.get('news_confidence_boost', 0.0):+.2f}")
 
     # Get stock-specific predictor
     predictor = get_predictor(symbol)
@@ -528,7 +635,11 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
         'target': target_price if recommendation != 'SKIP' else None,
         'stop': stop_price if recommendation != 'SKIP' else None,
         'warning': prediction.get('warning', ''),
-        'prediction_data': predictor_data
+        'prediction_data': predictor_data,
+        # Include news sentiment in results
+        'news_sentiment': predictor_data.get('news_sentiment', 0.0),
+        'news_articles_count': predictor_data.get('news_articles_count', 0),
+        'news_confidence_boost': predictor_data.get('news_confidence_boost', 0.0)
     }
 
 
@@ -627,6 +738,8 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
             print(f"{trade['symbol']}:")
             print(f"   Direction: {trade['direction']}")
             print(f"   Confidence: {trade['confidence']*100:.1f}%")
+            if trade.get('news_sentiment'):
+                print(f"   News Sentiment: {trade['news_sentiment']:+.2f} ({trade.get('news_articles_count', 0)} articles)")
             if trade['target']:
                 print(f"   Entry: ${trade['entry']:.2f}")
                 print(f"   Target: ${trade['target']:.2f}")

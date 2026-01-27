@@ -1,0 +1,110 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-26T09:41:13.140596-05:00",
+    "current_price": 254.30999755859375,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 254.30999755859375,
+    "target": 254.30999755859375,
+    "stop": 254.30999755859375,
+    "reason": "Momentum Score: -0.028 (NEUTRAL)",
+    "components": {
+      "rsi": 25.469489276260475,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.22425265929086677,
+      "news_sentiment": 0.0
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-26T09:41:14.678014-05:00",
+    "current_price": 188.8300018310547,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 188.8300018310547,
+    "target": 188.8300018310547,
+    "stop": 188.8300018310547,
+    "reason": "Momentum Score: +0.028 (NEUTRAL)",
+    "components": {
+      "rsi": 90.00015258789062,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.342228639817148,
+      "news_sentiment": 0.0
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Overbought in uptrend - reversal risk"
+  },
+  "META": {
+    "symbol": "META",
+    "timestamp": "2026-01-26T09:41:15.175261-05:00",
+    "current_price": 668.2000122070312,
+    "direction": "NEUTRAL",
+    "confidence": 0.5,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 668.2000122070312,
+    "target": 668.2000122070312,
+    "stop": 668.2000122070312,
+    "reason": "Momentum Score: +0.028 (NEUTRAL)",
+    "components": {
+      "rsi": 72.62617893025804,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.39391597023511044,
+      "news_sentiment": 0.0
+    },
+    "warning": "None"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "timestamp": "2026-01-26T09:41:15.675900-05:00",
+    "current_price": 324.30499267578125,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 324.30499267578125,
+    "target": 324.30499267578125,
+    "stop": 324.30499267578125,
+    "reason": "Momentum Score: +0.007 (NEUTRAL)",
+    "components": {
+      "rsi": 99.50043705405241,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.3368601653917323,
+      "news_sentiment": 0.0
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Overbought in uptrend - reversal risk"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "timestamp": "2026-01-26T09:41:16.146982-05:00",
+    "current_price": 210.75999450683594,
+    "direction": "UP",
+    "confidence": 0.61625,
+    "recommendation": "CAUTIOUS",
+    "position_size": 0.5,
+    "entry": 210.75999450683594,
+    "target": 212.8675944519043,
+    "stop": 209.70619453430174,
+    "reason": "Momentum Score: +0.088 (UP)",
+    "components": {
+      "rsi": 75.36490151418117,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.1829080161762926,
+      "news_sentiment": 0.0
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Overbought in uptrend - reversal risk"
+  },
+  "PLTR": {
+    "error": "[Errno 32] Broken pipe"
+  }
+}
