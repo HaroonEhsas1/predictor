@@ -1,0 +1,128 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-28T11:53:22.062132-05:00",
+    "current_price": 252.30999755859375,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 252.30999755859375,
+    "target": 252.30999755859375,
+    "stop": 252.30999755859375,
+    "reason": "Momentum Score: +0.007 (NEUTRAL)",
+    "components": {
+      "rsi": 25.904203323558164,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.28939009747654704,
+      "news_sentiment": 0.35333333333333333
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-28T11:53:25.676865-05:00",
+    "current_price": 189.86000061035156,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 189.86000061035156,
+    "target": 189.86000061035156,
+    "stop": 189.86000061035156,
+    "reason": "Momentum Score: +0.016 (NEUTRAL)",
+    "components": {
+      "rsi": 16.604701742799065,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.957894683412385,
+      "news_sentiment": 0.4325
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "META": {
+    "symbol": "META",
+    "timestamp": "2026-01-28T11:53:27.581582-05:00",
+    "current_price": 668.364990234375,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 668.364990234375,
+    "target": 668.364990234375,
+    "stop": 668.364990234375,
+    "reason": "Momentum Score: +0.025 (NEUTRAL)",
+    "components": {
+      "rsi": 22.38217832186203,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.3077203539104277,
+      "news_sentiment": 0.31277777777777777
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "timestamp": "2026-01-28T11:53:29.429771-05:00",
+    "current_price": 326.93499755859375,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 326.93499755859375,
+    "target": 326.93499755859375,
+    "stop": 326.93499755859375,
+    "reason": "Momentum Score: -0.015 (NEUTRAL)",
+    "components": {
+      "rsi": 20.11856286719427,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.40732640997838915,
+      "news_sentiment": 0.5321428571428571
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "timestamp": "2026-01-28T11:53:31.376467-05:00",
+    "current_price": 215.56500244140625,
+    "direction": "DOWN",
+    "confidence": 0.7914,
+    "recommendation": "STRONG_TRADE",
+    "position_size": 1.0,
+    "entry": 215.56500244140625,
+    "target": 213.4093524169922,
+    "stop": 216.64282745361325,
+    "reason": "Momentum Score: -0.121 (DOWN)",
+    "components": {
+      "rsi": 33.840411541734355,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.4360740072411498,
+      "news_sentiment": 0.0
+    },
+    "warning": "None"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "timestamp": "2026-01-28T11:53:34.748613-05:00",
+    "current_price": 161.30999755859375,
+    "direction": "NEUTRAL",
+    "confidence": 0.5,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 161.30999755859375,
+    "target": 161.30999755859375,
+    "stop": 161.30999755859375,
+    "reason": "Momentum Score: -0.039 (NEUTRAL)",
+    "components": {
+      "rsi": 28.74121648043038,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.6476044028074315,
+      "news_sentiment": 0.18333333333333332
+    },
+    "warning": "None"
+  }
+}

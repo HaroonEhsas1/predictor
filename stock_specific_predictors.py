@@ -168,7 +168,8 @@ class AMDPredictor(BaseStockPredictor):
         self.trap_risk = self._get_pattern_stat('traps', 'trap_rate', 0.431)
         avg_gap = self._get_pattern_stat('gaps', 'avg_gap_size', 1.5)
         # Pattern file stores % terms, convert to decimal for min gap
-        self.min_gap = max(0.01, min(0.04, (avg_gap or 1.5) / 100))
+        # LOWERED to 0.8% minimum gap to allow 1% gap predictions
+        self.min_gap = 0.008  # Force 0.8% minimum (allow AMD gaps down to ~1%)
         self.intraday_reversal_risk = self._get_pattern_stat(
             'intraday', 'morning_fade_rate', 0.455)
 
@@ -374,8 +375,8 @@ class NVDAPredictor(BaseStockPredictor):
             'gaps', 'follow_through_rate', 0.50)
         self.trap_risk = self._get_pattern_stat('traps', 'trap_rate', 0.48)
         avg_gap = self._get_pattern_stat('gaps', 'avg_gap_size', 0.2)
-        # Lower bound remains tiny for NVDA to capture small gaps
-        self.min_gap = max(0.001, min(0.02, (avg_gap or 0.2) / 100))
+        # LOWERED to 0.8% minimum gap to allow 1%+ gap predictions
+        self.min_gap = 0.008  # Force 0.8% minimum (allow NVDA gaps down to ~1%)
 
     def predict(self, data):
         """NVDA-specific prediction logic"""
@@ -417,7 +418,7 @@ class NVDAPredictor(BaseStockPredictor):
             if trap_flag:
                 if not (gap_pct < 0 and ma_distance > 0.1):
                     penalty = self._scale_trap_penalty(
-                        0.13 + trap_risk * 0.22, gap_pct, data)
+                        0.08 + trap_risk * 0.12, gap_pct, data)
                     base_confidence -= penalty
                     breakdown.append(
                         f"Trap penalty {penalty:-.2f} (risk {trap_risk:.2f})")

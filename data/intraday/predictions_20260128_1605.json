@@ -1,0 +1,128 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-28T11:05:20.035553-05:00",
+    "current_price": 252.89999389648438,
+    "direction": "DOWN",
+    "confidence": 0.6904666666666667,
+    "recommendation": "TRADE",
+    "position_size": 0.75,
+    "entry": 252.89999389648438,
+    "target": 250.37099395751952,
+    "stop": 254.16449386596676,
+    "reason": "Momentum Score: -0.070 (DOWN)",
+    "components": {
+      "rsi": 39.06011531287095,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.35333333333333333
+    },
+    "warning": "None"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-28T11:05:23.868811-05:00",
+    "current_price": 191.3125,
+    "direction": "DOWN",
+    "confidence": 0.7297499999999999,
+    "recommendation": "TRADE",
+    "position_size": 0.75,
+    "entry": 191.3125,
+    "target": 189.399375,
+    "stop": 192.2690625,
+    "reason": "Momentum Score: -0.090 (DOWN)",
+    "components": {
+      "rsi": 37.87151815662826,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.4325
+    },
+    "warning": "None"
+  },
+  "META": {
+    "symbol": "META",
+    "timestamp": "2026-01-28T11:05:25.728131-05:00",
+    "current_price": 671.8900146484375,
+    "direction": "NEUTRAL",
+    "confidence": 0.5,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 671.8900146484375,
+    "target": 671.8900146484375,
+    "stop": 671.8900146484375,
+    "reason": "Momentum Score: -0.020 (NEUTRAL)",
+    "components": {
+      "rsi": 26.284013605442183,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.31277777777777777
+    },
+    "warning": "None"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "timestamp": "2026-01-28T11:05:27.654581-05:00",
+    "current_price": 330.2799987792969,
+    "direction": "UP",
+    "confidence": 0.7772142857142857,
+    "recommendation": "STRONG_TRADE",
+    "position_size": 1.0,
+    "entry": 330.2799987792969,
+    "target": 333.58279876708986,
+    "stop": 328.6285987854004,
+    "reason": "Momentum Score: +0.114 (UP)",
+    "components": {
+      "rsi": 40.502879078694825,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.5321428571428571
+    },
+    "warning": "None"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "timestamp": "2026-01-28T11:05:29.607123-05:00",
+    "current_price": 217.1750030517578,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 217.1750030517578,
+    "target": 217.1750030517578,
+    "stop": 217.1750030517578,
+    "reason": "Momentum Score: -0.017 (NEUTRAL)",
+    "components": {
+      "rsi": 19.881645670393084,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.0
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "timestamp": "2026-01-28T11:05:33.247015-05:00",
+    "current_price": 162.16000366210938,
+    "direction": "UP",
+    "confidence": 0.6850999999999999,
+    "recommendation": "TRADE",
+    "position_size": 0.75,
+    "entry": 162.16000366210938,
+    "target": 163.78160369873046,
+    "stop": 161.34920364379883,
+    "reason": "Momentum Score: +0.128 (UP)",
+    "components": {
+      "rsi": 23.014766435915618,
+      "macd_signal": "BULLISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 0.0,
+      "news_sentiment": 0.16
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  }
+}

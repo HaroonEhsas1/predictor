@@ -1,0 +1,23 @@
+{
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-28T04:14:17.610522-05:00",
+    "current_price": 188.5399932861328,
+    "direction": "NEUTRAL",
+    "confidence": 0.425,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 188.5399932861328,
+    "target": 188.5399932861328,
+    "stop": 188.5399932861328,
+    "reason": "Momentum Score: +0.036 (NEUTRAL)",
+    "components": {
+      "rsi": 19.756778899779874,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "DOWNTREND",
+      "volume_ratio": 1.868855627285633,
+      "news_sentiment": 0.3531944444444444
+    },
+    "warning": "\u26a0\ufe0f DIVERGENCE: Oversold in downtrend - bounce possible"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-27T11:26:44.769972-05:00",
+    "current_price": 252.44500732421875,
+    "direction": "NEUTRAL",
+    "confidence": 0.5,
+    "recommendation": "SKIP",
+    "position_size": 0.0,
+    "entry": 252.44500732421875,
+    "target": 252.44500732421875,
+    "stop": 252.44500732421875,
+    "reason": "Momentum Score: -0.007 (NEUTRAL)",
+    "components": {
+      "rsi": 23.52972659560234,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.07418696572301955,
+      "news_sentiment": 0.21444444444444447
+    },
+    "warning": "None"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "timestamp": "2026-01-27T11:26:53.100643-05:00",
+    "current_price": 189.7100067138672,
+    "direction": "DOWN",
+    "confidence": 0.6558531746031746,
+    "recommendation": "TRADE",
+    "position_size": 0.75,
+    "entry": 189.7100067138672,
+    "target": 187.81290664672852,
+    "stop": 190.6585567474365,
+    "reason": "Momentum Score: -0.053 (DOWN)",
+    "components": {
+      "rsi": 56.13511550855535,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.11855783475239311,
+      "news_sentiment": 0.24146825396825397
+    },
+    "warning": "None"
+  }
+}

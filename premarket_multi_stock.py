@@ -597,13 +597,13 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
                 recommendation = 'SKIP'
                 position_size = 0.0
         else:
-            if confidence >= 0.75:
+            if confidence >= 0.70:
                 recommendation = 'STRONG_TRADE'
                 position_size = 1.0
-            elif confidence >= 0.65:
+            elif confidence >= 0.60:
                 recommendation = 'TRADE'
                 position_size = 0.75
-            elif confidence >= 0.53:
+            elif confidence >= 0.48:
                 recommendation = 'CAUTIOUS'
                 position_size = 0.5
             else:
