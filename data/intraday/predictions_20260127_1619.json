@@ -1,0 +1,23 @@
+{
+  "AMD": {
+    "symbol": "AMD",
+    "timestamp": "2026-01-27T11:19:19.336238-05:00",
+    "current_price": 252.97999572753906,
+    "direction": "DOWN",
+    "confidence": 0.7210000000000001,
+    "recommendation": "TRADE",
+    "position_size": 0.75,
+    "entry": 252.97999572753906,
+    "target": 250.45019577026366,
+    "stop": 254.24489570617672,
+    "reason": "Momentum Score: -0.086 (DOWN)",
+    "components": {
+      "rsi": 38.756619303776965,
+      "macd_signal": "BEARISH_CROSSOVER",
+      "trend": "UPTREND",
+      "volume_ratio": 0.3035901852067046,
+      "news_sentiment": 0.0
+    },
+    "warning": "None"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-01-27T08:55:51.986561-05:00",
+  "market_context": {
+    "vix": 20,
+    "regime": "NORMAL",
+    "sentiment": "UNKNOWN",
+    "spy_change": 0,
+    "nasdaq_change": 0,
+    "error": "PriceHistory.history() got an unexpected keyword argument 'progress'"
+  },
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    },
+    "META": {
+      "symbol": "META",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    },
+    "SNOW": {
+      "symbol": "SNOW",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    },
+    "PLTR": {
+      "symbol": "PLTR",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "reason": "Data unavailable",
+      "recommendation": "SKIP",
+      "position_size": 0.0,
+      "entry": null,
+      "target": null,
+      "stop": null,
+      "warning": "Data unavailable"
+    }
+  }
+}

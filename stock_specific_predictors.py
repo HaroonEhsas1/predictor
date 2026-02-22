@@ -168,7 +168,8 @@ class AMDPredictor(BaseStockPredictor):
         self.trap_risk = self._get_pattern_stat('traps', 'trap_rate', 0.431)
         avg_gap = self._get_pattern_stat('gaps', 'avg_gap_size', 1.5)
         # Pattern file stores % terms, convert to decimal for min gap
-        self.min_gap = max(0.01, min(0.04, (avg_gap or 1.5) / 100))
+        # LOWERED to 0.8% minimum gap to allow 1% gap predictions
+        self.min_gap = 0.008  # Force 0.8% minimum (allow AMD gaps down to ~1%)
         self.intraday_reversal_risk = self._get_pattern_stat(
             'intraday', 'morning_fade_rate', 0.455)
 
@@ -301,6 +302,20 @@ class AMDPredictor(BaseStockPredictor):
                 base_confidence += 0.05  # Oversold bounce
                 breakdown.append("Oversold MA distance (+0.05)")
 
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
+
             # Penalty for high intraday reversal risk
             reversal_penalty = self.intraday_reversal_risk * \
                 0.1  # Scale down the penalty impact
@@ -360,8 +375,8 @@ class NVDAPredictor(BaseStockPredictor):
             'gaps', 'follow_through_rate', 0.50)
         self.trap_risk = self._get_pattern_stat('traps', 'trap_rate', 0.48)
         avg_gap = self._get_pattern_stat('gaps', 'avg_gap_size', 0.2)
-        # Lower bound remains tiny for NVDA to capture small gaps
-        self.min_gap = max(0.001, min(0.02, (avg_gap or 0.2) / 100))
+        # LOWERED to 0.8% minimum gap to allow 1%+ gap predictions
+        self.min_gap = 0.008  # Force 0.8% minimum (allow NVDA gaps down to ~1%)
 
     def predict(self, data):
         """NVDA-specific prediction logic"""
@@ -403,7 +418,7 @@ class NVDAPredictor(BaseStockPredictor):
             if trap_flag:
                 if not (gap_pct < 0 and ma_distance > 0.1):
                     penalty = self._scale_trap_penalty(
-                        0.13 + trap_risk * 0.22, gap_pct, data)
+                        0.08 + trap_risk * 0.12, gap_pct, data)
                     base_confidence -= penalty
                     breakdown.append(
                         f"Trap penalty {penalty:-.2f} (risk {trap_risk:.2f})")
@@ -504,6 +519,20 @@ class NVDAPredictor(BaseStockPredictor):
             elif ma_distance < -0.15:
                 base_confidence += 0.06
                 breakdown.append("Oversold MA distance (+0.06)")
+
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
 
             base_confidence, pattern_notes = self._apply_pattern_context(
                 base_confidence, data, gap_pct)
@@ -659,6 +688,20 @@ class METAPredictor(BaseStockPredictor):
                 else:
                     base_confidence -= 0.05
                 breakdown.append("MA distance adjustment applied")
+
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
 
             # Penalty for high morning fade risk
             fade_penalty = self.morning_fade_risk * 0.5  # Scale down the penalty impact
@@ -843,6 +886,20 @@ class AVGOPredictor(BaseStockPredictor):
                 base_confidence += 0.06
                 breakdown.append("Oversold MA distance (+0.06)")
 
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
+
             base_confidence, pattern_notes = self._apply_pattern_context(
                 base_confidence, data, gap_pct)
             breakdown.extend(pattern_notes)
@@ -1006,6 +1063,20 @@ class SNOWPredictor(BaseStockPredictor):
                     base_confidence -= 0.05
                 breakdown.append("MA distance adjustment applied")
 
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
+
             base_confidence, pattern_notes = self._apply_pattern_context(
                 base_confidence, data, gap_pct)
             breakdown.extend(pattern_notes)
@@ -1156,6 +1227,20 @@ class PLTRPredictor(BaseStockPredictor):
                 else:
                     base_confidence -= 0.05
                 breakdown.append("MA distance adjustment applied")
+
+            # ========== INTEGRATE NEWS SENTIMENT BOOST (Priority 1) ==========
+            news_sentiment = data.get('news_sentiment', 0.0)
+            news_boost = data.get('news_confidence_boost', 0.0)
+            
+            if news_boost > 0:
+                # Apply boost if sentiment aligns with direction
+                if (gap_pct > 0 and news_sentiment > 0) or (gap_pct < 0 and news_sentiment < 0):
+                    base_confidence += news_boost
+                    breakdown.append(f"News sentiment aligned ({news_sentiment:+.2f}) (+{news_boost:.2f})")
+                elif abs(news_sentiment) > 0.3:
+                    # Reduce boost if sentiment opposes direction
+                    base_confidence -= news_boost * 0.5
+                    breakdown.append(f"News sentiment conflicting ({news_sentiment:+.2f}) (-{news_boost * 0.5:.2f})")
 
             base_confidence, pattern_notes = self._apply_pattern_context(
                 base_confidence, data, gap_pct)

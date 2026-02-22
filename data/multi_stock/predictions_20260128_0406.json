@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-28T04:06:59.472964-05:00",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "direction": "UP",
+      "confidence": 90.6087681003294,
+      "target_price": 258.723915546875,
+      "expected_move_percent": null,
+      "current_price": 252.02999877929688,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.287)\n   Multiple factors supporting upward movement:\n\n      \u2705 Options: +0.110\n      \u2705 Technical: +0.092\n      \u2705 News: +0.065",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "direction": "UP",
+      "confidence": 66.4390982297926,
+      "target_price": 337.46150003531994,
+      "expected_move_percent": null,
+      "current_price": 332.7900085449219,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.186)\n   Multiple factors supporting upward movement:\n\n      \u2705 News: +0.110\n      \u2705 Options: +0.110\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Technical: -0.130",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "direction": "NEUTRAL",
+      "confidence": 45.0,
+      "target_price": 174.89999389648438,
+      "expected_move_percent": null,
+      "current_price": 174.89999389648438,
+      "explanation": "\n   \u2696\ufe0f MIXED SIGNALS - No clear direction\n   Total score (-0.004) is near zero, indicating conflicting factors:\n\n   \ud83d\udcc8 BULLISH FACTORS:\n      \u2022 Options: +0.110\n        \u2192 P/C ratio 0.57 shows heavy call buying\n      \u2022 News: +0.078\n\n   \ud83d\udcc9 BEARISH FACTORS:\n      \u2022 Technical: -0.108\n        \u2192 Downtrend, MACD bearish, momentum -2.79%\n\n   \ud83d\udca1 CONCLUSION:\n      Bullish and bearish forces are roughly balanced.\n      Wait for clearer signals before entering a position.\n      Consider watching for: breakout above/below key levels,\n      futures turning positive, or technical indicators aligning.",
+      "recommendation": "HOLD",
+      "status": "PASSED",
+      "reason": "N/A"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "direction": "UP",
+      "confidence": 90.5902618944273,
+      "target_price": 194.5375628088379,
+      "expected_move_percent": null,
+      "current_price": 188.52000427246094,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.422)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.100",
+      "recommendation": null,
+      "status": "PASSED",
+      "reason": "N/A"
+    }
+  }
+}

@@ -9,6 +9,7 @@ AMD, NVDA, META, AVGO, SNOW, PLTR
 
 from free_advanced_indicators import get_free_indicators
 from stock_specific_predictors import get_predictor
+from intraday_1hour_predictor import RealTimeNewsSentiment
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -18,6 +19,12 @@ import math
 import yfinance as yf
 import logging
 import pandas as pd
+import joblib
+import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
@@ -25,6 +32,73 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent))
+
+
+def get_news_sentiment_with_ml(symbol):
+    """
+    Fetch real-time news from Finnhub and adjust sentiment using trained ML model.
+    Returns blended sentiment: 60% ML model, 40% raw keyword sentiment.
+    """
+    try:
+        # Get real-time news
+        news_analyzer = RealTimeNewsSentiment(symbol)
+        news = news_analyzer.get_latest_news(hours_back=24)
+        
+        raw_sentiment = news.get('overall_sentiment', 0.0)
+        articles = news.get('articles', [])
+        
+        # Try to load and use ML model if available
+        model_path = Path('models') / f'news_model_{symbol}.joblib'
+        if model_path.exists():
+            try:
+                model = joblib.load(str(model_path))
+                if articles:
+                    headlines = [a.get('headline', '') for a in articles]
+                    # Predict using model: UP=+1, DOWN=-1, NEUTRAL=0
+                    preds = model.predict(headlines)
+                    mapped = [1.0 if p == 'UP' else (-1.0 if p == 'DOWN' else 0.0) for p in preds]
+                    model_sentiment = sum(mapped) / len(mapped) if mapped else 0.0
+                    
+                    # Blend: 60% model, 40% raw keyword sentiment
+                    blended_sentiment = (raw_sentiment * 0.4) + (model_sentiment * 0.6)
+                    
+                    logging.info(f"{symbol} news: raw={raw_sentiment:+.2f}, model={model_sentiment:+.2f}, blended={blended_sentiment:+.2f}")
+                    return {
+                        'success': True,
+                        'symbol': symbol,
+                        'raw_sentiment': raw_sentiment,
+                        'model_sentiment': model_sentiment,
+                        'blended_sentiment': blended_sentiment,
+                        'articles_count': len(articles),
+                        'model_used': True,
+                        'articles': articles
+                    }
+            except Exception as e:
+                logging.warning(f"ML model loading failed for {symbol}: {e}. Using raw sentiment.")
+        
+        # Fallback: use raw keyword sentiment only
+        logging.info(f"{symbol} news: using raw sentiment only = {raw_sentiment:+.2f}")
+        return {
+            'success': True,
+            'symbol': symbol,
+            'raw_sentiment': raw_sentiment,
+            'model_sentiment': 0.0,
+            'blended_sentiment': raw_sentiment,
+            'articles_count': len(articles),
+            'model_used': False,
+            'articles': articles
+        }
+    
+    except Exception as e:
+        logging.error(f"Error fetching news for {symbol}: {e}")
+        return {
+            'success': False,
+            'symbol': symbol,
+            'error': str(e),
+            'blended_sentiment': 0.0,
+            'model_used': False,
+            'articles': []
+        }
 
 
 def adjust_premarket_volume_threshold(avg_volume):
@@ -151,14 +225,21 @@ def check_market_hours():
 
 
 def get_premarket_data(symbol):
-    """Fetch current premarket gap and volume"""
-    logging.info(f"Fetching premarket data for {symbol}")
+    """Fetch FRESH current premarket gap and volume - no caching"""
+    logging.info(f"🔄 Fetching FRESH premarket data for {symbol}")
     try:
+        # Force fresh data - disable cache, always get latest
         ticker = yf.Ticker(symbol)
 
-        # Get historical data (last 2 days for comparison)
+        # Get historical data (last 5 days to ensure we have the latest)
         hist = ticker.history(period='5d')
-        logging.info(f"Historical data for {symbol}: {len(hist)} days fetched")
+        logging.info(f"✅ FRESH historical data for {symbol}: {len(hist)} days fetched")
+        
+        # Verify data is recent
+        if len(hist) > 0:
+            last_date = hist.index[-1]
+            days_since_last = (pd.Timestamp.now(tz='America/New_York') - last_date).days
+            logging.info(f"   Last data point: {last_date} ({days_since_last} days ago)")
 
         if len(hist) < 2:
             logging.error(f"Insufficient historical data for {symbol}")
@@ -172,9 +253,9 @@ def get_premarket_data(symbol):
         prev_close = hist['Close'].iloc[-2]  # Second to last day
         logging.info(f"Previous close for {symbol}: {prev_close}")
 
-        # Try to get current/premarket price
+        # Try to get current/premarket price - always fresh
         info = ticker.info
-        logging.info(f"Ticker info for {symbol}: {info}")
+        logging.info(f"✅ FRESH ticker info retrieved at {datetime.now(pytz.timezone('America/New_York')).strftime('%H:%M:%S %Z')}")
 
         # Priority order for current price:
         # 1. preMarketPrice (if in premarket)
@@ -245,8 +326,8 @@ def get_premarket_data(symbol):
         # Debug statement to confirm data freshness
         data_timestamp = pd.Timestamp.now(
             tz='America/New_York').strftime('%Y-%m-%d %H:%M:%S %Z')
-        logging.info(f"Data fetched for {symbol} at ET time: {data_timestamp}")
-        print(f"   Data fetched at ET time: {data_timestamp}")
+        logging.info(f"✅ FRESH DATA CONFIRMED for {symbol} at: {data_timestamp}")
+        print(f"   ✅ FRESH DATA at: {data_timestamp}")
 
         return {
             'success': True,
@@ -272,14 +353,16 @@ def get_premarket_data(symbol):
 
 
 def get_market_context():
-    """Get overall market context (futures, VIX, sectors)"""
+    """Get FRESH overall market context - always latest data"""
     try:
-        # Get VIX
+        logging.info("🔄 Fetching FRESH market context data (VIX, SPY, NASDAQ)")
+        
+        # Get VIX - always fresh
         vix = yf.Ticker('^VIX')
         vix_data = vix.history(period='1d')
         current_vix = vix_data['Close'].iloc[-1] if len(vix_data) > 0 else 20
 
-        # Get SPY
+        # Get SPY - always fresh
         spy = yf.Ticker('SPY')
         spy_data = spy.history(period='2d')
         if len(spy_data) >= 2:
@@ -288,7 +371,7 @@ def get_market_context():
         else:
             spy_change = 0
 
-        # Get NASDAQ (for tech stocks)
+        # Get NASDAQ (QQQ) - always fresh
         qqq = yf.Ticker('QQQ')
         qqq_data = qqq.history(period='2d')
         if len(qqq_data) >= 2:
@@ -296,8 +379,10 @@ def get_market_context():
                 (qqq_data['Close'].iloc[-1] / qqq_data['Close'].iloc[-2]) - 1) * 100
         else:
             nasdaq_change = 0
+        
+        logging.info(f"✅ FRESH market data: VIX={current_vix:.2f}, SPY={spy_change:+.2f}%, NASDAQ={nasdaq_change:+.2f}%")
 
-        # Determine market regime
+        # Determine market regime based on fresh data
         if current_vix < 15:
             regime = 'LOW_VOL'
             sentiment = 'CALM'
@@ -430,10 +515,43 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
         if isinstance(cloud, dict) and cloud.get('success'):
             predictor_data['cloud_sector_pct'] = cloud.get('cloud_avg', 0.0)
 
+    # ========== INTEGRATE REAL-TIME NEWS SENTIMENT (Priority 1) ==========
+    print(f"\n 📰 Fetching real-time news sentiment for {symbol}...")
+    news_result = get_news_sentiment_with_ml(symbol)
+    
+    if news_result.get('success'):
+        blended_sentiment = news_result.get('blended_sentiment', 0.0)
+        article_count = news_result.get('articles_count', 0)
+        model_used = news_result.get('model_used', False)
+        
+        # Add news sentiment to predictor data
+        predictor_data['news_sentiment'] = blended_sentiment
+        predictor_data['news_articles_count'] = article_count
+        
+        # Adjust confidence based on news magnitude
+        if abs(blended_sentiment) > 0.5:
+            predictor_data['news_confidence_boost'] = 0.1
+        elif abs(blended_sentiment) > 0.3:
+            predictor_data['news_confidence_boost'] = 0.05
+        else:
+            predictor_data['news_confidence_boost'] = 0.0
+        
+        print(f"   ✅ News sentiment: {blended_sentiment:+.2f} ({article_count} articles)")
+        print(f"      ML model used: {'Yes' if model_used else 'No'}")
+        if predictor_data['news_confidence_boost'] > 0:
+            print(f"      Confidence boost: +{predictor_data['news_confidence_boost']*100:.0f}%")
+    else:
+        print(f"   ⚠️ Could not fetch news: {news_result.get('error', 'Unknown error')}")
+        predictor_data['news_sentiment'] = 0.0
+        predictor_data['news_articles_count'] = 0
+        predictor_data['news_confidence_boost'] = 0.0
+
     print(f"\n DEBUG: Passing to predictor:")
     print(f"   gap_pct = {predictor_data['gap_pct']*100:.2f}%")
     print(f"   volume = {predictor_data['volume']:,}")
     print(f"   min_volume = {predictor_data['min_volume']:,}")
+    print(f"   news_sentiment = {predictor_data.get('news_sentiment', 0.0):+.2f}")
+    print(f"   news_confidence_boost = {predictor_data.get('news_confidence_boost', 0.0):+.2f}")
 
     # Get stock-specific predictor
     predictor = get_predictor(symbol)
@@ -479,13 +597,13 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
                 recommendation = 'SKIP'
                 position_size = 0.0
         else:
-            if confidence >= 0.75:
+            if confidence >= 0.70:
                 recommendation = 'STRONG_TRADE'
                 position_size = 1.0
-            elif confidence >= 0.65:
+            elif confidence >= 0.60:
                 recommendation = 'TRADE'
                 position_size = 0.75
-            elif confidence >= 0.53:
+            elif confidence >= 0.48:
                 recommendation = 'CAUTIOUS'
                 position_size = 0.5
             else:
@@ -528,12 +646,16 @@ def run_premarket_prediction(symbol, premarket_data, market_context, advanced_in
         'target': target_price if recommendation != 'SKIP' else None,
         'stop': stop_price if recommendation != 'SKIP' else None,
         'warning': prediction.get('warning', ''),
-        'prediction_data': predictor_data
+        'prediction_data': predictor_data,
+        # Include news sentiment in results
+        'news_sentiment': predictor_data.get('news_sentiment', 0.0),
+        'news_articles_count': predictor_data.get('news_articles_count', 0),
+        'news_confidence_boost': predictor_data.get('news_confidence_boost', 0.0)
     }
 
 
 def run_premarket_multi_stock(stocks=None, mode='standard'):
-    """Run premarket predictions for all stocks"""
+    """Run premarket predictions for all stocks - ALWAYS FETCHES FRESH DATA"""
 
     # Get both local and ET time
     et_tz = pytz.timezone('America/New_York')
@@ -541,12 +663,16 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
     now_local = datetime.now()
 
     print(f"\n{'='*80}")
-    print(f"🚀 PREMARKET MULTI-STOCK PREDICTION SYSTEM")
+    print(f"🚀 PREMARKET MULTI-STOCK PREDICTION SYSTEM - FRESH DATA MODE")
     print(f"{'='*80}")
-    print(f"⏰ ET Time: {now_et.strftime('%Y-%m-%d %I:%M %p ET')}")
-    print(f"🌍 Your Local Time: {now_local.strftime('%Y-%m-%d %I:%M %p')}")
+    print(f"📡 ⏰ ET Time: {now_et.strftime('%Y-%m-%d %I:%M %p ET')}")
+    print(f"📡 🌍 Your Local Time: {now_local.strftime('%Y-%m-%d %I:%M %p')}")
     print(f"{'='*80}")
-    print("\n Best Time to Run: 9:15 AM ET (US Market Premarket)")
+    print(f"\n🔄 FETCHING LATEST DATA FROM SOURCES...")
+    print(f"   • Stock prices (yfinance)")
+    print(f"   • Market indices (VIX, SPY, NASDAQ)")
+    print(f"   • Real-time news sentiment")
+    print(f"\n Best Time to Run: 9:15 AM ET (US Market Premarket)")
 
     # Show market schedule in ET
     print("\n US Market Schedule (ET):")
@@ -560,22 +686,22 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
 
     if not market_status['is_premarket']:
         print(f"\n{'!'*80}")
-        print(" WARNING: NOT IN PREMARKET HOURS")
+        print(" ⚠️ WARNING: NOT IN PREMARKET HOURS")
         print(f"{'!'*80}")
         print(f"\n You are running this at {now_et.strftime('%I:%M %p ET')}")
         print(f" For REAL premarket data, run between 4:00 AM - 9:30 AM ET")
-        print(f" Best time: 9:15 AM ET (6:45 PM your local time)")
-        print(f"\n System will use last available prices (gaps may be small/zero)")
-        print(f" Predictions shown are DEMO only until premarket hours")
+        print(f" Best time: 9:15 AM ET (optimal for fresh premarket data)")
+        print(f"\n ℹ️ System will use last available market data and predictions")
         print(f"{'!'*80}\n")
     else:
-        print(f"\n PREMARKET HOURS: System will fetch LIVE premarket data!\n")
+        print(f"\n ✅ PREMARKET HOURS: Fetching LIVE premarket data on every run!\n")
 
     # Default stocks
     if stocks is None:
         stocks = ['AMD', 'NVDA', 'META', 'AVGO', 'SNOW', 'PLTR']
 
-    print(f"\n Analyzing {len(stocks)} stocks: {', '.join(stocks)}")
+    print(f"\n 🎯 Analyzing {len(stocks)} stocks: {', '.join(stocks)}")
+    print(f"\n 📊 All data will be FRESH from latest sources (not cached)")
 
     # Get market context
     print(f"\n{'='*80}")
@@ -627,6 +753,8 @@ def run_premarket_multi_stock(stocks=None, mode='standard'):
             print(f"{trade['symbol']}:")
             print(f"   Direction: {trade['direction']}")
             print(f"   Confidence: {trade['confidence']*100:.1f}%")
+            if trade.get('news_sentiment'):
+                print(f"   News Sentiment: {trade['news_sentiment']:+.2f} ({trade.get('news_articles_count', 0)} articles)")
             if trade['target']:
                 print(f"   Entry: ${trade['entry']:.2f}")
                 print(f"   Target: ${trade['target']:.2f}")

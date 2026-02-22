@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-29T10:10:23.937044-05:00",
+  "mode": "decisive",
+  "predictions": {
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "direction": "DOWN",
+      "confidence": 51.98608495485687,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 250.005,
+      "target_price": 244.19488379999999,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.104)\n   Multiple factors supporting downward movement:\n\n      \u274c Futures: -0.015\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.056\n      \u2022 Options: +0.110\n      \u2022 Technical: +0.127"
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "direction": "DOWN",
+      "confidence": 58.215686580272575,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 326.72,
+      "target_price": 322.044661304,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.077)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.130\n      \u274c Futures: -0.016\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.077\n      \u2022 Options: +0.110"
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "direction": "DOWN",
+      "confidence": 81.84,
+      "recommendation": "STRONG_TRADE",
+      "position_size": 1.0,
+      "current_price": 162.2051,
+      "target_price": 158.21949076727074,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc9 BEARISH OUTLOOK (Score: -0.434)\n   Multiple factors supporting downward movement:\n\n      \u274c Technical: -0.153\n      \u274c Futures: -0.016\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 News: +0.028"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "direction": "UP",
+      "confidence": 56.10604469138471,
+      "recommendation": "CAUTIOUS",
+      "position_size": 0.5,
+      "current_price": 189.465,
+      "target_price": 193.1314319475,
+      "expected_move_percent": null,
+      "reason": null,
+      "explanation": "\n   \ud83d\udcc8 BULLISH OUTLOOK (Score: +0.043)\n   Multiple factors supporting upward movement:\n\n      \u2705 Technical: +0.156\n      \u2705 Options: +0.110\n      \u2705 News: +0.061\n\n   \u26a0\ufe0f Conflicting signals:\n      \u2022 Futures: -0.016"
+    }
+  }
+}
