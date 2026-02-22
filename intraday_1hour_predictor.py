@@ -282,7 +282,6 @@ class MultiSourceSentimentAnalyzer:
             'openai': os.getenv('OPENAI_API_KEY'),
             'alpha_vantage': os.getenv('ALPHA_VANTAGE_API_KEY'),
         }
-        self.nlp_engine = AdvancedNLPSentimentEngine()
     
     def get_finnhub_sentiment(self) -> Dict[str, Any]:
         """Get news from Finnhub with advanced NLP sentiment analysis"""
@@ -1667,35 +1666,107 @@ class IntraDay1HourPredictor:
             position_size = min(position_size, 0.10)
             recommendation = 'VERY_CAUTIOUS'
         
-        print(f"\n{'='*80}")
-        print(f"🎯 PREDICTION FOR NEXT HOUR (ENHANCED v2.0)")
-        print(f"{'='*80}")
-        print(f"\n📊 Direction: {direction}")
-        print(f"🎯 Confidence: {confidence:.1f}%")
-        print(f"💡 Recommendation: {recommendation}")
-        print(f"📍 Position Size: {position_size*100:.1f}% ({vol_metrics['regime']} vol regime)")
+        # ===== PROFESSIONAL TRADER OUTPUT =====
+        print(f"\n{'='*90}")
+        print(f"🎯 INTRADAY TRADING SIGNAL - {self.symbol} (1-HOUR)")
+        print(f"{'='*90}")
         
+        # Current market status
+        print(f"\n📊 MARKET STATUS:")
+        print(f"   Current Price: ${current_price:.2f}")
+        print(f"   Time: {now_et.strftime('%I:%M %p ET')}")
+        print(f"   Volatility Regime: {vol_metrics['regime']} (percentile: {vol_metrics['percentile']:.0f}%)")
+        print(f"   Market Trend: {market_regime['regime']}")
+        
+        # Signal strength
+        print(f"\n🎯 SIGNAL STRENGTH:")
+        print(f"   Direction: {'🟢 BUY' if direction == 'UP' else '🔴 SELL'}")
+        print(f"   Confidence: {confidence:.1f}% {'✅ STRONG' if confidence > 70 else '⚠️ MODERATE' if confidence > 55 else '❓ WEAK'}")
+        print(f"   Signal Quality: {'🏆 EXCELLENT' if abs(total_score) > 0.15 else '✅ GOOD' if abs(total_score) > 0.10 else '⚠️ MIXED'}")
+        print(f"   Recommendation: {recommendation}")
+        
+        # Entry confirmation checklist
+        print(f"\n✅ ENTRY CONFIRMATION CHECKLIST:")
+        entry_checks = []
+        if abs(rsi['rsi'] - 50) > 10:
+            entry_checks.append("✓ RSI shows momentum")
+        if macd['signal'] in ['BULLISH', 'BEARISH']:
+            entry_checks.append("✓ MACD confirms direction")
+        if abs(total_score) > 0.10:
+            entry_checks.append("✓ Multiple indicators aligned")
+        if 1.5 <= risk_reward <= 3.0:
+            entry_checks.append("✓ Risk/Reward ratio acceptable")
+        if entry_checks:
+            for check in entry_checks:
+                print(f"   {check}")
+        
+        # Trading setup - EXACT INSTRUCTIONS
+        print(f"\n💰 EXACT TRADING SETUP (PROFESSIONAL):")
+        print(f"   ┌─ ENTRY LEVEL ─────────────────────────────┐")
+        print(f"   │ Entry Price: ${entry:.2f}")
+        if direction == 'UP':
+            print(f"   │ How to Enter: BUY at ${entry:.2f} or on dip to ${entry*0.999:.2f}")
+        else:
+            print(f"   │ How to Enter: SELL at ${entry:.2f} or on rally to ${entry*1.001:.2f}")
+        print(f"   │ Timing: {'IMMEDIATE (within 5 mins)' if abs(current_price - entry) < abs(entry * 0.01) else 'WAIT for pullback'}")
+        print(f"   │ Position Size: {position_size*100:.1f}% of account (${(position_size * 10000):.0f} if $10k account)")
+        print(f"   └────────────────────────────────────────────┘")
+        
+        print(f"   ┌─ PROFIT TARGET ────────────────────────────┐")
+        print(f"   │ Take Profit at: ${target:.2f}")
+        print(f"   │ Profit Amount: ${abs(target - entry):.2f} per share")
+        profit_amount = (target - entry) * (position_size * 10000) / entry
+        print(f"   │ Expected Profit: ${profit_amount:.0f} (if $10k account)")
+        print(f"   │ Target is {target_pct*100:+.2f}% from entry")
+        print(f"   └────────────────────────────────────────────┘")
+        
+        print(f"   ┌─ STOP LOSS ────────────────────────────────┐")
+        print(f"   │ Stop at: ${stop:.2f}")
+        print(f"   │ Loss Risk: ${abs(stop - entry):.2f} per share")
+        loss_amount = abs((stop - entry) * (position_size * 10000) / entry)
+        print(f"   │ Max Loss: ${loss_amount:.0f} (if $10k account, {position_size*100:.1f}% position)")
+        print(f"   │ Stop is {stop_pct*100:.2f}% from entry")
+        print(f"   └────────────────────────────────────────────┘")
+        
+        # Risk/Reward analysis
+        print(f"\n📊 RISK/REWARD ANALYSIS:")
+        if risk_reward > 0:
+            rr_status = '✅ EXCELLENT' if risk_reward > 3.0 else '✅ GOOD' if risk_reward >= 1.5 else '⚠️ POOR'
+            print(f"   Risk/Reward Ratio: 1:{risk_reward:.2f} {rr_status}")
+            print(f"   Meaning: For every ${abs(stop-entry):.2f} risked, you can make ${abs(target-entry):.2f}")
+            if risk_reward < 1.5:
+                print(f"   ⚠️ WARNING: R/R is below 1.5:1 - Position reduced to {position_size*100:.1f}%")
+            elif risk_reward > 3.0:
+                print(f"   ⚠️ NOTE: R/R above 3:1 - Consider tightening target to {(entry + (target-entry)*0.7):.2f}")
+        
+        # Signal drivers
+        print(f"\n🔍 WHY THIS SIGNAL:")
+        if rsi.get('divergence'):
+            print(f"   • RSI Divergence: {rsi.get('divergence')} (powerful reversal signal)")
+        if macd.get('acceleration'):
+            print(f"   • MACD: {macd.get('acceleration')} (momentum phase)")
+        print(f"   • Trend: {trend['trend']}")
+        if news_sentiment != 0:
+            sentiment_type = 'BULLISH' if news_sentiment > 0 else 'BEARISH'
+            print(f"   • News Sentiment: {sentiment_type} ({abs(news_sentiment):.0%})")
+        print(f"   • Volume: {'Strong buy volume' if volume['signal'] == 'UP' else 'Strong sell volume' if volume['signal'] == 'DOWN' else 'Normal volume'}")
+        
+        # Warnings
         if divergence_warning:
-            print(f"\n{divergence_warning}")
+            print(f"\n⚠️ DIVERGENCE NOTE: {divergence_warning}")
         
         if trade_quality_warning:
-            print(f"{trade_quality_warning}")
+            print(f"⚠️ QUALITY NOTE: {trade_quality_warning}")
         
-        print(f"\n💰 Trade Plan (DYNAMIC SCALING):")
-        print(f"   Entry: ${entry:.2f}")
-        print(f"   Target: ${target:.2f} ({target_pct*100:+.2f}%)")
-        print(f"   Stop: ${stop:.2f} ({stop_pct*100:+.2f}%)")
-        if risk_reward > 0:
-            print(f"   Risk/Reward: 1:{risk_reward:.2f} {'✅ GOOD' if 1.5 <= risk_reward <= 3.0 else '⚠️ CHECK'}")
-        else:
-            print(f"   Risk/Reward: N/A (Neutral position)")
+        # Clear action items
+        print(f"\n📋 YOUR ACTION PLAN:")
+        print(f"   1️⃣  Set Buy/Sell order at: ${entry:.2f}")
+        print(f"   2️⃣  Set Profit target at: ${target:.2f}")
+        print(f"   3️⃣  Set Stop loss at: ${stop:.2f}")
+        print(f"   4️⃣  Position size: {position_size*100:.1f}%")
+        print(f"   5️⃣  Don't chase - let price come to your entry level")
         
-        print(f"\n📈 Signal Quality Indicators:")
-        print(f"   Technical Alignment: Multiple indicators {'✅ ALIGNED' if abs(total_score) > 0.10 else '⚠️ MIXED'}")
-        print(f"   Volatility Status: {vol_metrics['regime']} (percentile: {vol_metrics['percentile']:.0f})")
-        print(f"   Market Context: {market_regime['regime']}")
-        if macd.get('acceleration'):
-            print(f"   Momentum {macd['acceleration']}: {'🚀' if 'ACCEL' in macd['acceleration'] else '⚡'}")
+        print(f"\n{'='*90}")
         
         return {
             'symbol': self.symbol,
@@ -1790,8 +1861,9 @@ def main():
             print(f"   Target: ${trade['target']:.2f} ({(trade['target']/trade['entry']-1)*100:+.2f}%)")
             print(f"   Stop: ${trade['stop']:.2f}")
             print(f"   Position: {trade['position_size']*100:.0f}%")
-            if trade['warning'] != 'None':
-                print(f"   ⚠️ {trade['warning']}")
+            warning = trade.get('warning') or (trade.get('warnings')[0] if trade.get('warnings') else None)
+            if warning and warning != 'None':
+                print(f"   ⚠️ {warning}")
             print()
     else:
         print(f"\n⚪ NO TRADING SIGNALS - All stocks below confidence threshold")
